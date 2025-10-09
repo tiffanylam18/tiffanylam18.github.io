@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/data/wk2_uk_output_per_hour.csv"
+  },
+  "mark": "line",
+  "title": {
+    "text": "UK productivity",
+    "subtitle": ["Output per hour worked", "2022=100", "Sources: ONS"],
+    "anchor": "start"
+  },
+  "width": 350,
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "axis": {"title": "", "grid": false}
+    },
+    "y": {"field": "value", "type": "quantitative", "axis": {"title": ""}}
+  },
+  "config": {}
+}
