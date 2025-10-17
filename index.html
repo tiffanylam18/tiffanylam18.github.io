@@ -75,6 +75,14 @@
         <figure id="Location4"></figure>
     </section>
 
+    <section>
+        <div class="chart-description">
+            <h2>Week 3: Working with Python</h2>
+            <p> This week, we learned how to create charts with Altair produced with Shiller data and work with Python to clean data.</p>
+        </div>
+        <figure id="Location5"></figure>
+    </section>
+        
     <!-- This is a script, it's a way to run JavaScript code on the page -->
     <script>
         // This is a comment in JavaScript - it's a different language to HTML and CSS
@@ -92,10 +100,12 @@
         let figure_2_spec = "charts/wk1_fig5_prize-distribution.json"
         let figure_3_spec = "https://raw.githubusercontent.com/EconomicsObservatory/datavis/refs/heads/main/newsletters/2025-07-04-tennis-time/visualisation/fig4_prize-total.json"
         let figure_4_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk2_uk_output_per_hour.json"
+        let figure_5_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/shiller_pe_ratio_chart.json"
 
         vegaEmbed('#Location2', figure_2_spec)
         vegaEmbed('#Location3', figure_3_spec)
         vegaEmbed('#Location4', figure_4_spec)
+        vegaEmbed('#Location5', figure_5_spec)
 
     </script>
 
