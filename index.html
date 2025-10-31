@@ -57,7 +57,7 @@
         </figure>
         <figure id="Location2">
             <figcaption>
-                <small>Source: Source: https://www.economicsobservatory.com/explore</small>
+                <small>Source: Source: https://github.com/EconomicsObservatory/datavis</small>
             </figcaption>
         </figure>
         <figure id="Location3"></figure>
@@ -92,17 +92,10 @@
         // This is a comment in JavaScript - it's a different language to HTML and CSS
 
         let figure_1_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartBar2.json"; 
-        // We're storing the URL of the graph we want to display in a variable
-        // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
 
-        vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
+        vegaEmbed('#Location1', figure_1_spec)
 
-        // Do you want to add more graphs?
-        // try defining a new variable for figure_3_spec, adding VegaEmbed for Location3, and adding a new section in the HTML
-        // e.g. 
-
-        let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartBar4.json"
-        let figure_3_spec = "https://raw.githubusercontent.com/EconomicsObservatory/datavis/refs/heads/main/newsletters/2025-07-04-tennis-time/visualisation/fig4_prize-total.json"
+        let figure_2_spec = "https://raw.githubusercontent.com/EconomicsObservatory/datavis/refs/heads/main/newsletters/2025-07-04-tennis-time/visualisation/fig4_prize-total.json"
         let figure_4_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk2_uk_output_per_hour.json"
         let figure_5_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/shiller_pe_ratio_chart.json"
         let figure_6_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/korea_fertility_vl.json"
