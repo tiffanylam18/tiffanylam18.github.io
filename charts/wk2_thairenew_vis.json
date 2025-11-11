@@ -15,7 +15,7 @@
   "background": "#ffffff",
   "view": {"fill": "#ffffff", "strokeOpacity": 0},
   "data": {
-    "url": "https://api.economicsobservatory.com/tha/rGWh?vega",
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/data/thai_renew_data.json",
     "format": {"type": "json"}
   },
   "mark": {"type": "line", "color": "#2f5fd0", "strokeWidth": "2"},
