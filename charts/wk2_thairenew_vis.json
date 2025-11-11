@@ -4,8 +4,8 @@
     "text": "Renewables Output in Thailand",
     "anchor": "start",
     "subtitle": "Output, GWh, | IEA via ECO-API",
-    "fontSize": "14",
-    "subtitleFontSize": "12",
+    "fontSize": 14,
+    "subtitleFontSize": 12,
     "color": "#000000",
     "subtitleColor": "#000000"
   },
@@ -27,8 +27,8 @@
     },
     "y": {
       "field": "value",
-      "scale": {"domain": [0, 70000]},
       "type": "quantitative",
+      "scale": {"domain": [0, 70000]},
       "axis": {"title": "", "titleColor": "#122B39", "grid": false}
     }
   },
