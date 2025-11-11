@@ -1,0 +1,59 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "Climate Responsibility: Per Capita CO₂ Emissions by Country",
+    "subtitle": "Key players in global climate negotiations, from highest per capita emitters to largest populations",
+    "subtitleColor": "gray",
+    "anchor": "start"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/data/wk2_co-emissions-per-capita.csv"
+  },
+  "transform": [
+    {"filter": "datum.Entity!=='World'"},
+    {"filter": "datum.Year >= 1993"},
+    {
+      "filter": "indexof(['Qatar', 'United States', 'Canada', 'Australia', 'Russia', 'South Korea', 'Germany', 'China', 'Japan', 'India'], datum.Entity) >= 0"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "mean",
+          "field": "Annual CO₂ emissions (per capita)",
+          "as": "avg_emissions"
+        }
+      ],
+      "groupby": ["Entity"]
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "axis": {"labelAngle": -45, "title": null}
+    },
+    "y": {
+      "field": "Annual CO₂ emissions (per capita)",
+      "type": "quantitative",
+      "aggregate": "sum",
+      "axis": {"title": "Annual emissions (per capita)"}
+    },
+    "color": {
+      "field": "Entity",
+      "type": "nominal",
+      "title": "Country",
+      "sort": {
+        "field": "Annual CO₂ emissions (per capita)",
+        "op": "mean",
+        "order": "descending"
+      }
+    },
+    "order": {
+      "field": "avg_emissions",
+      "type": "quantitative",
+      "sort": "ascending"
+    }
+  },
+  "config": {}
+}

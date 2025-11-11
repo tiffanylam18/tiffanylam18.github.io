@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "Global CO₂ Emissions: The Overall Trajectory",
+    "subtitle": "Annual emissions: 1993-2023",
+    "subtitleColor": "gray",
+    "anchor": "start"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/data/wk2_annual-co2-emissions-per-country.csv"
+  },
+  "transform": [
+    {"filter": "datum.Entity==='World'"},
+    {"filter": "datum.Year >= 1993"},
+    {
+      "calculate": "datum['Annual CO₂ emissions']/1000000000",
+      "as": "Emissions (billions)"
+    }
+  ],
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {"grid": false, "title": null}
+    },
+    "y": {
+      "field": "Emissions (billions)",
+      "type": "quantitative",
+      "axis": {"grid": false}
+    }
+  },
+  "config": {}
+}
