@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Productivity",
+    "text": "Inbound Tourism Expenditure",
     "anchor": "start",
-    "subtitle": "GDP per hours worked, PHP | Source: PSA through ECO API",
+    "subtitle": "Current Prices, Pesos (millions) | PSA through ECO API",
     "fontSize": "14",
     "subtitleFontSize": "12",
     "color": "#000000",
@@ -15,10 +15,10 @@
   "background": "#ffffff",
   "view": {"fill": "#ffffff", "strokeOpacity": 0},
   "data": {
-    "url": "https://api.economicsobservatory.com/phl/prod?vega",
+    "url": "https://api.economicsobservatory.com/phl/tour?vega",
     "format": {"type": "json"}
   },
-  "mark": {"type": "line", "color": "#2aa254", "strokeWidth": "2"},
+  "mark": {"type": "line", "color": "#2f5fd0", "strokeWidth": "2"},
   "encoding": {
     "x": {
       "field": "date",
