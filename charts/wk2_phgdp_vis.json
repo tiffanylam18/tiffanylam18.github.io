@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Inbound Tourism Expenditure",
+    "text": "GDP growth",
     "anchor": "start",
-    "subtitle": "Current Prices, Pesos (millions) | PSA through ECO API",
+    "subtitle": "Yearly, rate, % | Source: PSA through ECO API",
     "fontSize": "14",
     "subtitleFontSize": "12",
     "color": "#000000",
@@ -15,7 +15,7 @@
   "background": "#ffffff",
   "view": {"fill": "#ffffff", "strokeOpacity": 0},
   "data": {
-    "url": "https://api.economicsobservatory.com/phl/tour?vega",
+    "url": "https://api.economicsobservatory.com/phl/grow?vega",
     "format": {"type": "json"}
   },
   "mark": {"type": "line", "color": "#2f5fd0", "strokeWidth": "2"},
