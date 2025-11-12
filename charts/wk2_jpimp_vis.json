@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Unemployment in Thailand",
+    "text": "Imports",
     "anchor": "start",
-    "subtitle": "Rate, % | Source: NESDB (WB) through ECO API",
+    "subtitle": "Current USD | Source: JSB (WB) through ECO API",
     "fontSize": "14",
     "subtitleFontSize": "12",
     "color": "#000000",
@@ -15,9 +15,12 @@
   "background": "#ffffff",
   "view": {"fill": "#ffffff", "strokeOpacity": 0},
   "data": {
-    "url": "https://api.economicsobservatory.com/tha/unem?vega",
+    "url": "https://api.economicsobservatory.com/jpn/impo?vega",
     "format": {"type": "json"}
   },
+  "transform": [
+    {"calculate": "datum['value']/1000000000", "as": "value (billions)"}
+  ],
   "mark": {"type": "line", "color": "#2f5fd0", "strokeWidth": "2"},
   "encoding": {
     "x": {
@@ -26,9 +29,9 @@
       "axis": {"title": "", "titleColor": "#122B39", "grid": false}
     },
     "y": {
-      "field": "value",
+      "field": "value (billions)",
       "type": "quantitative",
-      "axis": {"title": "", "titleColor": "#122B39", "grid": false}
+      "axis": {"title": "(billions)", "titleColor": "#122B39", "grid": false}
     }
   },
   "config": {}
