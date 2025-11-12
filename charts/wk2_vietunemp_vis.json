@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "GDP growth",
+    "text": "Unemployment in Vietnam",
     "anchor": "start",
-    "subtitle": "Yearly, rate, % | Source: PSA through ECO API",
+    "subtitle": "Rate, % | Source: GSO (WB) through ECO API",
     "fontSize": "14",
     "subtitleFontSize": "12",
     "color": "#000000",
@@ -15,10 +15,10 @@
   "background": "#ffffff",
   "view": {"fill": "#ffffff", "strokeOpacity": 0},
   "data": {
-    "url": "https://api.economicsobservatory.com/phl/grow?vega",
+    "url": "https://api.economicsobservatory.com/vnm/unem?vega",
     "format": {"type": "json"}
   },
-  "mark": {"type": "line", "color": "#2f5fd0", "strokeWidth": "2"},
+  "mark": {"type": "line", "color": "#ec5b36", "strokeWidth": "2"},
   "encoding": {
     "x": {
       "field": "date",
@@ -28,6 +28,7 @@
     "y": {
       "field": "value",
       "type": "quantitative",
+      "scale": {"domain": [0, 3.5]},
       "axis": {"title": "", "titleColor": "#122B39", "grid": false}
     }
   },
