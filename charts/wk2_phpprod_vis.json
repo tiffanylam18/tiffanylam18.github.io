@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Electricity in Indonesia",
+    "text": "Productivity",
     "anchor": "start",
-    "subtitle": "Output, GWh, | IEA via ECO-API",
+    "subtitle": "GDP per hours worked, PHP | Source: PSA through ECO API",
     "fontSize": "14",
     "subtitleFontSize": "12",
     "color": "#000000",
@@ -15,7 +15,7 @@
   "background": "#ffffff",
   "view": {"fill": "#ffffff", "strokeOpacity": 0},
   "data": {
-    "url": "https://api.economicsobservatory.com/idn/eGWh?vega",
+    "url": "https://api.economicsobservatory.com/phl/prod?vega",
     "format": {"type": "json"}
   },
   "mark": {"type": "line", "color": "#2aa254", "strokeWidth": "2"},
