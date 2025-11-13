@@ -1,0 +1,129 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": 600,
+  "title": {
+    "text": "Climbing Toward Gender Balance since COP1 in 1995",
+    "subtitle": "Women's representation in party delegations has grown from 20% to 43%, but parity remains unmet",
+    "anchor": "start"
+  },
+  "data": {
+    "values": [
+      {"COP": 1, "Gender": "Women", "Percentage": 20},
+      {"COP": 1, "Gender": "Men", "Percentage": 80},
+      {"COP": 2, "Gender": "Women", "Percentage": 25},
+      {"COP": 2, "Gender": "Men", "Percentage": 75},
+      {"COP": 3, "Gender": "Women", "Percentage": 22},
+      {"COP": 3, "Gender": "Men", "Percentage": 78},
+      {"COP": 4, "Gender": "Women", "Percentage": 23},
+      {"COP": 4, "Gender": "Men", "Percentage": 77},
+      {"COP": 5, "Gender": "Women", "Percentage": 24},
+      {"COP": 5, "Gender": "Men", "Percentage": 76},
+      {"COP": 6, "Gender": "Women", "Percentage": 26},
+      {"COP": 6, "Gender": "Men", "Percentage": 74},
+      {"COP": 6.5, "Gender": "Women", "Percentage": 27},
+      {"COP": 6.5, "Gender": "Men", "Percentage": 73},
+      {"COP": 7, "Gender": "Women", "Percentage": 25},
+      {"COP": 7, "Gender": "Men", "Percentage": 75},
+      {"COP": 8, "Gender": "Women", "Percentage": 24},
+      {"COP": 8, "Gender": "Men", "Percentage": 76},
+      {"COP": 9, "Gender": "Women", "Percentage": 27},
+      {"COP": 9, "Gender": "Men", "Percentage": 73},
+      {"COP": 10, "Gender": "Women", "Percentage": 26},
+      {"COP": 10, "Gender": "Men", "Percentage": 74},
+      {"COP": 11, "Gender": "Women", "Percentage": 29},
+      {"COP": 11, "Gender": "Men", "Percentage": 71},
+      {"COP": 12, "Gender": "Women", "Percentage": 28},
+      {"COP": 12, "Gender": "Men", "Percentage": 72},
+      {"COP": 13, "Gender": "Women", "Percentage": 30},
+      {"COP": 13, "Gender": "Men", "Percentage": 70},
+      {"COP": 14, "Gender": "Women", "Percentage": 29},
+      {"COP": 14, "Gender": "Men", "Percentage": 71},
+      {"COP": 15, "Gender": "Women", "Percentage": 30},
+      {"COP": 15, "Gender": "Men", "Percentage": 70},
+      {"COP": 16, "Gender": "Women", "Percentage": 32},
+      {"COP": 16, "Gender": "Men", "Percentage": 68},
+      {"COP": 17, "Gender": "Women", "Percentage": 31},
+      {"COP": 17, "Gender": "Men", "Percentage": 69},
+      {"COP": 18, "Gender": "Women", "Percentage": 33},
+      {"COP": 18, "Gender": "Men", "Percentage": 67},
+      {"COP": 19, "Gender": "Women", "Percentage": 34},
+      {"COP": 19, "Gender": "Men", "Percentage": 66},
+      {"COP": 20, "Gender": "Women", "Percentage": 36},
+      {"COP": 20, "Gender": "Men", "Percentage": 64},
+      {"COP": 21, "Gender": "Women", "Percentage": 34},
+      {"COP": 21, "Gender": "Men", "Percentage": 66},
+      {"COP": 22, "Gender": "Women", "Percentage": 36},
+      {"COP": 22, "Gender": "Men", "Percentage": 64},
+      {"COP": 23, "Gender": "Women", "Percentage": 40},
+      {"COP": 23, "Gender": "Men", "Percentage": 60},
+      {"COP": 24, "Gender": "Women", "Percentage": 40},
+      {"COP": 24, "Gender": "Men", "Percentage": 60},
+      {"COP": 25, "Gender": "Women", "Percentage": 40},
+      {"COP": 25, "Gender": "Men", "Percentage": 60},
+      {"COP": 26, "Gender": "Women", "Percentage": 38},
+      {"COP": 26, "Gender": "Men", "Percentage": 62},
+      {"COP": 27, "Gender": "Women", "Percentage": 40},
+      {"COP": 27, "Gender": "Men", "Percentage": 60},
+      {"COP": 28, "Gender": "Women", "Percentage": 40},
+      {"COP": 28, "Gender": "Men", "Percentage": 60},
+      {"COP": 29, "Gender": "Women", "Percentage": 42},
+      {"COP": 29, "Gender": "Men", "Percentage": 58},
+      {"COP": 30, "Gender": "Women", "Percentage": 43},
+      {"COP": 30, "Gender": "Men", "Percentage": 57}
+    ]
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "opacity": 0.7},
+      "encoding": {
+        "x": {
+          "field": "COP",
+          "type": "ordinal",
+          "axis": {"title": "COP Meeting", "domain": false, "labelAngle": 0}
+        },
+        "y": {
+          "field": "Percentage",
+          "type": "quantitative",
+          "stack": "normalize",
+          "axis": {"title": "", "domain": false, "format": "%"}
+        },
+        "color": {
+          "field": "Gender",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Women", "Men"],
+            "range": ["#FFA500", "#8B2252"]
+          },
+          "legend": {"orient": "right"}
+        },
+        "order": {"field": "Gender", "sort": "descending"}
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "strokeDash": [4, 4],
+        "color": "white",
+        "strokeWidth": 2
+      },
+      "encoding": {"y": {"datum": 0.5}}
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -32,
+        "dy": 0,
+        "fontSize": 10,
+        "color": "black",
+        "fontWeight": "lighter"
+      },
+      "encoding": {
+        "y": {"datum": 0.5},
+        "x": {"value": 0},
+        "text": {"value": "Parity"}
+      }
+    }
+  ],
+  "config": {}
+}
