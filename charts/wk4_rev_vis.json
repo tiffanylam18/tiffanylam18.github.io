@@ -74,7 +74,7 @@
   },
   "layer": [
     {
-      "mark": {"type": "bar", "opacity": 0.7, "width": {"band": 0.9}},
+      "mark": {"type": "bar", "opacity": 0.7, "width": {"band": 0.95}},
       "encoding": {
         "x": {
           "field": "COP",
