@@ -2,36 +2,54 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "width": 500,
   "title": {
-    "text": "Vietnam Leads Southeast Asia in Renewable Energy Production (2023)",
-    "subtitle": "With 119 TWh, Vietnam produces more than Thailand, Malaysia, and Philippines combined",
+    "text": "Vietnam Dominates Southeast Asia's Renewable Energy Production (2023)",
+    "subtitle": "Hydropower drives most of the region's 247 TWh, with distinct strategies by country",
     "anchor": "start"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/main/data/wk5_seasia_renew.csv"
   },
+  "transform": [
+    {"calculate": "+datum.TWh", "as": "TWh_num"},
+    {
+      "calculate": "datum.Source == 'Geo.' ? 'Geothermal' : datum.Source == 'Bio.' ? 'Biomass' : datum.Source",
+      "as": "Source_clean"
+    },
+    {
+      "calculate": "datum.Source_clean == 'Hydro' ? 1 : datum.Source_clean == 'Biomass' ? 2 : datum.Source_clean == 'Solar' ? 3 : datum.Source_clean == 'Wind' ? 4 : 5",
+      "as": "stack_order"
+    }
+  ],
   "mark": {"type": "bar", "opacity": 0.9},
   "encoding": {
     "x": {
       "field": "Location",
       "type": "nominal",
-      "sort": ["Vietnam", "Malaysia", "Indonesia", "Thailand", "Philippines"],
+      "sort": [
+        "Vietnam",
+        "Indonesia",
+        "Laos",
+        "Malaysia",
+        "Thailand",
+        "Philippines"
+      ],
       "axis": {"title": null, "domain": false, "labelAngle": 0}
     },
     "y": {
-      "field": "TWh",
+      "field": "TWh_num",
       "type": "quantitative",
-      "stack": "zero",
       "axis": {"title": "Renewable Energy (TWh)", "domain": false}
     },
     "color": {
-      "field": "Source",
+      "field": "Source_clean",
       "type": "nominal",
       "scale": {
-        "domain": ["Hydro", "Solar", "Wind", "Geothermal", "Biomass"],
-        "range": ["#2E86AB", "#F77F00", "#06A77D", "#C1121F", "#6A994E"]
+        "domain": ["Hydro", "Biomass", "Solar", "Wind", "Geothermal"],
+        "range": ["#2E86AB", "#6A994E", "#F77F00", "#06A77D", "#C1121F"]
       },
       "legend": {"title": "Source", "orient": "right"}
-    }
+    },
+    "order": {"field": "stack_order", "type": "quantitative"}
   },
   "config": {}
 }
