@@ -85,6 +85,9 @@
             <p> Adding chart that uses a live link to an API. Scraping a website, cleaning and normalizing the data, and exporting it into TIDY format.</p>
         </div>
         <figure id="Location9"></figure>
+        <figcaption style="font-size: 15px; font-weight: normal;">
+            <small>Source: https://open-meteo.com/en/docs/historical-weather-api?latitude=14.6042&longitude=120.9822&start_date=2014-01-01&end_date=2024-12-31&hourly=&daily=temperature_2m_max&timezone=auto#data_sources</small>
+        </figcaption>
     </section>
 
     <section>
@@ -119,6 +122,9 @@
 
         let figure_8_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk4_rev_vis.json"
         vegaEmbed('#Location8', figure_8_spec)
+
+        let figure_9_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk5_mnlheat_vis.json"
+        vegaEmbed('#Location9', figure_9_spec)
     </script>
 
 </body>

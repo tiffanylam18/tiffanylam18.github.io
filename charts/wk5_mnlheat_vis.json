@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": 600,
+  "height": 300,
+  "title": {
+    "text": "Manila's Extreme Heat Days Surge to Record High in 2024",
+    "subtitle": "45 days exceeded 35°C, more than double any previous years",
+    "anchor": "start"
+  },
+  "data": {
+    "url": "https://archive-api.open-meteo.com/v1/archive?latitude=14.6042&longitude=120.9822&start_date=2014-01-01&end_date=2024-12-31&daily=temperature_2m_max&timezone=Asia/Manila",
+    "format": {"type": "json", "property": "daily"}
+  },
+  "transform": [
+    {"flatten": ["time", "temperature_2m_max"]},
+    {"filter": "datum.temperature_2m_max != null"},
+    {
+      "calculate": "datum.temperature_2m_max > 35 ? 1 : 0",
+      "as": "extreme_heat_day"
+    },
+    {"calculate": "year(datum.time)", "as": "year"},
+    {
+      "aggregate": [
+        {"op": "sum", "field": "extreme_heat_day", "as": "hot_days"}
+      ],
+      "groupby": ["year"]
+    }
+  ],
+  "mark": {"type": "bar", "opacity": 0.8},
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "axis": {"title": "", "domain": false, "labelAngle": 0}
+    },
+    "y": {
+      "field": "hot_days",
+      "type": "quantitative",
+      "scale": {"domain": [0, 50]},
+      "axis": {"title": "Days Above 35°C", "domain": false}
+    },
+    "color": {
+      "field": "hot_days",
+      "type": "quantitative",
+      "scale": {"range": ["#FFEB3B", "#FF5722"]}
+    }
+  },
+  "config": {}
+}
