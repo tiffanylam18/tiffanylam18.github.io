@@ -1,6 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "width": 600,
+  "height": 350,
   "title": {
     "text": "Climbing Toward Gender Balance since COP1 in 1995",
     "subtitle": "Women's representation in party delegations has grown from 20% to 43%, but parity remains unmet",
