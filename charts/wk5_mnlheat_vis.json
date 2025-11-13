@@ -42,7 +42,8 @@
     "color": {
       "field": "hot_days",
       "type": "quantitative",
-      "scale": {"range": ["#FFEB3B", "#FF5722"]}
+      "scale": {"range": ["#FFEB3B", "#FF5722"]},
+      "legend": {"title": "Days Above 35°C"}
     }
   },
   "config": {}
