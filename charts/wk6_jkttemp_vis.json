@@ -4,7 +4,7 @@
   "height": 200,
   "title": {
     "text": "Temperature Trends: Jakarta",
-    "subtitle": "Daily observations, 2014-2024",
+    "subtitle": "Daily means, 2014-2024",
     "anchor": "start"
   },
   "data": {
