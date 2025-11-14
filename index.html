@@ -101,6 +101,11 @@
             <p> Using a loop to batch download different series as JSON files and another loop to embed them.</p>
         </div>
         <figure id="Location11"></figure>
+        <figure id="Location12"></figure>
+        <figure id="Location13"></figure>
+        <figure id="Location14"></figure>
+        <figure id="Location15"></figure>
+        <figure id="Location16"></figure>
     </section>
         
     <script>
@@ -133,6 +138,13 @@
 
         let figure_10_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk5_seasiarenew_vis.json"
         vegaEmbed('#Location10', figure_10_spec)
+
+        const cities = ['mnl', 'bkk', 'jkt', 'hcmc', 'kl', 'sg'];
+        const locationIds = ['Location11', 'Location12', 'Location13', 'Location14', 'Location15', 'Location16'];
+        
+        for (let i = 0; i < cities.length; i++) {
+            let spec = `https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/main/charts/wk6_${cities[i]}temp_vis.json`; vegaEmbed(`#${locationIds[i]}`, spec);
+        }
     </script>
 
 </body>
