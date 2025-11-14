@@ -20,36 +20,81 @@
       "as": "stack_order"
     }
   ],
-  "mark": {"type": "bar", "opacity": 0.9},
-  "encoding": {
-    "x": {
-      "field": "Location",
-      "type": "nominal",
-      "sort": [
-        "Vietnam",
-        "Indonesia",
-        "Laos",
-        "Malaysia",
-        "Thailand",
-        "Philippines"
+  "layer": [
+    {
+      "mark": {"type": "bar", "opacity": 0.9},
+      "encoding": {
+        "x": {
+          "field": "Location",
+          "type": "nominal",
+          "sort": [
+            "Vietnam",
+            "Indonesia",
+            "Laos",
+            "Malaysia",
+            "Thailand",
+            "Philippines"
+          ],
+          "axis": {"title": null, "domain": false, "labelAngle": 0}
+        },
+        "y": {
+          "field": "TWh_num",
+          "type": "quantitative",
+          "axis": {"title": "Renewable Energy (TWh)", "domain": false}
+        },
+        "color": {
+          "field": "Source_clean",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Hydro", "Biomass", "Solar", "Wind", "Geothermal"],
+            "range": ["#2E86AB", "#6A994E", "#F77F00", "#06A77D", "#C1121F"]
+          },
+          "legend": {"title": "Source", "orient": "right"}
+        },
+        "order": {"field": "stack_order", "type": "quantitative"},
+        "tooltip": [
+          {"field": "Source_clean", "title": "Source"},
+          {"field": "TWh_num", "title": "Renewable Energy (TWh)", "format": ".2f"}
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "aggregate": [{"op": "sum", "field": "TWh_num", "as": "total_TWh"}],
+          "groupby": ["Location"]
+        }
       ],
-      "axis": {"title": null, "domain": false, "labelAngle": 0}
-    },
-    "y": {
-      "field": "TWh_num",
-      "type": "quantitative",
-      "axis": {"title": "Renewable Energy (TWh)", "domain": false}
-    },
-    "color": {
-      "field": "Source_clean",
-      "type": "nominal",
-      "scale": {
-        "domain": ["Hydro", "Biomass", "Solar", "Wind", "Geothermal"],
-        "range": ["#2E86AB", "#6A994E", "#F77F00", "#06A77D", "#C1121F"]
+      "mark": {
+        "type": "text",
+        "dy": -5,
+        "fontSize": 11,
       },
-      "legend": {"title": "Source", "orient": "right"}
-    },
-    "order": {"field": "stack_order", "type": "quantitative"}
-  },
+      "encoding": {
+        "x": {
+          "field": "Location",
+          "type": "nominal",
+          "sort": [
+            "Vietnam",
+            "Indonesia",
+            "Laos",
+            "Malaysia",
+            "Thailand",
+            "Philippines"
+          ]
+        },
+        "y": {
+          "field": "total_TWh",
+          "type": "quantitative",
+          "scale": {"domain": [0, 125]}
+        },
+        "text": {
+          "field": "total_TWh",
+          "type": "quantitative",
+          "format": ".1f"
+        }
+      }
+    }
+  ],
   "config": {}
 }

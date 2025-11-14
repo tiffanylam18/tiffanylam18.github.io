@@ -72,6 +72,18 @@
       {"COP": 30, "Gender": "Men", "Percentage": 57}
     ]
   },
+  "transform": [
+    {
+      "joinaggregate": [
+        {"op": "max", "field": "Percentage", "as": "MenPercentage"}
+      ],
+      "groupby": ["COP"]
+    },
+    {
+      "calculate": "100 - datum.MenPercentage",
+      "as": "WomenPercentage"
+    }
+  ],
   "layer": [
     {
       "mark": {"type": "bar", "opacity": 0.7, "width": {"band": 0.95}},
@@ -109,7 +121,11 @@
           },
           "legend": {"orient": "right"}
         },
-        "order": {"field": "Gender", "sort": "descending"}
+        "order": {"field": "Gender", "sort": "descending"},
+        "tooltip": [
+          {"field": "MenPercentage", "title": "Men (%)", "type": "quantitative", "format": ".0f"},
+          {"field": "WomenPercentage", "title": "Women (%)", "type": "quantitative", "format": ".0f"}
+        ]
       }
     },
     {

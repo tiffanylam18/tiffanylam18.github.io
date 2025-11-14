@@ -44,7 +44,10 @@
       "type": "quantitative",
       "scale": {"range": ["#FFEB3B", "#FF5722"]},
       "legend": {"title": "Days Above 35°C"}
-    }
+    },
+    "tooltip": [
+      {"field": "hot_days", "title": "Days Above 35°C"}
+    ]
   },
   "config": {}
 }

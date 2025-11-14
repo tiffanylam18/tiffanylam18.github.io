@@ -14,7 +14,7 @@
     {"filter": "datum.Year >= 1993"},
     {
       "calculate": "datum['Annual CO₂ emissions']/1000000000",
-      "as": "Emissions (billions)"
+      "as": "CO₂ Emissions (Billions)"
     }
   ],
   "mark": "line",
@@ -25,10 +25,13 @@
       "axis": {"grid": false, "title": null}
     },
     "y": {
-      "field": "Emissions (billions)",
+      "field": "CO₂ Emissions (Billions)",
       "type": "quantitative",
       "axis": {"grid": false}
-    }
+    },
+    "tooltip": [
+      {"field": "CO₂ Emissions (Billions)", "type": "quantitative", "title": "CO₂ Emissions (Billions)", "format": ".2f"}
+    ]
   },
   "config": {}
 }

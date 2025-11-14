@@ -53,7 +53,11 @@
       "field": "avg_emissions",
       "type": "quantitative",
       "sort": "ascending"
-    }
+    },
+    "tooltip": [
+      {"field": "Entity", "title": "Country"},
+      {"field": "Annual CO₂ emissions (per capita)", "title": "CO₂ emissions (per capita)", "format": ".2f"}
+    ]
   },
   "config": {}
 }
