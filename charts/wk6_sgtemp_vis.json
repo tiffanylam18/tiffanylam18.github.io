@@ -33,7 +33,7 @@
         "y": {
           "field": "temperature_2m_mean",
           "type": "quantitative",
-          "scale": {"domain": [15, 40]},
+          "scale": {"domain": [15, 35]},
           "axis": {"title": "Temperature (°C)", "domain": false}
         }
       }
