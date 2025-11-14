@@ -66,8 +66,8 @@ img {
   height: auto;
 }
 
-/* 3x2 Chart Grid */
-#chartGrid3x2 {
+/* 2x3 Chart Grid */
+#chartGrid2x3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
