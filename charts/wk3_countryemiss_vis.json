@@ -24,6 +24,20 @@
         }
       ],
       "groupby": ["Entity"]
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "sum",
+          "field": "Annual CO₂ emissions (per capita)",
+          "as": "year_total"
+        }
+      ],
+      "groupby": ["Year"]
+    },
+    {
+      "calculate": "(datum['Annual CO₂ emissions (per capita)'] / datum.year_total) * 100",
+      "as": "pct_of_total"
     }
   ],
   "mark": {"type": "bar", "opacity": 0.9},
@@ -55,8 +69,10 @@
       "sort": "ascending"
     },
     "tooltip": [
+      {"field": "Year", "type": "ordinal", "title": "Year"},
       {"field": "Entity", "title": "Country"},
-      {"field": "Annual CO₂ emissions (per capita)", "title": "CO₂ emissions (per capita)", "format": ".2f"}
+      {"field": "Annual CO₂ emissions (per capita)", "title": "Emissions (per capita)", "format": ".2f"},
+      {"field": "pct_of_total", "title": "Share of Total (%)", "format": ".1f"}
     ]
   },
   "config": {}

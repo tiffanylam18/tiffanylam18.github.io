@@ -123,6 +123,7 @@
         },
         "order": {"field": "Gender", "sort": "descending"},
         "tooltip": [
+          {"field": "COP Meeting", "title": "COP Meeting"},
           {"field": "MenPercentage", "title": "Men (%)", "type": "quantitative", "format": ".0f"},
           {"field": "WomenPercentage", "title": "Women (%)", "type": "quantitative", "format": ".0f"}
         ]

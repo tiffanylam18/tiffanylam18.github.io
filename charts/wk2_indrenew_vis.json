@@ -35,10 +35,7 @@
         "titleColor": "#122B39",
         "grid": false
       }
-    },
-    "tooltip": [
-      {"field": "output", "type": "quantitative", "title": "Output (GWh, Thousands)", "format": ".2f"}
-    ]
+    }
   },
   "config": {}
 }

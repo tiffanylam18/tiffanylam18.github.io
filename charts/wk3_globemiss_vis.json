@@ -28,10 +28,7 @@
       "field": "CO₂ Emissions (Billions)",
       "type": "quantitative",
       "axis": {"grid": false}
-    },
-    "tooltip": [
-      {"field": "CO₂ Emissions (Billions)", "type": "quantitative", "title": "CO₂ Emissions (Billions)", "format": ".2f"}
-    ]
+    }
   },
   "config": {}
 }

@@ -68,7 +68,7 @@
       "mark": {
         "type": "text",
         "dy": -5,
-        "fontSize": 11,
+        "fontSize": 11
       },
       "encoding": {
         "x": {
