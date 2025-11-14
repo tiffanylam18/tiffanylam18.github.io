@@ -1,27 +1,25 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Imports",
+    "text": "Renewables Output in Thailand",
     "anchor": "start",
-    "subtitle": "Current USD | Source: JSB (WB) through ECO API",
-    "fontSize": "14",
-    "subtitleFontSize": "12",
+    "subtitle": "IEA via ECO-API",
+    "fontSize": 14,
+    "subtitleFontSize": 12,
     "color": "#000000",
     "subtitleColor": "#000000"
   },
-  "height": "250",
-  "width": "container",
+  "height": 250,
+  "width": 400,
   "autosize": {"type": "fit", "contains": "padding", "resize": false},
   "background": "#ffffff",
   "view": {"fill": "#ffffff", "strokeOpacity": 0},
   "data": {
-    "url": "https://api.economicsobservatory.com/jpn/impo?vega",
+    "url": "https://api.economicsobservatory.com/tha/rGWh?vega",
     "format": {"type": "json"}
   },
-  "transform": [
-    {"calculate": "datum['value']/1000000000", "as": "value (billions)"}
-  ],
-  "mark": {"type": "line", "color": "#2f5fd0", "strokeWidth": "2"},
+  "transform": [{"calculate": "datum['value']/1000", "as": "output"}],
+  "mark": {"type": "line", "color": "#3965ea", "strokeWidth": "2"},
   "encoding": {
     "x": {
       "field": "date",
@@ -29,9 +27,14 @@
       "axis": {"title": "", "titleColor": "#122B39", "grid": false}
     },
     "y": {
-      "field": "value (billions)",
+      "field": "output",
       "type": "quantitative",
-      "axis": {"title": "(billions)", "titleColor": "#122B39", "grid": false}
+      "scale": {"domain": [0, 70]},
+      "axis": {
+        "title": "GWh (Thousands)",
+        "titleColor": "#122B39",
+        "grid": false
+      }
     }
   },
   "config": {}

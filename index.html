@@ -30,14 +30,16 @@
             <h2>Week 1: Displaying charts on our sites</h2>
             <p>Creating Github repos and embedding charts on our sites using vegaEmbed.</p>
         </div>
-        <figure id="Location1"></figure>
-        <figcaption style="font-size: 15px; font-weight: normal;">
-            <small>Source: https://rdeconomist.github.io/library</small>
-        </figcaption>
-        <figure id="Location2"></figure>
-        <figcaption style="font-size: 15px; font-weight: normal;">
-            <small>Source: https://github.com/EconomicsObservatory/datavis</small>
-        </figcaption>
+        <div id="chartGridx2">
+            <figure id="Location1"></figure>
+            <figure id="Location2"></figure>
+            <figcaption style="font-size: 15px; font-weight: normal;">
+                <small>Source: https://rdeconomist.github.io/library</small>
+            </figcaption>
+            <figcaption style="font-size: 15px; font-weight: normal;">
+                <small>Source: https://github.com/EconomicsObservatory/datavis</small>
+            </figcaption>
+        </div>
     </section>
 
     <section>
@@ -45,11 +47,10 @@
             <h2>Week 2: Creating our own visualizations</h2>
             <p> Creating charts using the Economics Observatory Data Hub "create" tool and embedding them to our site.</p>
         </div>
-        <figure id="Location3"></figure>
-        <figcaption style="font-size: 15px; font-weight: normal;">
-            <small>Source: https://www.economicsobservatory.com/create</small>
-        </figcaption>
-        <figure id="Location4"></figure>
+        <div id="chartGridx2">
+            <figure id="Location3"></figure>
+            <figure id="Location4"></figure>
+        </div>
         <figcaption style="font-size: 15px; font-weight: normal;">
             <small>Source: https://www.economicsobservatory.com/create</small>
         </figcaption>
@@ -87,7 +88,7 @@
         </div>
         <figure id="Location9"></figure>
         <figcaption style="font-size: 15px; font-weight: normal;">
-            <small>Source: https://open-meteo.com/en/docs/historical-weather-api?latitude=14.6042&longitude=120.9822&start_date=2014-01-01&end_date=2024-12-31&hourly=&daily=temperature_2m_max&timezone=auto#data_sources</small>
+            <small>Source: https://https://open-meteo.com/en/docs/historical-weather-api</small>
         </figcaption>
         <figure id="Location10"></figure>
         <figcaption style="font-size: 15px; font-weight: normal;">
@@ -100,7 +101,7 @@
             <h2>Week 6: Building a dashboard</h2>
             <p> Using a loop to batch download different series as JSON files and another loop to embed them.</p>
         </div>
-        <div id="chartGrid2x3">
+        <div id="chartGridx2">
             <figure id="Location11"></figure>
             <figure id="Location12"></figure>
             <figure id="Location13"></figure>
@@ -108,6 +109,9 @@
             <figure id="Location15"></figure>
             <figure id="Location16"></figure>
         </div>
+        <figcaption style="font-size: 15px; font-weight: normal;">
+            <small>Source: https://open-meteo.com/en/docs/historical-weather-api</small>
+        </figcaption>
     </section>
         
     <script>
@@ -117,10 +121,10 @@
         let figure_2_spec = "https://raw.githubusercontent.com/EconomicsObservatory/datavis/refs/heads/main/newsletters/2025-07-04-tennis-time/visualisation/fig4_prize-total.json"
         vegaEmbed('#Location2', figure_2_spec)
 
-        let figure_3_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk2_jpimp_vis.json"
+        let figure_3_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk2_thairenew_vis.json"
         vegaEmbed('#Location3', figure_3_spec)
 
-        let figure_4_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk2_thairenew_vis.json"
+        let figure_4_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk2_indrenew_vis.json"
         vegaEmbed('#Location4', figure_4_spec)
 
         let figure_5_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk3_globemiss_vis.json"
