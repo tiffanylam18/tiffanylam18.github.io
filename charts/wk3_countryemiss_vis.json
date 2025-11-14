@@ -72,7 +72,7 @@
       {"field": "Year", "type": "ordinal", "title": "Year"},
       {"field": "Entity", "title": "Country"},
       {"field": "Annual CO₂ emissions (per capita)", "title": "Emissions (per capita)", "format": ".2f"},
-      {"field": "pct_of_total", "title": "Share of Total (%)", "format": ".1f"}
+      {"field": "pct_of_total", "title": "Share of Total (%)", "format": ".2f"}
     ]
   },
   "config": {}
