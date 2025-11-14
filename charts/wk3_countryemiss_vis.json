@@ -51,7 +51,7 @@
       "field": "Annual CO₂ emissions (per capita)",
       "type": "quantitative",
       "aggregate": "sum",
-      "axis": {"title": "Annual emissions (per capita)"}
+      "axis": {"title": "Annual Emissions (Per Capita)"}
     },
     "color": {
       "field": "Entity",
