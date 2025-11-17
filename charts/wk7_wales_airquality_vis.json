@@ -5,8 +5,8 @@
     "subtitle": "PM2.5 concentrations range from 3.9 µg/m³ in rural northwest to 6.5 µg/m³ in Cardiff, 2023",
     "anchor": "start"
   },
-  "width": 100,
-  "height": 250,
+  "width": 300,
+  "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/refs/heads/main/MappingWorkshop/geo_data/LAD_WLS_2025_05.topojson",
     "format": {"type": "topojson", "feature": "object_name"}
