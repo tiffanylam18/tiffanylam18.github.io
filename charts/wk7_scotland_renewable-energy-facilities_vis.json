@@ -1,0 +1,74 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Scotland's Operational Renewable Energy Facilities",
+    "subtitle": "Major technologies by location and size, 2023",
+    "anchor": "start"
+  },
+  "width": 300,
+  "height": 400,
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/refs/heads/main/MappingWorkshop/geo_data/LAD_SCT_2025_05.topojson",
+        "format": {"type": "topojson", "feature": "object_name"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgrey",
+        "stroke": "white",
+        "strokeWidth": 0.5
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/data/wk7_scotland_energy-supply_latlon.csv"
+      },
+      "transform": [
+        {"filter": "datum.Status === 'Operational'"},
+        {
+          "filter": "indexof(['Wind', 'Hydro', 'Biomass', 'Photovoltaic'], datum.PrimaryTechnology) >= 0"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "opacity": 0.7,
+        "stroke": "white",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
+        "size": {
+          "field": "SizeCategory",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Small to medium (>=45kW and <1MW)", "Large (1MW+)"],
+            "range": [30, 150]
+          },
+          "legend": {"title": "Facility Size", "orient": "bottom"}
+        },
+        "color": {
+          "field": "PrimaryTechnology",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Wind", "Hydro", "Biomass", "Photovoltaic"],
+            "range": ["#06A77D", "#2E86AB", "#6A994E", "#F77F00"]
+          },
+          "legend": {"title": "Technology Type", "orient": "right"}
+        },
+        "tooltip": [
+          {"field": "Name", "type": "nominal", "title": "Facility"},
+          {
+            "field": "PrimaryTechnology",
+            "type": "nominal",
+            "title": "Technology"
+          },
+          {"field": "SizeCategory", "type": "nominal", "title": "Facility Size"}
+        ]
+      }
+    }
+  ],
+  "projection": {"type": "mercator"},
+  "config": {}
+}

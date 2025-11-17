@@ -7,7 +7,7 @@
     "anchor": "start"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/main/data/wk5_seasia_renew.csv"
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/main/data/wk5_se-asia_renewable.csv"
   },
   "transform": [
     {"calculate": "+datum.TWh", "as": "TWh_num"},

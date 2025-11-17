@@ -113,6 +113,23 @@
             <small>Source: https://open-meteo.com/en/docs/historical-weather-api</small>
         </figcaption>
     </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Week 7: Producing maps</h2>
+            <p> Creating coordinate and choropleth maps by layering new data on top of base maps.</p>
+        </div>
+        <div id="chartGridx2">
+            <figure id="Location17"></figure>
+            <figcaption style="font-size: 15px; font-weight: normal;">
+                <small>Source: https://stats.gov.wales/en-GB/36f88bfb-36a3-4b54-9c24-51dcab107a62</small>
+            </figcaption>
+            <figure id="Location18"></figure>
+            <figcaption style="font-size: 15px; font-weight: normal;">
+                <small>Source: https://www.data.gov.uk/dataset/9adbe287-fbe4-4db7-b158-255372da2f96/energy-supply-point-locations-scotland</small>
+            </figcaption>
+        </div>
+    </section>
         
     <script>
         let figure_1_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartBar2.json"; 
@@ -121,36 +138,43 @@
         let figure_2_spec = "https://raw.githubusercontent.com/EconomicsObservatory/datavis/refs/heads/main/newsletters/2025-07-04-tennis-time/visualisation/fig4_prize-total.json"
         vegaEmbed('#Location2', figure_2_spec)
 
-        let figure_3_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk2_thairenew_vis.json"
+        let figure_3_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk2_thai-renew_vis.json"
         vegaEmbed('#Location3', figure_3_spec)
 
-        let figure_4_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk2_indrenew_vis.json"
+        let figure_4_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk2_ind-renew_vis.json"
         vegaEmbed('#Location4', figure_4_spec)
 
-        let figure_5_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk3_globemiss_vis.json"
+        let figure_5_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk3_global-emissions_vis.json"
         vegaEmbed('#Location5', figure_5_spec)
 
-        let figure_6_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk3_countryemiss_vis.json"
+        let figure_6_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk3_country-emissions_vis.json"
         vegaEmbed('#Location6', figure_6_spec)
 
-        let figure_7_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk4_og_vis.json"
+        let figure_7_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk4_original_vis.json"
         vegaEmbed('#Location7', figure_7_spec)
 
-        let figure_8_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk4_rev_vis.json"
+        let figure_8_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk4_revised_vis.json"
         vegaEmbed('#Location8', figure_8_spec)
 
-        let figure_9_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk5_mnlheat_vis.json"
+        let figure_9_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk5_mnl-heat-days_vis.json"
         vegaEmbed('#Location9', figure_9_spec)
 
-        let figure_10_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk5_seasiarenew_vis.json"
+        let figure_10_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk5_se-asia_renewables_vis.json"
         vegaEmbed('#Location10', figure_10_spec)
 
         const cities = ['mnl', 'bkk', 'jkt', 'hcmc', 'kl', 'sg'];
         const locationIds = ['Location11', 'Location12', 'Location13', 'Location14', 'Location15', 'Location16'];
         
         for (let i = 0; i < cities.length; i++) {
-            let spec = `https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/main/charts/wk6_${cities[i]}temp_vis.json`; vegaEmbed(`#${locationIds[i]}`, spec);
+            let spec = `https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/main/charts/wk6_${cities[i]}-temp_vis.json`; vegaEmbed(`#${locationIds[i]}`, spec);
         }
+
+        let figure_17_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk7_wales_airquality_vis.json"
+        vegaEmbed('#Location17', figure_17_spec)
+
+        let figure_18_spec = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/charts/wk7_scotland_renewable-energy-facilities_vis.json"
+        vegaEmbed('#Location18', figure_18_spec)
+
     </script>
 
 </body>

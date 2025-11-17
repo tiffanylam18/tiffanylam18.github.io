@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Air Quality in Wales: PM2.5 Pollution by Local Authority",
-    "subtitle": "Average PM2.5 concentration (µg/m³), 2023",
+    "text": "Wales Air Quality Divide: Elevated Pollution in Urban Cities",
+    "subtitle": "PM2.5 conentrations range from 3.9 µg/m³ in rural northwest to 6.5 µg/m³ in Cardiff, 2023",
     "anchor": "start"
   },
   "width": 300,
