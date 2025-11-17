@@ -3,11 +3,7 @@
   "title": {
     "text": "Renewables Output in Indonesia",
     "anchor": "start",
-    "subtitle": "IEA via ECO-API",
-    "fontSize": 14,
-    "subtitleFontSize": 12,
-    "color": "#000000",
-    "subtitleColor": "#000000"
+    "subtitle": "IEA via ECO-API"
   },
   "height": 200,
   "width": 300,
@@ -21,11 +17,11 @@
   "transform": [{"calculate": "datum['value']/1000", "as": "output"}],
   "layer": [
     {
-      "mark": {"type": "line", "color": "#3965ea", "strokeWidth": 2}
+      "mark": {"type": "line", "strokeWidth": 2}
     },
     {
       "transform": [{"filter": {"param": "hover", "empty": false}}],
-      "mark": {"type": "point", "size": 100, "filled": true, "color": "#3965ea"}
+      "mark": {"type": "point", "size": 100, "filled": true}
     },
     {
       "mark": "rule",
@@ -53,7 +49,7 @@
     "x": {
       "field": "date",
       "type": "temporal",
-      "axis": {"title": "", "titleColor": "#122B39", "grid": false}
+      "axis": {"title": "", "grid": false}
     },
     "y": {
       "field": "output",
@@ -61,7 +57,6 @@
       "scale": {"domain": [0, 70]},
       "axis": {
         "title": "GWh (Thousands)",
-        "titleColor": "#122B39",
         "grid": false
       }
     },
