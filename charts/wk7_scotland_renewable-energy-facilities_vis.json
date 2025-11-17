@@ -5,8 +5,8 @@
     "subtitle": "Major technologies by location and size, 2023",
     "anchor": "start"
   },
-  "width": 300,
-  "height": 400,
+  "width": 100,
+  "height": 250,
   "layer": [
     {
       "data": {
