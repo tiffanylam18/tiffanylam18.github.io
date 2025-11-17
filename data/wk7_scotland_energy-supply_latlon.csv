@@ -1,0 +1,824 @@
+Name,PrimaryTechnology,StatusDetail,x_Coordinate,y_Coordinate,Status,SizeCategory,longitude,latitude
+North Clyde Recycling Centre (resubmission),Anaerobic Digestion,Awaiting Construction,250389.0,669199.0,In development,Large (1MW+),-4.393966032912421,55.89260051509423
+Morayhill AD,Anaerobic Digestion,Operational,274982.0,849481.0,Operational,Large (1MW+),-4.08886278057437,57.51816479675825
+Glenfiddich Distillery AD (Extension),Anaerobic Digestion,Awaiting Construction,332714.0,841065.0,In development,Large (1MW+),-3.1229922886186863,57.45485473348687
+Inchdairnie,Anaerobic Digestion,Operational,324885.0,699061.0,Operational,Large (1MW+),-3.2115486116566374,56.17823694294421
+Glenfiddich Distillery,Anaerobic Digestion,Operational,332714.0,841065.0,Operational,Large (1MW+),-3.1229922886186863,57.45485473348687
+Energen biogas cumbernauld,Anaerobic Digestion,Operational,277889.0,676918.0,Operational,Large (1MW+),-3.9580393622234555,55.96967661346297
+Binn Farm AD (extension),Anaerobic Digestion,Operational,317439.0,713725.0,Operational,Large (1MW+),-3.336032479968896,56.30871291621955
+Glasgow Renewable Energy and Recycling Centre (Waste AD),Anaerobic Digestion,Operational,259509.0,662366.0,Operational,Large (1MW+),-4.244718247989616,55.83400361615001
+Millerhill AD (Waste AD),Anaerobic Digestion,Operational,332400.0,670800.0,Operational,Large (1MW+),-3.0833837584657617,55.92549887248525
+Barkip Anaerobic Digestor (Waste AD),Anaerobic Digestion,Operational,229333.0,650530.0,Operational,Large (1MW+),-4.7185519952828985,55.718049120590834
+GlaxoSmithKline (Waste AD),Anaerobic Digestion,Operational,234362.0,636566.0,Operational,Large (1MW+),-4.630164520147719,55.59446020528091
+West Roucan Farm,Anaerobic Digestion,Operational,302227.0,578926.0,Operational,Large (1MW+),-3.533631936355733,55.09509297026411
+Pure Malt Products AD,Anaerobic Digestion,Operational,351977.0,674000.0,Operational,Large (1MW+),-2.77070179738356,55.9566049423724
+Lochhead Landfill CHP,Anaerobic Digestion,Operational,308683.0,690319.0,Operational,Large (1MW+),-3.4694397391227176,56.096889510492474
+Deerdykes Composting and Organics Recycling Facility (Waste AD),Anaerobic Digestion,Operational,277924.0,676998.0,Operational,Large (1MW+),-3.957515260136497,55.970403868245
+Cumbernauld BioPlant  (Waste AD),Anaerobic Digestion,Operational,277924.0,676998.0,Operational,Large (1MW+),-3.957515260136497,55.970403868245
+Gleneagles Hotel Biomass Boiler Plant Room,Biomass,Application Submitted,291629.0,711481.0,In development,Large (1MW+),-3.7520802658906556,56.28336084037628
+Acharn Forest Killin Biomass Plant,Biomass,Operational,256236.0,731409.0,Operational,Large (1MW+),-4.3342184435330875,56.452841315044154
+Liberty Steel Dalzell,Biomass,Operational,275801.0,656790.0,Operational,Large (1MW+),-3.9822356422856497,55.78840472902545
+Markinch Biomass CHP Plant,Biomass,Operational,327988.0,701561.0,Operational,Large (1MW+),-3.162256491531237,56.20117288824528
+Harbour Road,Biomass,Operational,230930.0,631425.0,Operational,Large (1MW+),-4.681413882854169,55.54713847656456
+Rothes Bio-Plant,Biomass,Operational,327767.0,849116.0,Operational,Large (1MW+),-3.2077998330644784,57.526396028774464
+Sustainable Power and Research Campus,Biomass,Operational,345036.0,719505.0,Operational,Large (1MW+),-2.8912704452060303,56.364643091904284
+Speyside Biomass CHP Plant,Biomass,Operational,327641.0,845585.0,Operational,Large (1MW+),-3.2088541483955852,57.494665966271924
+Pulteney Distillery,Biomass,Operational,336714.0,950114.0,Operational,Large (1MW+),-3.0855369335741423,58.43472412755567
+Diageo Biomass Energy Project,Biomass,Operational,334567.0,700177.0,Operational,Large (1MW+),-3.0558994914739808,56.18969181851574
+Stevens Croft,Biomass,Operational,312100.0,585100.0,Operational,Large (1MW+),-3.3808888930290864,55.152405546541836
+Macphie of Glenbervie,Biomass,Operational,376500.0,780500.0,Operational,Large (1MW+),-2.387587690221066,56.91520551171191
+Caledonian Papermill,Biomass,Operational,233710.0,634940.0,Operational,Large (1MW+),-4.639518865411924,55.57964365767688
+Westfield Biomass Power Station,Biomass,Operational,319000.0,695100.0,Operational,Large (1MW+),-3.3051092878614456,56.14169434608904
+Invergordon Pellet Mill,Biomass,Operational,271390.0,870450.0,Operational,Large (1MW+),-4.159927084162005,57.705376022690885
+Cowie Biomass Facility,Biomass,Operational,284085.0,688685.0,Operational,Large (1MW+),-3.863913688402545,56.076879349074865
+Binn Farm,Energy From Waste,Awaiting Construction,316911.0,713003.0,In development,Large (1MW+),-3.344336036141277,56.3021358159126
+Thainstone Energy Park Project ERF,Energy From Waste,Application Submitted,378061.0,818551.0,In development,Large (1MW+),-2.3652957942562938,57.25709022175002
+South Clyde Energy Centre,Energy From Waste,Awaiting Construction,252615.0,665698.0,In development,Large (1MW+),-4.356499342123355,55.86185840500645
+Levenseat Waste Management Facility,Energy From Waste,Awaiting Construction,293881.0,657597.0,In development,Large (1MW+),-3.6943721785701116,55.799962824745066
+Killoch Depot,Energy From Waste,Awaiting Construction,248650.0,620732.0,In development,Large (1MW+),-4.394999293387323,55.45696616936455
+Pond Green Energy Park,Energy From Waste,Awaiting Construction,296452.0,667203.0,In development,Large (1MW+),-3.6570471113345295,55.886792767274585
+Binn Eco Park,Energy From Waste,Awaiting Construction,317233.0,713295.0,In development,Large (1MW+),-3.3392258485032116,56.304814835770316
+Dunbar EfW (previously Oxwellmains EfW),Energy From Waste,Operational,371051.0,675563.0,Operational,Large (1MW+),-2.4654046462933916,55.97217892801312
+Glasgow Renewable Energy and Recycling Centre (ACT),Energy From Waste,Operational,259509.0,662366.0,Operational,Large (1MW+),-4.244718247989616,55.83400361615001
+Baldovie Industrial Estate (Forties Road),Energy From Waste,Under Construction,344564.0,732870.0,In development,Large (1MW+),-2.9017471529918932,56.48464432899035
+Coatbridge Material Recovery and Renewable Energy Facility,Energy From Waste,Under Construction,274352.0,662620.0,In development,Large (1MW+),-4.008019907837401,55.84037972254346
+Oldhall Industrial Estate,Energy From Waste,Awaiting Construction,233712.0,636561.0,In development,Large (1MW+),-4.6404644265961545,55.59419371550222
+East Tullos,Energy From Waste,Under Construction,395448.0,803990.0,In development,Large (1MW+),-2.0768295687724225,57.126796342002216
+Achnabreck,Energy From Waste,Awaiting Construction,192406.0,690450.0,In development,Large (1MW+),-5.33602537860179,56.061709900067214
+Charlesfield Biomass CHP Plant,Energy From Waste,Operational,358892.0,629839.0,Operational,Large (1MW+),-2.6532941878405194,55.560489607115564
+Millerhill EfW (resubmission),Energy From Waste,Operational,332352.0,670580.0,Operational,Large (1MW+),-3.0840965096780493,55.92351581296359
+CalaChem Fine Chemicals (Grangemouth),Energy From Waste,Under Construction,291830.0,681210.0,In development,Large (1MW+),-3.736526812513372,56.01156785286672
+Avondale Quarry (Pilot),Energy From Waste,Operational,295367.0,678750.0,Operational,Large (1MW+),-3.6788666492854243,55.990260668399884
+Levenseat EfW,Energy From Waste,Operational,294854.0,655234.0,Operational,Large (1MW+),-3.677945851090507,55.7789535647156
+Baldovie,Energy From Waste,Operational,344500.0,733100.0,Operational,Large (1MW+),-2.9028353826607023,56.486702816012404
+"Barr River, Loch Teacuis",Hydro,Awaiting Construction,161763.0,755977.0,In development,Large (1MW+),-5.886420614802787,56.63480398523702
+Allt Charnan,Hydro,Awaiting Construction,214370.0,748440.0,In development,Large (1MW+),-5.024718709816216,56.59100733462386
+Glen Etive Estate Phase I (Allt na Chaorainn),Hydro,Awaiting Construction,219630.0,751060.0,In development,Large (1MW+),-4.941014723441869,56.616565543885955
+Glen Etive Estate Phase II (Allt Mheuran),Hydro,Awaiting Construction,213510.0,746040.0,In development,Small to medium (>=45kW and <1MW),-5.03697337208003,56.56913568447013
+Cruachan,Hydro,Operational,208017.0,728674.0,Operational,Large (1MW+),-5.113429988478645,56.41113966057232
+Duror 2 Hydro Scheme,Hydro,Under Construction,200566.0,754831.0,In development,Small to medium (>=45kW and <1MW),-5.254064204061094,56.64266433876144
+Birkhall Estate,Hydro,Operational,334413.0,790888.0,Operational,Large (1MW+),-3.0814121392452267,57.004453355067106
+Loch Doon Dam Compensation Set,Hydro,Awaiting Construction,247750.0,601586.0,In development,Small to medium (>=45kW and <1MW),-4.398791044325491,55.28480264490118
+Allt Garaidh Ghualaich Hydro Scheme Powerhouse,Hydro,Under Construction,215625.0,798782.0,In development,Large (1MW+),-5.040714423319034,57.04311677743655
+Allt Easach Hydro,Hydro,Awaiting Construction,206993.0,739515.0,In development,Large (1MW+),-5.138018182586888,56.50797082891119
+Craig Farm,Hydro,Under Construction,216482.0,728103.0,In development,Small to medium (>=45kW and <1MW),-4.976035437904337,56.409382758895234
+Allt an t-Sidhein Hydro Scheme,Hydro,Under Construction,229697.0,797369.0,In development,Small to medium (>=45kW and <1MW),-4.808135626576918,57.035851542767816
+Garvie Burn,Hydro,Awaiting Construction,205457.0,690018.0,In development,Small to medium (>=45kW and <1MW),-5.126446453520973,56.063319450754086
+Glen Kinglass,Hydro,Under Construction,215301.0,737604.0,In development,Large (1MW+),-5.0018692814516275,56.49416089602759
+Blackwater Dam,Hydro,Awaiting Construction,224709.0,760249.0,In development,Small to medium (>=45kW and <1MW),-4.86461725003853,56.70094056810027
+Lochaber Hydro Development (Scheme 2),Hydro,Awaiting Construction,216991.0,775784.0,In development,Large (1MW+),-5.0015958451478,56.83734916469395
+Lochaber Hydro Development (Scheme 3),Hydro,Awaiting Construction,222504.0,775903.0,In development,Large (1MW+),-4.911441965189179,56.84055560992285
+Blackbarn Farm,Hydro,Awaiting Construction,231548.0,656890.0,In development,Large (1MW+),-4.687257725148079,55.775905461375025
+Allt Eilidh,Hydro,Under Construction,206669.0,752800.0,In development,Small to medium (>=45kW and <1MW),-5.153185497024569,56.62700623497871
+Gaineamhach Hydro Scheme Powerhouse (resubmission),Hydro,Awaiting Construction,181797.0,868972.0,In development,Large (1MW+),-5.659298658248862,57.65758149364937
+Allt na Moine,Hydro,Awaiting Construction,169268.0,854081.0,In development,Large (1MW+),-5.854619861327809,57.51788615091528
+Glen Noe River,Hydro,Under Construction,204878.0,734104.0,In development,Large (1MW+),-5.168276405282688,56.45856145303552
+Killail Farm,Hydro,Awaiting Construction,193443.0,684327.0,In development,Small to medium (>=45kW and <1MW),-5.31468399695342,56.007238861809356
+Luichart Power Station,Hydro,Awaiting Construction,239414.0,857013.0,In development,Large (1MW+),-4.686988894806996,57.57452617657178
+Coire Glas - Phase I,Hydro,Awaiting Construction,222889.0,795160.0,In development,Large (1MW+),-4.918610432374001,57.013469519046915
+Glenmuckloch,Hydro,Awaiting Construction,273301.0,612213.0,In development,Large (1MW+),-4.001590796310245,55.387471957004394
+Glasa Hydropower Cascade/Kildermorie Estate,Hydro,Awaiting Construction,252096.0,877941.0,In development,Large (1MW+),-4.487996032205047,57.766661661423164
+Coire Glas - Phase II,Hydro,Application Submitted,226693.0,796765.0,In development,Large (1MW+),-4.85715423402219,57.02931337367151
+Red John Pumped Storage,Hydro,Application Submitted,261478.0,833306.0,In development,Large (1MW+),-4.304960291235729,57.36905843158765
+Ghuilbinn Hydro Scheme,Hydro,Operational,243130.0,780340.0,Operational,Large (1MW+),-4.576457706221837,56.887799346752374
+Foyers,Hydro,Operational,249655.0,820941.0,Operational,Large (1MW+),-4.493816504610794,57.25434049353443
+Great Glen Scheme,Hydro,Operational,235700.0,815600.0,Operational,Large (1MW+),-4.721319232567947,57.20161552258608
+River Coiltie Hydro Scheme,Hydro,Operational,249251.0,827905.0,Operational,Large (1MW+),-4.504750894476911,57.316703769890424
+Bruach Caorainn Hydro Scheme,Hydro,Operational,241957.0,700895.0,Operational,Large (1MW+),-4.547338537518035,56.174401087257955
+Lochaber,Hydro,Operational,212621.0,775052.0,Operational,Large (1MW+),-5.072576857176358,56.829041197320755
+Kinlochleven Hydro Power Station,Hydro,Operational,218729.0,762021.0,Operational,Large (1MW+),-4.9633919128335275,56.714555808840764
+Loch Eilde Mor Hydro (Kinlochleven extension),Hydro,Operational,221625.0,763589.0,Operational,Large (1MW+),-4.917235098064304,56.729739416509645
+Grudie,Hydro,Operational,196459.0,867347.0,Operational,Large (1MW+),-5.4126729060250245,57.64987746114873
+Loch An Laoigh Hydro,Hydro,Operational,201607.0,839621.0,Operational,Large (1MW+),-5.303976567541042,57.40354490632834
+Uisge Dubh Hydro,Hydro,Operational,200062.0,836426.0,Operational,Large (1MW+),-5.32704397862986,57.3742171152975
+River Pattack (resubmission),Hydro,Operational,254876.0,783125.0,Operational,Large (1MW+),-4.385452653948731,56.91662210471568
+Ardtalnaig Hydro Scheme (resubmission),Hydro,Operational,268858.0,739100.0,Operational,Large (1MW+),-4.133465751659251,56.52556984533076
+Allt Garbh hydro,Hydro,Operational,218018.0,822389.0,Operational,Large (1MW+),-5.018547853774276,57.25583526731318
+Abhainn Gleann Nam Fiadh,Hydro,Operational,230807.0,769237.0,Operational,Large (1MW+),-4.771089210348423,56.783840071476384
+River Taodail Hydro,Hydro,Operational,194657.0,842146.0,Operational,Large (1MW+),-5.42154377873838,57.423100587293156
+Nevis Range,Hydro,Operational,220471.0,776708.0,Operational,Large (1MW+),-4.9452882569642655,56.84699656957931
+Derrydarroch,Hydro,Operational,212176.0,775418.0,Operational,Large (1MW+),-5.080127885220517,56.83214480598784
+Allt Ladaidh Hydro,Hydro,Operational,222875.0,800386.0,Operational,Large (1MW+),-4.922522985258643,57.06034889564918
+Chaorach Hydro,Hydro,Operational,246250.0,725250.0,Operational,Large (1MW+),-4.492454382683568,56.39440947089865
+Ceannacroc,Hydro,Operational,222790.0,811296.0,Operational,Large (1MW+),-4.931650168870289,57.1581936467054
+Badachro hydro scheme - resubmission,Hydro,Operational,179040.0,871370.0,Operational,Large (1MW+),-5.707599784712529,57.67773191742337
+Leacann Hydro,Hydro,Operational,202172.0,702341.0,Operational,Large (1MW+),-5.188260207652886,56.1725168052034
+Langwell Estate hydro scheme,Hydro,Operational,218915.0,901914.0,Operational,Large (1MW+),-5.063194082654989,57.96950822644092
+Garbhaig Hydro Scheme,Hydro,Operational,190263.0,871166.0,Operational,Large (1MW+),-5.519606530982084,57.68127396875662
+Beinn Eagagach Hydro,Hydro,Operational,288377.0,751719.0,Operational,Large (1MW+),-3.821806231137127,56.64392058745947
+Ben Glas,Hydro,Operational,232100.0,718600.0,Operational,Large (1MW+),-4.717160990527656,56.32991658013018
+Donich Water Hydro,Hydro,Operational,221500.0,701500.0,Operational,Large (1MW+),-4.876822461640962,56.172604648814996
+River Lochy Hydro,Hydro,Operational,219760.0,727460.0,Operational,Large (1MW+),-4.922542781067637,56.404876217011804
+Cia Aig Hydro,Hydro,Operational,217196.0,788748.0,Operational,Large (1MW+),-5.007581895961942,56.95372965879915
+Allt Cheanna Mhuir Hydro,Hydro,Operational,210472.0,791397.0,Operational,Large (1MW+),-5.119953922649293,56.97478552453225
+Bruar Hydro Scheme,Hydro,Operational,282340.0,772772.0,Operational,Large (1MW+),-3.9298566816451266,56.83146482490979
+Dalchonzie,Hydro,Operational,274035.0,721990.0,Operational,Large (1MW+),-4.041113736023112,56.37336911995472
+Eas a Ghaill,Hydro,Operational,219607.0,727417.0,Operational,Large (1MW+),-4.924988985561967,56.404431998837325
+Glen Fyne 'Merk' Hydro,Hydro,Operational,209952.0,709286.0,Operational,Large (1MW+),-5.068120796766639,56.2379902580839
+Ederline Hydro,Hydro,Operational,192775.0,703372.0,Operational,Large (1MW+),-5.340149977534921,56.17777006942345
+Inver Hydro,Hydro,Operational,144165.0,671452.0,Operational,Large (1MW+),-6.090823787937028,55.86810953952371
+Allt Fionn - resubmission,Hydro,Operational,233200.0,720700.0,Operational,Large (1MW+),-4.700724484632244,56.34915075885454
+Black Rock,Hydro,Operational,259900.0,866800.0,Operational,Large (1MW+),-4.350443747422831,57.66918259898186
+Innerwick Hydro,Hydro,Operational,258577.0,747751.0,Operational,Large (1MW+),-4.305167349506713,56.60024415531473
+Keltneyburn Hydro,Hydro,Operational,277190.0,748690.0,Operational,Large (1MW+),-4.002664819449324,56.61392268069066
+Innerhadden Burn Hydro,Hydro,Operational,265950.0,750850.0,Operational,Large (1MW+),-4.186783826469302,56.63023129189484
+Turret water treatment works,Hydro,Operational,286500.0,721600.0,Operational,Large (1MW+),-3.8392468728102775,56.37302462826255
+Striven,Hydro,Operational,205595.0,683990.0,Operational,Large (1MW+),-5.119862801822757,56.00929737254203
+Glendoe Hydro Scheme,Hydro,Operational,239200.0,809000.0,Operational,Large (1MW+),-4.659195713569493,57.14363380183372
+Cassley,Hydro,Operational,247325.0,901540.0,Operational,Large (1MW+),-4.583251199291278,57.976812749513584
+Cashlie,Hydro,Operational,248530.0,741735.0,Operational,Large (1MW+),-4.465132001076751,56.54310913252885
+Achanalt,Hydro,Operational,225895.0,861615.0,Operational,Large (1MW+),-4.916037499910298,57.61080199084989
+Gaur,Hydro,Operational,246415.0,756890.0,Operational,Large (1MW+),-4.508503258816342,56.678438524934315
+Pitlochry,Hydro,Operational,293515.0,757730.0,Operational,Large (1MW+),-3.7405561413258166,56.69909415072742
+Ceannacroc,Hydro,Operational,222745.0,810690.0,Operational,Large (1MW+),-4.931962488592028,57.15273971242871
+Foyers Falls,Hydro,Operational,249845.0,820010.0,Operational,Large (1MW+),-4.490106432516556,57.246047848369976
+Invergarry,Hydro,Operational,231930.0,801320.0,Operational,Large (1MW+),-4.774031117736137,57.07212146791806
+Livishie,Hydro,Operational,240245.0,817495.0,Operational,Large (1MW+),-4.647396516857223,57.220227484361075
+Lednock,Hydro,Operational,276730.0,722040.0,Operational,Large (1MW+),-3.9975326641917914,56.3745286197161
+Lubreoch,Hydro,Operational,245310.0,741720.0,Operational,Large (1MW+),-4.517436739876252,56.54192484952072
+Loch Ericht,Hydro,Operational,255340.0,772785.0,Operational,Large (1MW+),-4.371951978747086,56.823958894184464
+Mucomir,Hydro,Operational,218350.0,783900.0,Operational,Large (1MW+),-4.985156101944071,56.91069285236653
+Lairg,Hydro,Operational,257505.0,906940.0,Operational,Large (1MW+),-4.414563128709155,58.028650557890494
+Cuaich,Hydro,Operational,265640.0,787175.0,Operational,Large (1MW+),-4.210947863221215,56.95622599882808
+Loch Gair,Hydro,Operational,192865.0,691305.0,Operational,Large (1MW+),-5.329328557355371,56.06957762313503
+Sron Mor,Hydro,Operational,264850.0,798415.0,Operational,Large (1MW+),-4.22995971571985,57.0568902061315
+Aigas,Hydro,Operational,247395.0,843655.0,Operational,Large (1MW+),-4.545317732246529,57.45742437546318
+Kilmorack,Hydro,Operational,249410.0,844225.0,Operational,Large (1MW+),-4.512119465844662,57.46321281594347
+Orrin,Hydro,Operational,246905.0,851695.0,Operational,Large (1MW+),-4.558521075782808,57.529406382833066
+Tor Achilty,Hydro,Operational,244625.0,854520.0,Operational,Large (1MW+),-4.598360066400613,57.55397868146806
+Kilmelfort,Hydro,Operational,184035.0,714385.0,Operational,Large (1MW+),-5.4896474083678815,56.27264904778761
+Lussa,Hydro,Operational,164170.0,688680.0,Operational,Large (1MW+),-5.786951553996952,56.032762863884955
+Mullardoch Tunnel,Hydro,Operational,222860.0,831415.0,Operational,Large (1MW+),-4.944868682213463,57.33870778136927
+Black Dog,Landfill Gas,Operational,396450.0,814422.0,Operational,Large (1MW+),-2.0604305560535097,57.22051573123795
+Dunbar Power Plant,Landfill Gas,Operational,371365.0,675845.0,Operational,Large (1MW+),-2.4604041903929663,55.97473144338823
+Dunbar,Landfill Gas,Operational,371600.0,675600.0,Operational,Large (1MW+),-2.4566130241081745,55.97254431010977
+Lower Melville Wood,Landfill Gas,Operational,330000.0,711700.0,Operational,Large (1MW+),-3.1325203057530455,56.29254727563358
+Greengairs Landfill Scheme Phase III,Landfill Gas,Operational,278500.0,669700.0,Operational,Large (1MW+),-3.9450030287525557,55.90501818917732
+Greengairs Landfill Scheme Phase IV,Landfill Gas,Operational,278500.0,669700.0,Operational,Large (1MW+),-3.9450030287525557,55.90501818917732
+Greengairs Landfill Scheme Phase I,Landfill Gas,Operational,278500.0,659700.0,Operational,Large (1MW+),-3.9405186464217836,55.815222199722996
+Greengairs Landfill Scheme Phase II,Landfill Gas,Operational,278500.0,669700.0,Operational,Large (1MW+),-3.9450030287525557,55.90501818917732
+Summerston Landfill,Landfill Gas,Operational,258000.0,671700.0,Operational,Large (1MW+),-4.273684841994399,55.917359323677
+Lochhead,Landfill Gas,Operational,308500.0,690500.0,Operational,Large (1MW+),-3.47244227078726,56.098480107343306
+South Cathkin Landfill Site,Landfill Gas,Operational,262500.0,657500.0,Operational,Large (1MW+),-4.194541251525753,55.79117731976317
+Garlaff Landfill (Extension),Landfill Gas,Operational,254300.0,617500.0,Operational,Large (1MW+),-4.304041702384108,55.429664180539966
+Garlaff Landfill,Landfill Gas,Operational,254300.0,617500.0,Operational,Large (1MW+),-4.304041702384108,55.429664180539966
+Binn Landfill,Landfill Gas,Operational,317600.0,713900.0,Operational,Large (1MW+),-3.3334858227113116,56.31031275267219
+Tarbothill Landfill Site,Landfill Gas,Operational,395600.0,813500.0,Operational,Large (1MW+),-2.074489176581128,57.21222588847625
+Avondale,Landfill Gas,Operational,278500.0,669700.0,Operational,Large (1MW+),-3.9450030287525557,55.90501818917732
+Oatslie Landfill Gas,Landfill Gas,Operational,327200.0,663100.0,Operational,Large (1MW+),-3.164504350819437,55.855570296058914
+Auchencarroch Landfill,Landfill Gas,Operational,242100.0,681100.0,Operational,Large (1MW+),-4.5333402742884825,55.99677589983151
+Auchinlea Landfill Site,Landfill Gas,Operational,281000.0,659000.0,Operational,Large (1MW+),-3.900341192291688,55.80955912688447
+Barkip Landfill Site,Landfill Gas,Operational,229333.0,650530.0,Operational,Large (1MW+),-4.7185519952828985,55.718049120590834
+Greenoakhill,Landfill Gas,Operational,266600.0,662700.0,Operational,Large (1MW+),-4.1317548308719045,55.83901581780426
+Greengairs Landfill Scheme Phase VI,Landfill Gas,Operational,278500.0,669700.0,Operational,Large (1MW+),-3.9450030287525557,55.90501818917732
+Greengairs Landfill Scheme Phase V,Landfill Gas,Operational,278500.0,669700.0,Operational,Large (1MW+),-3.9450030287525557,55.90501818917732
+Dunlop Landfill Gas Scheme,Landfill Gas,Operational,244600.0,651500.0,Operational,Large (1MW+),-4.476325433595373,55.731893215263234
+Kaimes Landfill Site,Landfill Gas,Operational,312800.0,666500.0,Operational,Large (1MW+),-3.3955547937196386,55.883718004443445
+Stracathro Hospital Solar,Photovoltaic,Awaiting Construction,362591.0,764986.0,In development,Small to medium (>=45kW and <1MW),-2.6137270167747713,56.7749297121299
+Cupar Wastewater Treatment Works Solar Farm,Photovoltaic,Awaiting Construction,338752.0,714907.0,In development,Small to medium (>=45kW and <1MW),-2.991896052871482,56.32256725377263
+East Ballochy (Resubmission),Photovoltaic,Awaiting Construction,367035.0,761826.0,In development,Large (1MW+),-2.540607164983397,56.746879712917355
+Perth Wastewater Treatment Works (Extension),Photovoltaic,Awaiting Construction,314371.0,722017.0,In development,Small to medium (>=45kW and <1MW),-3.3883074621286706,56.38264267659393
+City of Edinburgh Council Buildings,Photovoltaic,Awaiting Construction,326167.0,673824.0,In development,Small to medium (>=45kW and <1MW),-3.1839336256403024,55.951744945528446
+Land North of Balbeggie Avenue,Photovoltaic,Awaiting Construction,328587.0,696532.0,In development,Large (1MW+),-3.1512514409598613,56.156090066641056
+Finmont Service Reservoir,Photovoltaic,Operational,323203.0,699536.0,Operational,Small to medium (>=45kW and <1MW),-3.238772264308949,56.18223533606136
+Perth Wastewater Treatment Works,Photovoltaic,Awaiting Construction,314552.0,722067.0,In development,Small to medium (>=45kW and <1MW),-3.385393583900988,56.383124530805965
+Easter Bush,Photovoltaic,Under Construction,325277.0,664574.0,In development,Large (1MW+),-3.1956213004432232,55.86851668670801
+Tesco Extra Dumfries,Photovoltaic,Awaiting Construction,296221.0,576844.0,In development,Small to medium (>=45kW and <1MW),-3.626944844904259,55.07517097994162
+Tesco Superstore Annan,Photovoltaic,Awaiting Construction,320134.0,566340.0,In development,Small to medium (>=45kW and <1MW),-3.249593166329221,54.9852316340121
+Hutchesons Grammar School,Photovoltaic,Awaiting Construction,257194.0,662717.0,In development,Small to medium (>=45kW and <1MW),-4.281832561967065,55.836474878644914
+Carey Solar Farm,Photovoltaic,Awaiting Construction,317354.0,716778.0,In development,Large (1MW+),-3.33836514426353,56.33611917918843
+Milltown Airfield (Speyslaw),Photovoltaic,Awaiting Construction,326418.0,865499.0,In development,Large (1MW+),-3.2352981787373807,57.67330160233317
+Speyslaw Solar Farm,Photovoltaic,Awaiting Construction,328565.0,866472.0,In development,Large (1MW+),-3.199600592152028,57.68238562151257
+Cordon Farm,Photovoltaic,Awaiting Construction,318335.0,717885.0,In development,Large (1MW+),-3.322846932889932,56.346232302419956
+Iron Mountain Building,Photovoltaic,Awaiting Construction,305189.0,670062.0,In development,Small to medium (>=45kW and <1MW),-3.5184274839710428,55.914271451669784
+Iron Mountain Howe Moss Drive,Photovoltaic,Awaiting Construction,386724.0,812305.0,In development,Small to medium (>=45kW and <1MW),-2.221367420043083,57.20131898233841
+Montreathmont Moor Forest,Photovoltaic,Awaiting Construction,357573.0,753072.0,In development,Large (1MW+),-2.69385212318966,56.66747584051358
+Field 730M West Of Queen Street,Photovoltaic,Awaiting Construction,349552.0,754769.0,In development,Large (1MW+),-2.8250404461825465,56.68192121599973
+Bilbo Solar Farm,Photovoltaic,Under Construction,405327.0,855492.0,In development,Large (1MW+),-1.9125627575202808,57.58941839168694
+South of Greenwellheads,Photovoltaic,Awaiting Construction,406370.0,854550.0,In development,Large (1MW+),-1.895141476769308,57.58094387368039
+Berryhill Farm Solar Array,Photovoltaic,Awaiting Construction,273164.0,679927.0,In development,Large (1MW+),-4.03510929826194,55.995468843776564
+Glenhead Farm Lower Solar Array,Photovoltaic,Awaiting Construction,274229.0,678358.0,In development,Large (1MW+),-4.017312577725396,55.98166120067684
+Glenhead Farm (Upper),Photovoltaic,Awaiting Construction,273746.0,680043.0,In development,Large (1MW+),-4.0258394241968345,55.996664011675335
+Carsebank Farm,Photovoltaic,Awaiting Construction,348194.0,754403.0,In development,Large (1MW+),-2.8471292526823855,56.67848470275678
+Aviva Headquarters,Photovoltaic,Under Construction,309819.0,722214.0,In development,Large (1MW+),-3.4620652155070175,56.38356495252381
+Eden Campus,Photovoltaic,Awaiting Construction,345120.0,719601.0,In development,Large (1MW+),-2.889931077577013,56.3655152366877
+Inverness Royal Academy,Photovoltaic,Awaiting Construction,266626.0,842081.0,In development,Small to medium (>=45kW and <1MW),-4.2242073604392365,57.449359063667046
+Howden Farm,Photovoltaic,Awaiting Construction,349610.0,667181.0,In development,Small to medium (>=45kW and <1MW),-2.8073321546137326,55.89510140272065
+Claylands Road,Photovoltaic,Awaiting Construction,312064.0,671748.0,In development,Small to medium (>=45kW and <1MW),-3.409024952609341,55.9307217066479
+Patrickston Farm,Photovoltaic,Awaiting Construction,269179.0,695851.0,In development,Large (1MW+),-4.106738493513968,56.13737154268135
+Banbeath Industrial Estate,Photovoltaic,Awaiting Construction,337110.0,701484.0,In development,Small to medium (>=45kW and <1MW),-3.0152425131153677,56.201775656092885
+St Margarets Bay,Photovoltaic,Operational,312275.0,681623.0,Operational,Small to medium (>=45kW and <1MW),-3.408871419955953,56.0194575669253
+Alness Academy,Photovoltaic,Under Construction,265884.0,869312.0,In development,Small to medium (>=45kW and <1MW),-4.251610957108441,57.6935522939447
+Lochaber High School (Resubmission),Photovoltaic,Operational,212357.0,775929.0,Operational,Small to medium (>=45kW and <1MW),-5.077542530194387,56.83680184114099
+Invergordon Academy,Photovoltaic,Operational,270904.0,869074.0,Operational,Small to medium (>=45kW and <1MW),-4.167337952529053,57.69288589101272
+Parkhill Solar Farm,Photovoltaic,Operational,364125.0,745917.0,Operational,Large (1MW+),-2.585959317102569,56.603750522196584
+Kilgallioch Windfarm (Extension - Solar),Photovoltaic,Application Submitted,225000.0,570000.0,In development,Large (1MW+),-4.737082173095494,54.99374461081812
+Dunfermline EDI4,Photovoltaic,Awaiting Construction,313506.0,686540.0,In development,Large (1MW+),-3.3907181131901973,56.06384583949465
+Glaxosmithkline Shewalton Road,Photovoltaic,Awaiting Construction,234491.0,636772.0,In development,Large (1MW+),-4.628243433891403,55.596353064784694
+Lochhead Steading Concrete Block Manufacturing Plant,Photovoltaic,Awaiting Construction,347503.0,750941.0,In development,Small to medium (>=45kW and <1MW),-2.857698881866445,56.64730969493505
+Sheirdrim Renewable Energy Development - Solar,Photovoltaic,Application Submitted,181450.0,657720.0,In development,Large (1MW+),-5.485175845002953,55.76331207327404
+West Grange Solar Farm (Resubmission),Photovoltaic,Awaiting Construction,298345.0,689835.0,In development,Large (1MW+),-3.6353574597466505,56.09045388588818
+Henry Colbeck Office,Photovoltaic,Operational,274033.0,664118.0,Operational,Small to medium (>=45kW and <1MW),-4.013806304016434,55.853747464428764
+Skelmonae Farm,Photovoltaic,Awaiting Construction,388690.0,839555.0,In development,Large (1MW+),-2.190090440305663,57.446150220301405
+Bruxiehall Farm,Photovoltaic,Under Construction,408820.0,851140.0,In development,Large (1MW+),-1.8542931004296552,57.550273318149934
+Ballochmartin,Photovoltaic,Awaiting Construction,216964.0,656725.0,In development,Large (1MW+),-4.919339460371836,55.769125645985724
+Hill of Blairfowl Solar Farm,Photovoltaic,Awaiting Construction,379540.0,837700.0,In development,Large (1MW+),-2.3423793160517925,57.42916533148373
+Balhearty Solar,Photovoltaic,Operational,293723.0,695800.0,Operational,Large (1MW+),-3.7119826141266192,56.14301575869225
+Middle Balbeggie,Photovoltaic,Operational,328855.0,695619.0,Operational,Large (1MW+),-3.146693647031708,56.14792934102327
+Pressock Farm,Photovoltaic,Operational,356893.0,749462.0,Operational,Large (1MW+),-2.7043406339123384,56.63498473619651
+West Strathore Solar Limited,Photovoltaic,Operational,328619.0,697504.0,Operational,Large (1MW+),-3.1509975341413052,56.16482567941895
+New Mains Of Guynd Farm,Photovoltaic,Operational,356528.0,742680.0,Operational,Large (1MW+),-2.7091487654912627,56.57402765562961
+Wormit Solar Farm,Photovoltaic,Operational,340703.0,725248.0,Operational,Large (1MW+),-2.9626960686870385,56.415707288938904
+House O’Hill Solar Farm,Photovoltaic,Operational,397540.0,859050.0,Operational,Large (1MW+),-2.0428490750832307,57.62139990721338
+Errol Estate,Photovoltaic,Operational,321208.0,720222.0,Operational,Large (1MW+),-3.277080457321673,56.367710331484815
+Cairnmore Solar Park,Photovoltaic,Operational,350267.0,824528.0,Operational,Large (1MW+),-2.8271571345553217,57.308591278201554
+Cairnmore Solar Park (extension),Photovoltaic,Operational,350467.0,824466.0,Operational,Large (1MW+),-2.8238253150550325,57.3080561867242
+Cairnhill Farm solar park,Photovoltaic,Operational,377824.0,852312.0,Operational,Large (1MW+),-2.372289455533158,57.560334336758736
+Aldi Distribution Centre,Photovoltaic,Operational,296982.0,666291.0,Operational,Large (1MW+),-3.648231268095948,55.87871592123388
+Mackies Dairy PV,Photovoltaic,Operational,376700.0,832011.0,Operational,Large (1MW+),-2.3891308768592086,57.377927075171534
+Mull of Kintyre,Tidal Stream,Awaiting Construction,157228.0,603340.0,In development,Large (1MW+),-5.822712686658888,55.264255077102675
+Sound of Islay,Tidal Stream,Awaiting Construction,143843.0,667672.0,In development,Large (1MW+),-6.092387589720872,55.83406304047826
+Inner Sound Phase 1B/1C (MeyGen),Tidal Stream,Awaiting Construction,335503.0,984335.0,In development,Large (1MW+),-3.116015116234937,58.741829377362066
+Shetland Tidal Array,Tidal Stream,Operational,440389.0,1183121.0,Operational,Small to medium (>=45kW and <1MW),-1.265955122496672,60.529669576725276
+Shetland Tidal Array (extension),Tidal Stream,Awaiting Construction,440389.0,1183121.0,In development,Large (1MW+),-1.265955122496672,60.529669576725276
+West Islay Tidal Array,Tidal Stream,Awaiting Construction,116500.0,652500.0,In development,Large (1MW+),-6.511845415427638,55.68289330156784
+Magallanes (FoW - EMEC),Tidal Stream,Operational,354000.0,1028400.0,Operational,Large (1MW+),-2.805666436689013,59.139890557105254
+SR-2000 (FoW - EMEC),Tidal Stream,Operational,354000.0,1028400.0,Operational,Large (1MW+),-2.805666436689013,59.139890557105254
+Brims Tidal Array (Cantick Head),Tidal Stream,Application Submitted,328689.0,986676.0,In development,Large (1MW+),-3.234453373515833,58.76177522890242
+Inner Sound Phase 1A (MeyGen),Tidal Stream,Operational,335503.0,984335.0,Operational,Large (1MW+),-3.116015116234937,58.741829377362066
+Dundee Technology Park,Other,Awaiting Construction,335237.0,731592.0,In development,Large (1MW+),-3.052848735695076,56.4719728328055
+Learielaw Farm,Other,Awaiting Construction,308286.0,670876.0,In development,Large (1MW+),-3.46917487018259,55.922183756100225
+Blackpark Energy Storage (Resubmission),Other,Awaiting Construction,289892.0,855084.0,In development,Large (1MW+),-3.8426317595617068,57.5723410627231
+Troston Loch Wind Farm,Other,Awaiting Construction,268466.0,590107.0,In development,Large (1MW+),-4.067511457054663,55.187691683743495
+"Torrdhuin, Auchteraw Battery Storage Facility",Other,Application Submitted,234761.0,807618.0,In development,Large (1MW+),-4.731551182792826,57.129657392432854
+"Platchaig House, Kilmorack - Battery Storage Facility",Other,Application Submitted,249707.0,844935.0,In development,Unknown,-4.507610277523341,57.469682802249004
+East Ballochy,Other,Awaiting Construction,367035.0,761826.0,In development,Large (1MW+),-2.540607164983397,56.746879712917355
+Perth Wastewater Treatment Works (Extension),Other,Awaiting Construction,314371.0,722017.0,In development,Unknown,-3.3883074621286706,56.38264267659393
+Drumcross Battery Storage,Other,Awaiting Construction,305280.0,667171.0,In development,Large (1MW+),-3.515958513269175,55.88832335953251
+Fell Wind Farm Battery,Other,Application Submitted,272679.0,583776.0,In development,Unknown,-3.998539262156924,55.13194089266812
+Cornharrow Wind Farm Battery,Other,Application Submitted,266701.0,592862.0,In development,Unknown,-4.096513006858265,55.21195787671023
+Tormywheel Wind Farm,Other,Awaiting Construction,295290.0,658102.0,In development,Large (1MW+),-3.6721018433074297,55.80480578769601
+Land SW of Shilton Cottage,Other,Awaiting Construction,243794.0,671266.0,In development,Large (1MW+),-4.500508334960328,55.909059387067465
+Aikengall II Community Wind Farm Battery,Other,Awaiting Construction,367967.0,668389.0,In development,Large (1MW+),-2.51395955811875,55.90752986692254
+Land To The East Of Wholeflats Road (Grangemouth),Other,Awaiting Construction,293973.0,679925.0,In development,Large (1MW+),-3.701664946864977,56.0005068014622
+Bilbo Solar Farm Energy Storage,Other,Under Construction,405327.0,855492.0,In development,Large (1MW+),-1.9125627575202808,57.58941839168694
+Whitelaw Brae Wind farm,Other,Awaiting Construction,306039.0,621476.0,In development,Large (1MW+),-3.488155285008589,55.478042253877476
+STOR Field 9,Other,Awaiting Construction,313196.0,683767.0,In development,Large (1MW+),-3.3947963304490694,56.03888272488217
+Berfern Farm,Other,Awaiting Construction,220467.0,671157.0,In development,Large (1MW+),-4.873118753227984,55.89994511072164
+Drumfad Wood,Other,Awaiting Construction,231381.0,684279.0,In development,Large (1MW+),-4.706994331607637,56.02165685125015
+Shindour Feddal Hill Wood Braco,Other,Awaiting Construction,281015.0,709090.0,In development,Large (1MW+),-3.922342707298447,56.25934749131853
+Orchardbank Industrial Estate,Other,Awaiting Construction,344086.0,750088.0,In development,Large (1MW+),-2.913227489847102,56.639251305342
+Ardoch Farm,Other,Awaiting Construction,231148.0,644103.0,In development,Large (1MW+),-4.685733242956817,55.66100208342738
+Shaws Farm,Other,Awaiting Construction,277378.0,649453.0,In development,Large (1MW+),-3.9538009856895493,55.72292360875812
+Dunsinane Industrial Estate,Other,Awaiting Construction,337745.0,732482.0,In development,Large (1MW+),-3.012359563023096,56.48030557031686
+Fordtown Energy Storage (Resubmission),Other,Awaiting Construction,377990.0,814576.0,In development,Large (1MW+),-2.3661190069067377,57.22137996892875
+Roaring Hill (Resubmission),Other,Awaiting Construction,325451.0,702300.0,In development,Large (1MW+),-3.2033442317595693,56.20741990901536
+Harestanes Windfarm,Other,Awaiting Construction,300958.0,597760.0,In development,Large (1MW+),-3.5601039079614716,55.26401800431903
+Arecleoch Wind Farm (extension),Other,Application Submitted,221500.0,578500.0,In development,Large (1MW+),-4.79703350625549,55.06879198585084
+Greenburn Wind Park,Other,Application Submitted,256423.0,614614.0,In development,Large (1MW+),-4.269035716694858,55.40437971838528
+Land North of Thornton Road,Other,Awaiting Construction,329101.0,695410.0,In development,Large (1MW+),-3.1426793994518167,56.146088734427366
+Whitelee Wind Farm Battery Storage Extension,Other,Awaiting Construction,263618.0,646810.0,In development,Large (1MW+),-4.171384659090954,55.69551381070194
+Jamesfield Organic Centre,Other,Awaiting Construction,320261.0,717467.0,In development,Large (1MW+),-3.291568824274995,56.34280655719748
+Clauchrie Windfarm Battery,Other,Application Submitted,229552.0,588722.0,In development,Large (1MW+),-4.677222960165071,55.16337570618527
+Hagshaw Hill,Other,Awaiting Construction,282089.0,631116.0,In development,Large (1MW+),-3.870976688803297,55.55942280697608
+Tarland Substation,Other,Awaiting Construction,352561.0,807158.0,In development,Unknown,-2.78575912833273,57.152818530964595
+Pleasance Road,Other,Awaiting Construction,321821.0,739152.0,In development,Large (1MW+),-3.272834847570136,56.53783630738949
+Fraserburgh Development,Other,Awaiting Construction,398525.0,864618.0,In development,Large (1MW+),-2.026396121226064,57.671417804008655
+Strichen South,Other,Awaiting Construction,398939.0,854433.0,In development,Large (1MW+),-2.0194051750698643,57.57993421570484
+Strichen North,Other,Awaiting Construction,397549.0,855489.0,In development,Large (1MW+),-2.0426601134259887,57.58941382574286
+North West Of Jameston Farm,Other,Awaiting Construction,232189.0,647344.0,In development,Large (1MW+),-4.671188403307022,55.69045163463101
+Sheirdrim Renewable Energy Development - Battery,Other,Application Submitted,181450.0,657720.0,In development,Large (1MW+),-5.485175845002953,55.76331207327404
+North-East of Spitfire Way - GCP,Other,Awaiting Construction,293750.0,680150.0,In development,Unknown,-3.705327800665192,56.002478057436136
+Blackpark Farm,Other,Awaiting Construction,289712.0,814915.0,In development,Large (1MW+),-3.8275949121506967,57.21165899952877
+Douglas West Wind Farm (extension),Other,Application Submitted,280968.0,634257.0,In development,Large (1MW+),-3.89009302693149,55.587357376274035
+Shepherd's Rig Wind Farm,Other,Application Submitted,262319.0,593591.0,In development,Large (1MW+),-4.16568272590523,55.217301372831464
+Foula Community Electricity Scheme,Other,Operational,397081.0,1138943.0,Operational,Unknown,-2.054367215802252,60.13501229323498
+Horse Island Microgrid Project,Other,Operational,202386.0,904706.0,Operational,Unknown,-5.344457355753342,57.987509940564564
+Isle of Rum Microgrid Project,Other,Operational,137593.0,799241.0,Operational,Unknown,-6.323855240394627,57.009452489622916
+Kip Water Hydro Scheme,Other,Application Submitted,221610.0,673062.0,In development,Large (1MW+),-4.856119851879212,55.91746465433247
+Hywind 2,Other,Operational,411917.0,846754.0,Operational,Large (1MW+),-1.802759401972303,57.510806480717676
+Isle of Muck Microgrid System,Other,Operational,141577.0,779605.0,Operational,Unknown,-6.23841292082406,56.83578895245409
+Orkney Storage Park Project,Other,Operational,344780.0,1011192.0,Operational,Large (1MW+),-2.962441016406223,58.984278417681566
+Northern Isles New Energy Solution (NINES) 1,Other,Operational,446456.0,1142794.0,Operational,Large (1MW+),-1.164723837186193,60.16697392667298
+Isle of Eigg Electrification Project,Other,Operational,147908.0,786328.0,Operational,Small to medium (>=45kW and <1MW),-6.141594196110796,56.89950307298301
+Billia Croo Wave Test Site (Extension),Wave Power,Application Submitted,323401.0,983560.0,In development,Large (1MW+),-3.324774288698439,58.73289138139117
+Wello Penguin Device (Billia Croo - EMEC),Wave Power,Operational,323401.0,983560.0,Operational,Large (1MW+),-3.324774288698439,58.73289138139117
+Douglas West Wind Farm (extension),Wind,Application Submitted,280968.0,634257.0,In development,Large (1MW+),-3.89009302693149,55.587357376274035
+Hammars Hill Wind Farm Extension,Wind,Awaiting Construction,337526.0,1022979.0,In development,Large (1MW+),-3.0919725312881376,59.08911168047928
+Lower Rumster,Wind,Awaiting Construction,321714.0,936327.0,In development,Small to medium (>=45kW and <1MW),-3.3376583623609357,58.308501858144744
+"Land near Tacher, Latheron",Wind,Awaiting Construction,317290.0,946869.0,In development,Large (1MW+),-3.416915944885344,58.402341771694424
+Ben Sca,Wind,Awaiting Construction,133545.0,847925.0,In development,Large (1MW+),-6.442525618813219,57.4431566929917
+Isle of Luing Wind Farm,Wind,Awaiting Construction,174143.0,707638.0,In development,Small to medium (>=45kW and <1MW),-5.6432981531230535,56.207552606316405
+Pauls Hill 2,Wind,Awaiting Construction,311500.0,840500.0,In development,Large (1MW+),-3.476206038064338,57.446137603900624
+Limekiln Wind Farm (Extension),Wind,Application Submitted,300298.0,961309.0,In development,Large (1MW+),-3.7138204825449543,58.52842709672046
+West Dykes,Wind,Awaiting Construction,266058.0,639006.0,In development,Large (1MW+),-4.128786805035701,55.626124022308055
+Troston Loch,Wind,Awaiting Construction,268466.0,590107.0,In development,Large (1MW+),-4.067511457054663,55.187691683743495
+Ackron Wind Farm Wind Farm,Wind,Application Submitted,291200.0,962500.0,In development,Large (1MW+),-3.870531101297402,58.53693779564789
+Strath Tirry Wind Farm,Wind,Application Submitted,257880.0,914516.0,In development,Large (1MW+),-4.412803358365003,58.09675600315046
+Cairnmore Hill Wind Farm,Wind,Application Submitted,305897.0,968734.0,In development,Large (1MW+),-3.6207961652988736,58.5963315267061
+Scoop Hill Wind Farm,Wind,Application Submitted,315500.0,598500.0,In development,Large (1MW+),-3.3315653751519037,55.27337530140933
+Mochrum Fell Wind Farm,Wind,Application Submitted,269420.0,572995.0,In development,Large (1MW+),-4.044672613076587,55.03427690682796
+Cumberhead West Wind Farm,Wind,Application Submitted,281169.0,635550.0,In development,Large (1MW+),-3.8874631692172787,55.599017937666616
+Forss Wind Farm,Wind,Application Submitted,302336.0,969496.0,In development,Large (1MW+),-3.682363407921731,58.60238510790409
+Euchanhead Wind Farm,Wind,Application Submitted,266343.0,604138.0,In development,Large (1MW+),-4.107490580910311,55.31311605295087
+Plascow Wind Turbine,Wind,Application Submitted,288038.0,563854.0,In development,Unknown,-3.7499533539092855,54.956717931242636
+Berry Burn Wind Farm (extension),Wind,Application Submitted,311550.0,840550.0,In development,Large (1MW+),-3.4753913530222693,57.446596334083786
+Lorg Windfarm,Wind,Awaiting Construction,263239.0,601647.0,In development,Large (1MW+),-4.155146058276445,55.28989527995165
+Lochluichart Extension II,Wind,Awaiting Construction,232487.0,868453.0,In development,Large (1MW+),-4.810588385837847,57.674645181196844
+Brownhill Farm (Resubmission),Wind,Awaiting Construction,288880.0,662140.0,In development,Large (1MW+),-3.7759623504528466,55.83963647439637
+Meall Buidhe Wind Farm,Wind,Application Submitted,245556.0,895446.0,In development,Large (1MW+),-4.609150840660512,57.921523326818075
+Skelmonae Wind Farm Extension,Wind,Application Submitted,394382.0,836777.0,In development,Large (1MW+),-2.0951918432363326,57.42130433908273
+Crossdykes,Wind,Under Construction,325400.0,587500.0,In development,Large (1MW+),-3.172870411053446,55.17615253290326
+Fell Wind Farm,Wind,Application Submitted,272679.0,583776.0,In development,Large (1MW+),-3.998539262156924,55.13194089266812
+Cornharrow Wind Farm (Resubmission),Wind,Application Submitted,266701.0,592862.0,In development,Large (1MW+),-4.096513006858265,55.21195787671023
+Sandy Knowe Wind Farm (S.36 resubmission),Wind,Awaiting Construction,270100.0,610600.0,In development,Large (1MW+),-4.051335174161374,55.3721506113462
+Glen Ullinish Wind Farm,Wind,Awaiting Construction,134850.0,842440.0,In development,Large (1MW+),-6.41492183533434,57.394796993489486
+Hill of Carlincraig wind turbines,Wind,Awaiting Construction,368325.0,844794.0,In development,Large (1MW+),-2.530057795485476,57.492239070325205
+Greengairs Wind Farm,Wind,Awaiting Construction,279673.0,669835.0,In development,Large (1MW+),-3.926312660307325,55.906525261258956
+Greengairs East Wind Farm,Wind,Awaiting Construction,280551.0,669203.0,In development,Large (1MW+),-3.9119975985354967,55.9010689680077
+Solwaybank Wind Farm (resubmission),Wind,Under Construction,329413.0,578978.0,In development,Large (1MW+),-3.1077526143031444,55.10017919859029
+Glenkerie Wind Farm Extension,Wind,Awaiting Construction,310453.0,628117.0,In development,Large (1MW+),-3.4204917846947995,55.53852457081538
+Loganhead Wind Farm,Wind,Awaiting Construction,330880.0,586580.0,In development,Large (1MW+),-3.0866206259350544,55.16868416389967
+Drumelzie,Wind,Awaiting Construction,288864.0,669037.0,In development,Large (1MW+),-3.7790485617939065,55.901570835210975
+A'Chruach (Phase 2),Wind,Awaiting Construction,194350.0,697350.0,In development,Large (1MW+),-5.310170666416014,56.124438997941866
+South Priorhill Farm,Wind,Awaiting Construction,275280.0,639176.0,In development,Large (1MW+),-3.9825059215293073,55.63010447471997
+Stoney Hill Farm,Wind,Awaiting Construction,266542.0,636804.0,In development,Large (1MW+),-4.120038794994191,55.60648560138012
+Tormywheel Wind Farm Extension,Wind,Awaiting Construction,294590.0,657692.0,In development,Large (1MW+),-3.683104874036802,55.80097128667898
+Beinn Thulabaigh Wind Turbine,Wind,Awaiting Construction,136905.0,932771.0,In development,Large (1MW+),-6.480201413420842,58.20491885535302
+Priestgill Wind Farm,Wind,Awaiting Construction,295854.0,625399.0,In development,Large (1MW+),-3.6506983974540055,55.51121228473453
+Windy Rig Wind Farm (resubmission),Wind,Awaiting Construction,261700.0,600000.0,In development,Large (1MW+),-4.178550938806616,55.274676532227865
+Gass Wind Farm,Wind,Awaiting Construction,225226.0,566406.0,In development,Large (1MW+),-4.731361721293892,54.961564860513576
+Aultmore Wind Farm -resubmission,Wind,Awaiting Construction,345000.0,860000.0,In development,Large (1MW+),-2.922564424736232,57.626571905249556
+South Kyle Wind Farm,Wind,Awaiting Construction,254576.0,604980.0,In development,Large (1MW+),-4.2931703025651755,55.31733844414311
+Kenly Wind Farm (Resubmission),Wind,Awaiting Construction,355244.0,713277.0,In development,Large (1MW+),-2.7249964572856102,56.309772106994195
+Sandwick North St Community wind turbine,Wind,Awaiting Construction,121228.0,941735.0,In development,Large (1MW+),-6.756793046608362,58.275524580112744
+Burnfoot East Wind Farm (further extension),Wind,Under Construction,290930.0,703230.0,In development,Large (1MW+),-3.759961027718417,56.20910678143126
+Enoch Hill,Wind,Awaiting Construction,258401.0,609144.0,In development,Large (1MW+),-4.235052531462143,55.35584211846548
+Sneddon Law Community Wind Farm,Wind,Under Construction,249387.0,641441.0,In development,Large (1MW+),-4.394639261997133,55.6431053245297
+Camilty Wind Farm,Wind,Awaiting Construction,305615.0,659320.0,In development,Large (1MW+),-3.507870209330349,55.81787474964025
+Hopsrig Wind Farm,Wind,Awaiting Construction,327484.0,588675.0,In development,Large (1MW+),-3.1404577587313085,55.187018991996865
+Over Hill Wind Farm,Wind,Awaiting Construction,251694.0,611197.0,In development,Large (1MW+),-4.341835632376462,55.37229449847268
+Longhill Burn Wind Farm,Wind,Awaiting Construction,298062.0,658993.0,In development,Large (1MW+),-3.628233034504125,55.813401261303966
+Neart na Gaoithe (Resubmission),Wind,Under Construction,384615.0,708641.0,In development,Large (1MW+),-2.2500075887907487,56.26999263986729
+Glenshimmeroch Wind Farm,Wind,Awaiting Construction,266021.0,587733.0,In development,Large (1MW+),-4.104761076417953,55.16571687969322
+Glenshero Wind Farm,Wind,Application Submitted,255156.0,793734.0,In development,Large (1MW+),-4.386942713104762,57.01193038148191
+Twentyshilling Hill Wind Farm (resubmission),Wind,Awaiting Construction,279500.0,604500.0,In development,Large (1MW+),-3.900475412615881,55.319766281752436
+MacColl Offshore Windfarm (Moray East),Wind,Under Construction,353328.0,897834.0,In development,Large (1MW+),-2.790541679977248,57.9673095960618
+Telford Offshore Windfarm (Moray East),Wind,Under Construction,353646.0,924989.0,In development,Large (1MW+),-2.790546050836773,58.21121730307124
+Stevenson Offshore Windfarm (Moray East),Wind,Under Construction,331721.0,907867.0,In development,Large (1MW+),-3.1585829141445103,58.05461080335205
+Easter Tolmauds,Wind,Operational,362478.0,807524.0,Operational,Large (1MW+),-2.621909594204693,57.15702553640765
+Strathy South,Wind,Awaiting Construction,279050.0,952050.0,In development,Large (1MW+),-4.073538309465483,58.43993884755076
+Kincardine Offshore Windfarm,Wind,Under Construction,407766.0,789575.0,In development,Large (1MW+),-1.873812938345156,56.997265998250406
+Strathallan Wind Farm,Wind,Awaiting Construction,281033.0,713188.0,In development,Large (1MW+),-3.9238998425673053,56.29614843246201
+Aikengall 3 Community Wind Farm,Wind,Awaiting Construction,371793.0,666791.0,In development,Large (1MW+),-2.452596989598649,55.89341279147001
+Sanquhar 'Six' Community Wind Farm,Wind,Awaiting Construction,268285.0,606841.0,In development,Large (1MW+),-4.078184778691731,55.33791227759314
+Deuchries Windfarm (extension),Wind,Awaiting Construction,363721.0,853713.0,In development,Large (1MW+),-2.608189791721675,57.57200284660561
+Shepherd's Rig Wind Farm,Wind,Application Submitted,262319.0,593591.0,In development,Large (1MW+),-4.16568272590523,55.217301372831464
+Sorbie Farm,Wind,Awaiting Construction,224637.0,644638.0,In development,Large (1MW+),-4.789441794260918,55.66349627117922
+Pines Burn Wind Farm,Wind,Awaiting Construction,353795.0,606879.0,In development,Large (1MW+),-2.73027239228583,55.35374457397991
+Rothes Wind Farm III,Wind,Application Submitted,321000.0,848000.0,In development,Large (1MW+),-3.3203994547416014,57.51524236854038
+Chirmorie Wind Farm,Wind,Awaiting Construction,222552.0,579875.0,In development,Large (1MW+),-4.7814366040122795,55.081510167000324
+Dell Wind Farm,Wind,Awaiting Construction,249820.0,806535.0,In development,Large (1MW+),-4.482390746568762,57.12510913912688
+Kirk Hill Wind Farm,Wind,Awaiting Construction,226190.0,604790.0,In development,Large (1MW+),-4.739833492524781,55.30642351370528
+Airigh Wind Farm,Wind,Awaiting Construction,176171.0,666802.0,In development,Large (1MW+),-5.576607716627113,55.842340301041254
+Airies Farm,Wind,Operational,229266.0,548481.0,Operational,Large (1MW+),-4.657720366271871,54.80206295967713
+Sanquhar 2 Community Wind Farm,Wind,Application Submitted,268554.0,603493.0,In development,Large (1MW+),-4.072377304047706,55.30791982185836
+Viking Wind Farm (resubmission),Wind,Awaiting Construction,443800.0,1161960.0,In development,Large (1MW+),-1.208438805377963,60.3393378064052
+Costa Head Wind Farm,Wind,Awaiting Construction,329920.0,1029790.0,In development,Large (1MW+),-3.2268542335323445,59.149076499530445
+Hesta Head Wind Farm,Wind,Awaiting Construction,346223.0,988155.0,In development,Large (1MW+),-2.9317582858144333,58.7776028460826
+Seagreen Phase 1 (Alpha),Wind,Awaiting Construction,404600.0,749300.0,In development,Large (1MW+),-1.9266340285328871,56.635500808095195
+Seagreen Phase 1 (Alpha),Wind,Awaiting Construction,404600.0,749300.0,In development,Large (1MW+),-1.9266340285328871,56.635500808095195
+An Suidhe,Wind,Operational,200483.0,707563.0,Operational,Large (1MW+),-5.219344564427117,56.21865464037219
+Neilston Additional Wind Turbine,Wind,Awaiting Construction,245747.0,653929.0,In development,Large (1MW+),-4.4594504330275075,55.75406426577487
+Culterfield Windfarm (resubmission),Wind,Awaiting Construction,442000.0,1129500.0,In development,Large (1MW+),-1.2477332357804365,60.04809892894724
+Lochcarnan Community Windfarm,Wind,Operational,77451.0,828569.0,Operational,Large (1MW+),-7.347855879979654,57.233710564386165
+Glen Kyllachy Wind Farm,Wind,Awaiting Construction,274500.0,827500.0,In development,Large (1MW+),-4.085648843501587,57.320716465702446
+Limekiln Wind Farm (resubmission),Wind,Awaiting Construction,298654.0,961356.0,In development,Large (1MW+),-3.7420576508248544,58.528469140641675
+Clauchrie Windfarm,Wind,Application Submitted,229552.0,588722.0,In development,Large (1MW+),-4.677222960165071,55.16337570618527
+Hagshaw Hill (Repowering),Wind,Awaiting Construction,282089.0,631116.0,In development,Large (1MW+),-3.870976688803297,55.55942280697608
+High Constellation Wind Farm,Wind,Awaiting Construction,181000.0,651000.0,In development,Large (1MW+),-5.486949871600782,55.70284230242672
+Kennoxhead Wind Farm Extension,Wind,Application Submitted,276456.0,625384.0,In development,Large (1MW+),-3.957669480724809,55.50655422048948
+Inch Cape,Wind,Awaiting Construction,387786.0,734231.0,In development,Large (1MW+),-2.2000124263613707,56.499985169655524
+Fallago Rig,Wind,Operational,357000.0,660000.0,Operational,Large (1MW+),-2.688032069205749,55.83130489107494
+Inverclyde Wind Farm (Corlic Hill),Wind,Under Construction,229563.0,672854.0,In development,Large (1MW+),-4.728892904658053,55.91848105609328
+Kirkan Wind Farm,Wind,Application Submitted,245959.0,865205.0,In development,Large (1MW+),-4.582887181680968,57.65031470800522
+Strathrory Wind Farm,Wind,Application Submitted,264000.0,877500.0,In development,Large (1MW+),-4.287825447640323,57.766473894382365
+Rigghill Wind Farm,Wind,Application Submitted,221492.0,666156.0,In development,Large (1MW+),-4.853451024873064,55.8554490650072
+Moorshield Wind Farm,Wind,Application Submitted,251966.0,649283.0,In development,Large (1MW+),-4.357935489861874,55.714297978330336
+Netherton,Wind,Awaiting Construction,367378.0,836927.0,In development,Small to medium (>=45kW and <1MW),-2.544802156488049,57.42150925976911
+Mountwest Wind Cluster (resubmission),Wind,Awaiting Construction,384500.0,828500.0,In development,Large (1MW+),-2.259196573680581,57.34672309850562
+Aberarder Wind Farm,Wind,Awaiting Construction,264839.0,820696.0,In development,Large (1MW+),-4.242219685557014,57.25688331762462
+Hill of Towie II Wind Farm,Wind,Awaiting Construction,320000.0,860000.0,In development,Large (1MW+),-3.3410432663259906,57.62282584393519
+Blary Hill Wind Farm,Wind,Under Construction,170381.0,636538.0,In development,Large (1MW+),-5.643501678230339,55.568253960935685
+Arecleoch Wind Farm (extension),Wind,Application Submitted,221500.0,578500.0,In development,Large (1MW+),-4.79703350625549,55.06879198585084
+Cloiche Wind Farm,Wind,Application Submitted,246861.0,813520.0,In development,Large (1MW+),-4.535503864003646,57.1868168834338
+Greenburn Wind Park,Wind,Application Submitted,256423.0,614614.0,In development,Large (1MW+),-4.269035716694858,55.40437971838528
+Lethans Wind Farm (resubmission),Wind,Awaiting Construction,268331.0,616048.0,In development,Large (1MW+),-4.081799168476083,55.4205995365373
+Kype Muir Wind Farm Extension,Wind,Under Construction,271915.0,639557.0,In development,Large (1MW+),-4.036092513059379,55.632650409358064
+Dalquhandy Windfarm,Wind,Awaiting Construction,214836.0,591232.0,In development,Large (1MW+),-4.909553277208042,55.18061227752117
+Lairg Wind Farm Extension (Lairg 2),Wind,Awaiting Construction,259717.0,902222.0,In development,Large (1MW+),-4.374336995895577,57.98701583062457
+Hill Of Lychrobbie,Wind,Awaiting Construction,316974.0,932057.0,In development,Large (1MW+),-3.4169865030142077,58.269291499892915
+Gordonbush (extension),Wind,Under Construction,284604.0,912697.0,In development,Large (1MW+),-3.9588658705900057,58.08820448874735
+Hill of Towie (Drummuir),Wind,Operational,320000.0,860000.0,Operational,Large (1MW+),-3.3410432663259906,57.62282584393519
+Creag Riabhach Wind Farm,Wind,Awaiting Construction,252589.0,928364.0,In development,Large (1MW+),-4.51121635219372,58.21928271354415
+"Aikengall II, Wester Dod Community Wind Farm",Wind,Operational,369468.0,669455.0,Operational,Large (1MW+),-2.490072732113122,55.917205059837876
+Kennoxhead Wind Farm,Wind,Awaiting Construction,277147.0,624403.0,In development,Large (1MW+),-3.9463011193487216,55.49791902545072
+Balmurrie Fell Wind Farm,Wind,Operational,238626.0,555982.0,Operational,Large (1MW+),-4.51645249868677,54.87250387820368
+Strathy Wood,Wind,Application Submitted,282146.0,955604.0,In development,Large (1MW+),-4.0223748753018835,58.47268455164264
+Faw Side Community Wind Farm,Wind,Application Submitted,335000.0,596000.0,In development,Large (1MW+),-3.0241263109189367,55.25387497842139
+Stornoway Wind Farm (second resubmission),Wind,Application Submitted,142695.0,934003.0,In development,Large (1MW+),-6.383339212805528,58.2193675971699
+Beinn an Tuirc Windfarm Phase 3,Wind,Under Construction,172270.0,633925.0,In development,Large (1MW+),-5.611454914729556,55.54570858406461
+Uisenis/Eishken (Muaitheabhal) (Southern Extension),Wind,Awaiting Construction,128788.0,911062.0,In development,Large (1MW+),-6.592749254745843,58.00565343666074
+Uisenis/Eishken (Muaitheabhal) (East Extension),Wind,Awaiting Construction,132947.0,913350.0,In development,Large (1MW+),-6.525190785448696,58.02865792457174
+Uisenis/Eishken (Muaitheabhal) Wind Farm,Wind,Awaiting Construction,126600.0,913600.0,In development,Large (1MW+),-6.632592140465618,58.02703428455542
+Halsary Wind Farm,Wind,Under Construction,315749.0,950081.0,In development,Large (1MW+),-3.4444542535478364,58.43088594019118
+Druim Leathann (resubmission),Wind,Awaiting Construction,151403.0,947774.0,In development,Large (1MW+),-6.250310440227486,58.347709389896664
+Tangy 4 Wind Farm,Wind,Awaiting Construction,168500.0,628500.0,In development,Large (1MW+),-5.666546989148436,55.49528900394608
+Stranoch Wind Farm,Wind,Awaiting Construction,215493.0,571022.0,In development,Large (1MW+),-4.886146026891127,54.999485071273405
+Braemore,Wind,Awaiting Construction,255325.0,900934.0,In development,Large (1MW+),-4.4477545678179835,57.97404989856461
+Eascairt Wind Farm,Wind,Awaiting Construction,183500.0,655000.0,In development,Large (1MW+),-5.450409850386867,55.7398391970049
+Whitelaw Brae Wind Farm,Wind,Awaiting Construction,306039.0,621476.0,In development,Large (1MW+),-3.488155285008589,55.478042253877476
+North Hoo Fields,Wind,Awaiting Construction,445388.0,1142745.0,In development,Small to medium (>=45kW and <1MW),-1.1839769329938294,60.16665377244373
+Brackenhills Farm (resubmission),Wind,Awaiting Construction,358303.0,859511.0,In development,Large (1MW+),-2.6997622437008766,57.62360933280133
+Green Burn Wind Farm,Wind,Awaiting Construction,315871.0,755635.0,In development,Large (1MW+),-3.3749245844277405,56.68484411778819
+Hartwood Windfarm,Wind,Awaiting Construction,284792.0,659236.0,In development,Large (1MW+),-3.8399714023472935,55.81259851715109
+Creag Dhubh,Wind,Application Submitted,212821.0,703627.0,In development,Large (1MW+),-5.017905663192029,56.1883573789962
+Gilston Hill Wind Farm,Wind,Awaiting Construction,344140.0,657352.0,In development,Large (1MW+),-2.892760853757877,55.806195006523616
+Stranoch 2,Wind,Application Submitted,215493.0,571022.0,In development,Large (1MW+),-4.886146026891127,54.999485071273405
+Yell Wind Farm,Wind,Application Submitted,449792.0,1202671.0,In development,Large (1MW+),-1.0897250987828837,60.70412254054395
+Hare Craig Windfarm,Wind,Application Submitted,274078.0,630954.0,In development,Large (1MW+),-3.9978293358652044,55.55596396474293
+Clashindarroch 2 (extension),Wind,Application Submitted,344000.0,833000.0,In development,Large (1MW+),-2.9330953836525238,57.383954838311205
+Kilgallioch Windfarm (Extension),Wind,Application Submitted,225000.0,570000.0,In development,Large (1MW+),-4.737082173095494,54.99374461081812
+"Bridge House, Muasdale, Tarbert, Strathclyde",Wind,Awaiting Construction,172190.0,641550.0,In development,Large (1MW+),-5.619013682040987,55.61404619894205
+Narachan Wind Farm,Wind,Application Submitted,175585.0,647445.0,In development,Large (1MW+),-5.5700336271687885,55.66848767340357
+Coire Na Cloiche Wind Farm,Wind,Operational,258937.0,878023.0,Operational,Large (1MW+),-4.373159981199746,57.76960277452096
+Moray Firth 2 (West),Wind,Awaiting Construction,322637.0,909733.0,In development,Large (1MW+),-3.313071257084784,58.069873558179566
+Pencloe Wind Farm,Wind,Awaiting Construction,257641.0,610606.0,In development,Large (1MW+),-4.247774093884704,55.368749097045615
+Knockman Hill Wind Farm,Wind,Awaiting Construction,266921.0,583507.0,In development,Large (1MW+),-4.088659544742463,55.12801120061519
+BARLOCKHART MOOR - extension,Wind,Awaiting Construction,222700.0,557109.0,In development,Large (1MW+),-4.765033145909751,54.87722677959821
+Glenmuckloch Wind Farm,Wind,Awaiting Construction,270269.0,615690.0,In development,Large (1MW+),-4.05103636998665,55.41790187460814
+Cogle Moss Wind Farm,Wind,Awaiting Construction,327494.0,955985.0,In development,Large (1MW+),-3.245260225107557,58.486006129941785
+Easter Drumclair Wood (Resubmission),Wind,Awaiting Construction,286869.0,671605.0,In development,Large (1MW+),-3.812014210268978,55.924167003174276
+Knockshinnoch Wind Farm,Wind,Awaiting Construction,260917.0,612721.0,In development,Large (1MW+),-4.197179636635373,55.38867847582428
+Millennium South - Phase 3,Wind,Awaiting Construction,227236.0,807450.0,In development,Large (1MW+),-4.855583533778206,57.125382790541025
+Poniel Wind Turbines,Wind,Awaiting Construction,284063.0,633619.0,In development,Large (1MW+),-3.8407490784431615,55.582374655462914
+Douglas West and Dalquhandy Renewable Energy Project,Wind,Awaiting Construction,280968.0,634257.0,In development,Large (1MW+),-3.89009302693149,55.587357376274035
+Hazelside farm - resubmission,Wind,Under Construction,281251.0,630930.0,In development,Large (1MW+),-3.8841748077804357,55.55754902201962
+Shewalton Road,Wind,Awaiting Construction,234160.0,636667.0,In development,Large (1MW+),-4.633427123024634,55.595297962669285
+Beinn Mheadhonach,Wind,Awaiting Construction,139317.0,837466.0,In development,Large (1MW+),-6.335545985940143,57.3528260945005
+Corriemoillie (Resubmission),Wind,Operational,234700.0,867700.0,Operational,Large (1MW+),-4.7730137482564565,57.66870790173335
+Wathegar 2 Wind Farm,Wind,Operational,329103.0,950291.0,Operational,Large (1MW+),-3.2159051182101615,58.435143760755345
+Lowther Hills (North Lowther Energy Initiative),Wind,Application Submitted,283464.0,615138.0,In development,Large (1MW+),-3.842479143809291,55.416260662598305
+Broken Cross (Former Surface Mine),Wind,Application Submitted,285677.0,636040.0,In development,Large (1MW+),-3.816163721630206,55.60449840706423
+Draffanmarshill Farm,Wind,Application Submitted,278551.0,645431.0,In development,Large (1MW+),-3.933352927391173,55.68710247554662
+North Kyle Energy Project,Wind,Application Submitted,250488.0,608948.0,In development,Large (1MW+),-4.3596461584021275,55.35173756429846
+Sheirdrim Renewable Energy Development - Wind,Wind,Application Submitted,181450.0,657720.0,In development,Large (1MW+),-5.485175845002953,55.76331207327404
+Crookedstane Farm,Wind,Awaiting Construction,296607.0,615168.0,In development,Large (1MW+),-3.6349715027617893,55.41948047362231
+Lion Hill Wind Farm (Crookedstane Farm 2),Wind,Awaiting Construction,297700.0,610300.0,In development,Large (1MW+),-3.6159266890051334,55.375986259656095
+Polquhairn Wind Farm,Wind,Awaiting Construction,246990.0,616752.0,In development,Large (1MW+),-4.419036558172785,55.42072013708276
+Benbrack,Wind,Awaiting Construction,253199.0,599440.0,In development,Large (1MW+),-4.31195451657826,55.267189171577726
+Torrs Hill,Wind,Under Construction,252600.0,589000.0,In development,Large (1MW+),-4.31592098246047,55.1732758900777
+Dounreay Trì Floating Wind Demonstration,Wind,Under Construction,291337.0,980477.0,In development,Large (1MW+),-3.8768117577681798,58.69833703618715
+Pogbie Wind Farm 2,Wind,Operational,347360.0,661013.0,Operational,Large (1MW+),-2.8421060686879516,55.839447649060084
+Work Farm Wind Turbines,Wind,Awaiting Construction,347667.0,1012871.0,In development,Large (1MW+),-2.912619952155252,58.999718471976365
+Golticlay Wind Farm,Wind,Application Submitted,322334.0,940553.0,In development,Large (1MW+),-3.3285043316868843,58.34655670782667
+Kype Muir Wind Farm,Wind,Operational,271915.0,639557.0,Operational,Large (1MW+),-4.036092513059379,55.632650409358064
+Camster II,Wind,Application Submitted,328795.0,948360.0,In development,Large (1MW+),-3.220578330296399,58.417754949983575
+"Land between Lorg Hill, Ewe Hill and Brown Hill",Wind,Awaiting Construction,266135.0,600844.0,In development,Large (1MW+),-4.109195172784296,55.28348051192886
+Southrigg 2 (Resubmission),Wind,Awaiting Construction,292119.0,665711.0,In development,Large (1MW+),-3.7256904210765396,55.872442033766795
+Crystal Rig Wind Farm Phase IV,Wind,Application Submitted,367100.0,667900.0,In development,Large (1MW+),-2.5277669945788888,55.9030778557853
+Lurg Hill Wind Farm,Wind,Awaiting Construction,351190.0,858727.0,In development,Large (1MW+),-2.8186774656837392,57.61585246742195
+Forth of Firth (Methil),Wind,Awaiting Construction,338141.0,696278.0,In development,Large (1MW+),-2.9974142542365128,56.155146043671884
+Clash Gour,Wind,Application Submitted,308050.0,844900.0,In development,Large (1MW+),-3.5353217408529294,57.48496048669567
+Heathland Wind Farm,Wind,Awaiting Construction,296479.0,656713.0,In development,Large (1MW+),-3.6526133450256713,55.79258742809595
+Dorenell Wind Farm (Previously Site A and B Scaut Hill),Wind,Operational,332000.0,829500.0,Operational,Large (1MW+),-3.1316820845495967,57.35088523865031
+West Benhar wind farm,Wind,Awaiting Construction,289560.0,661750.0,In development,Large (1MW+),-3.764951181932078,55.83629029617181
+Tralorg Wind Farm,Wind,Under Construction,221728.0,598656.0,In development,Large (1MW+),-4.806149343141731,55.24977538095157
+Mossy Hill,Wind,Awaiting Construction,443900.0,1142000.0,In development,Large (1MW+),-1.2109464615232908,60.16012726125944
+Sandwick East Community Wind Farm,Wind,Application Submitted,131345.0,929229.0,In development,Large (1MW+),-6.570421156401566,58.16985697497755
+Achlachan Wind Farm,Wind,Operational,315200.0,952100.0,Operational,Large (1MW+),-3.45460015546829,58.44890673428564
+Beatrice,Wind,Operational,344074.0,911416.0,Operational,Large (1MW+),-2.950162446595635,58.08821464073275
+Bad a Cheo Wind Farm,Wind,Operational,316615.0,948900.0,Operational,Large (1MW+),-3.42919999212519,58.420448679959485
+Larbrax Wind Farm (resubmission),Wind,Awaiting Construction,197120.0,561850.0,In development,Large (1MW+),-5.1664357494247675,54.91004466867573
+Middle Muir Wind Farm,Wind,Operational,286178.0,625826.0,Operational,Large (1MW+),-3.804008549169995,55.51288672240658
+European Offshore Wind Deployment Centre (EOWDC) (Aberdeen Bay - Demonstration site),Wind,Operational,395693.0,806148.0,Operational,Large (1MW+),-2.0728203633185682,57.1461840497777
+Pogbie Wind Farm 1,Wind,Operational,347905.0,659047.0,Operational,Large (1MW+),-2.833027185241945,55.821844524941255
+Glendye Estate,Wind,Application Submitted,364878.0,786267.0,In development,Large (1MW+),-2.579255983689735,56.96627261205742
+Stronelairg Wind Farm,Wind,Operational,247166.0,806833.0,Operational,Large (1MW+),-4.526364960050675,57.126908182308455
+Auchadaduie Wind Farm,Wind,Operational,169193.0,633969.0,Operational,Large (1MW+),-5.660156479896789,55.54465699542016
+Moorhouse Farm,Wind,Operational,384415.0,667894.0,Operational,Large (1MW+),-2.2508441221028797,55.90390009227089
+Beaw Field Wind Farm,Wind,Awaiting Construction,450461.0,1182092.0,In development,Large (1MW+),-1.0827261236508876,60.519298393065476
+Levenmouth demonstration turbine (Fife Energy Park),Wind,Operational,340600.0,696860.0,Operational,Large (1MW+),-2.9579654880986967,56.16068734374035
+Mochrum Fell Wind Farm,Wind,Awaiting Construction,272064.0,574913.0,In development,Large (1MW+),-4.004191730096476,55.0521891357966
+Cornabo,Wind,Awaiting Construction,364449.0,817874.0,In development,Large (1MW+),-2.590813334889863,57.2501507541021
+Penbreck & Carmacoup Forest (Resubmission),Wind,Awaiting Construction,269500.0,627500.0,In development,Large (1MW+),-4.068723977678598,55.523745089015115
+Meikle Hill wind farm,Wind,Awaiting Construction,315105.0,850668.0,In development,Large (1MW+),-3.419702041310875,57.53813238447048
+Windy Edge Wind Farm,Wind,Awaiting Construction,349251.0,592241.0,In development,Large (1MW+),-2.799281612160113,55.22177588810693
+Sandy Knowe Wind Farm (resubmission),Wind,Awaiting Construction,270100.0,610600.0,In development,Large (1MW+),-4.051335174161374,55.3721506113462
+Howpark Farm,Wind,Awaiting Construction,382529.0,667205.0,In development,Large (1MW+),-2.2809634535291634,55.89764432006574
+Glen App,Wind,Operational,208880.0,571432.0,Operational,Large (1MW+),-4.989653634215674,55.00066935067878
+Land to the north west of Hill of Petty,Wind,Awaiting Construction,375052.0,835922.0,In development,Large (1MW+),-2.416934992668798,57.41296966861201
+North Haddo,Wind,Awaiting Construction,374646.0,838972.0,In development,Large (1MW+),-2.424009553098622,57.440343279319386
+Hare Hill (East Ayrshire),Wind,Operational,265320.0,609703.0,Operational,Large (1MW+),-4.1262724100525325,55.36280782322994
+Hare Hill Extension,Wind,Operational,265320.0,609703.0,Operational,Large (1MW+),-4.1262724100525325,55.36280782322994
+Afton Wind Farm,Wind,Operational,262100.0,604100.0,Operational,Large (1MW+),-4.174272272667672,55.31160372853124
+Deuchries,Wind,Operational,363290.0,855792.0,Operational,Large (1MW+),-2.615710415693105,57.590641137302455
+North Yell Wind Farm (Garth Community Wind Farm),Wind,Operational,454471.0,1198506.0,Operational,Large (1MW+),-1.0051790679447128,60.66612534251278
+Brochloch Rig 1 (formerly Windy Standard),Wind,Operational,261500.0,602500.0,Operational,Large (1MW+),-4.182928602357984,55.2970684467972
+Keith Hill (resubmission),Wind,Operational,348373.0,658532.0,Operational,Large (1MW+),-2.825460683519915,55.81726817674781
+Evie Wind Energy Project,Wind,Awaiting Construction,335035.0,1025025.0,In development,Large (1MW+),-3.1360399986145513,59.10710830930464
+Stornoway Wind Farm project (was Lewis Wind Farm - Resubmission),Wind,Awaiting Construction,142695.0,934003.0,In development,Large (1MW+),-6.383339212805528,58.2193675971699
+Navidale Estate,Wind,Awaiting Construction,303250.0,918542.0,In development,Large (1MW+),-3.6452021676409436,58.14514972161914
+Craigneil Hill,Wind,Application Submitted,380100.0,791000.0,In development,Large (1MW+),-2.329294732231245,57.009696794803695
+Blarghour,Wind,Application Submitted,203718.0,713332.0,In development,Large (1MW+),-5.171543155650507,56.27175066404929
+Hywind Scotland Pilot Park (Hywind 2) Demonstrator,Wind,Operational,433500.0,846500.0,Operational,Large (1MW+),-1.442579182997553,57.50745150382023
+Harburnhead Wind Farm,Wind,Operational,304070.0,658330.0,Operational,Large (1MW+),-3.5321674300855155,55.80867822540161
+Forss Wind Farm,Wind,Operational,302000.0,969500.0,Operational,Large (1MW+),-3.6881442784726404,58.602345237850926
+Clyde Wind Farm Extension (Clyde 2),Wind,Operational,302328.0,624463.0,Operational,Large (1MW+),-3.547897246831098,55.504143756922836
+Crystal Rig Wind Farm Phase III,Wind,Operational,366700.0,670500.0,Operational,Large (1MW+),-2.534485069814279,55.92640908673028
+Windy Standard III Wind Farm (Brockloch Rig Phase 2),Wind,Application Submitted,257695.0,600320.0,In development,Large (1MW+),-4.241702398957509,55.27640921902157
+LADEHEAD FARM - WIND TURBINES,Wind,Operational,279142.0,641223.0,Operational,Large (1MW+),-3.922104126647778,55.649462242295314
+Blackcraig,Wind,Operational,270500.0,582500.0,Operational,Large (1MW+),-4.032110074227813,55.119917049097054
+Whiteside Hill,Wind,Operational,271440.0,608920.0,Operational,Large (1MW+),-4.029432846971777,55.3574172130451
+Cumberhead Wind Farm,Wind,Application Submitted,276581.0,632651.0,In development,Large (1MW+),-3.9589334297024474,55.57184321731347
+Beinn Tharsuinn Extension (Beinn nan Oighrean),Wind,Operational,266440.0,879840.0,Operational,Large (1MW+),-4.24815134498476,57.78820952548224
+Sanquhar Community Windfarm,Wind,Operational,270311.0,607479.0,Operational,Large (1MW+),-4.046561357894138,55.344180176588324
+Welton Of Creuchies,Wind,Operational,321622.0,750192.0,Operational,Large (1MW+),-3.2794168449617653,56.636958755703695
+Beinneun Windfarm Extension,Wind,Operational,220442.0,804419.0,Operational,Large (1MW+),-4.965472516559275,57.09558778967001
+Andershaw,Wind,Operational,283500.0,625500.0,Operational,Large (1MW+),-3.84625506282916,55.50932735249193
+Cairnborrow - resubmission,Wind,Operational,346153.0,841867.0,Operational,Large (1MW+),-2.899240546610043,57.463853331802355
+Tullymurdoch Wind Farm,Wind,Operational,319575.0,752228.0,Operational,Large (1MW+),-3.31341464580296,56.65489732937228
+Bhlaraidh (previously Balmacaan),Wind,Operational,244194.0,817221.0,Operational,Large (1MW+),-4.581900885474802,57.21912998226525
+Brochloch Rig (formerly Windy Standard II),Wind,Operational,260200.0,602000.0,Operational,Large (1MW+),-4.2031377637770095,55.29221138945323
+Kilgallioch wind farm,Wind,Operational,220844.0,569576.0,Operational,Large (1MW+),-4.801696213900225,54.98846113273382
+Drumduff,Wind,Operational,288877.0,669339.0,Operational,Large (1MW+),-3.778964972414168,55.90428591743651
+Dunmaglass Wind Farm,Wind,Operational,264000.0,820120.0,Operational,Large (1MW+),-4.255799455244353,57.251464366981565
+Tormywheel,Wind,Operational,295290.0,658102.0,Operational,Large (1MW+),-3.6721018433074297,55.80480578769601
+Auchrobert Wind Farm,Wind,Operational,275154.0,638500.0,Operational,Large (1MW+),-3.9841991393459146,55.624001873396246
+Carraig Gheal,Wind,Operational,196465.0,721170.0,Operational,Large (1MW+),-5.2945167862807345,56.338997672436996
+Corriegarth,Wind,Operational,257500.0,813500.0,Operational,Large (1MW+),-4.359634263632568,57.190068734727966
+Robin Rigg East,Wind,Operational,291005.0,542348.0,Operational,Large (1MW+),-3.6955199552327618,54.7642018822273
+Robin Rigg West,Wind,Operational,288785.0,540522.0,Operational,Large (1MW+),-3.72930620916381,54.74731328931182
+Beinneun,Wind,Operational,220442.0,804419.0,Operational,Large (1MW+),-4.965472516559275,57.09558778967001
+Brotherton (formerly Paul Matthew Hill wind turbines),Wind,Operational,377397.0,769309.0,Operational,Large (1MW+),-2.371857231512237,56.814720651208674
+Ewe Hill (extension),Wind,Operational,315000.0,580000.0,Operational,Large (1MW+),-3.333868711562194,55.10709696322261
+Skeddoway Farm Wind Turbine,Wind,Operational,328104.0,697699.0,Operational,Large (1MW+),-3.159341070436889,56.16649965475503
+Hoprigshiels Community Wind Farm,Wind,Operational,375631.0,669803.0,Operational,Large (1MW+),-2.391504544018594,55.92068437361232
+Clentrie Wind Farm (Gevens),Wind,Operational,322212.0,692370.0,Operational,Large (1MW+),-3.2526366969656664,56.11770763541767
+Craigannet Farm Wind Turbine,Wind,Operational,271250.0,685550.0,Operational,Large (1MW+),-4.068471506724137,56.04544641405116
+Beatrice Demonstrator,Wind,Operational,347955.0,929690.0,Operational,Large (1MW+),-2.8884372499036535,58.25279782854389
+Rothes Wind (Cairn Uish),Wind,Operational,318500.0,850500.0,Operational,Large (1MW+),-3.362955804887615,57.53724852587503
+Freasdail Wind Farm,Wind,Operational,182440.0,659197.0,Operational,Large (1MW+),-5.470606703696345,55.777004488925165
+Minnygap (Resubmission),Wind,Operational,303800.0,596000.0,Operational,Large (1MW+),-3.514797633039453,55.248771911048244
+Craig Wind Farm (Extension),Wind,Operational,202000.0,557000.0,Operational,Large (1MW+),-5.087101536777256,54.868483790474556
+Lochend Wind Farm,Wind,Operational,326691.0,968145.0,Operational,Large (1MW+),-3.262950801051381,58.59505531564233
+Causeymire,Wind,Operational,336736.0,951086.0,Operational,Large (1MW+),-3.085428976641852,58.443455429923645
+NEILSTON WIND FARM,Wind,Operational,245292.0,653952.0,Operational,Large (1MW+),-4.466705899707948,55.7541254682046
+Middle Balbeggie Wind Turbines,Wind,Operational,327760.0,696279.0,Operational,Large (1MW+),-3.1644931362165103,56.15369269835935
+Ferneylea Farm,Wind,Operational,373982.0,669162.0,Operational,Large (1MW+),-2.417826551142584,55.914838708332184
+Pearie Law Wind Farm,Wind,Operational,302205.0,659690.0,Operational,Large (1MW+),-3.562401209379174,55.82051870600725
+Southrigg,Wind,Operational,291875.0,665563.0,Operational,Large (1MW+),-3.7295288128784208,55.871058167432196
+Kinegar Quarry (resubmission),Wind,Operational,377377.0,671362.0,Operational,Large (1MW+),-2.3636995778001775,55.93477684456049
+Hill of Tillymorgan (Kirkton Farm) Wind turbines (resubmission),Wind,Operational,363363.0,828345.0,Operational,Large (1MW+),-2.6103641512831794,57.34411798748319
+Quixwood Moor,Wind,Operational,378028.0,663859.0,Operational,Large (1MW+),-2.352666029629933,55.867396081489844
+Millour Hill Community Windfarm (Extension) resubmission,Wind,Operational,225498.0,652662.0,Operational,Large (1MW+),-4.780885075643461,55.73581677219712
+Hill of Glaschyle Wind Farm,Wind,Operational,303306.0,847855.0,Operational,Large (1MW+),-3.615585784854143,57.5105055042838
+Glenchamber Wind Farm,Wind,Operational,223765.0,566671.0,Operational,Large (1MW+),-4.7543147787274815,54.963429047482535
+Assel Valley Wind Farm,Wind,Operational,223370.0,595995.0,Operational,Large (1MW+),-4.778684598470134,55.226483466755
+Gawnsmoss Cluster,Wind,Operational,363483.0,859316.0,Operational,Large (1MW+),-2.6130147361216545,57.62230847365784
+Galawhistle,Wind,Operational,275440.0,629090.0,Operational,Large (1MW+),-3.975412187959255,55.539575608558074
+BROWNIELEYS - 3 WIND TURBINES,Wind,Operational,376967.0,772114.0,Operational,Large (1MW+),-2.379154797316925,56.83989705439917
+Lochluichart (Extension),Wind,Operational,230678.0,869136.0,Operational,Large (1MW+),-4.841359780530948,57.68009543864252
+Point Wind / Beinn Ghrideag Farm,Wind,Operational,136899.0,933106.0,Operational,Large (1MW+),-6.480681824364257,58.20791486510403
+Dersalloch,Wind,Operational,242150.0,603950.0,Operational,Large (1MW+),-4.488201406743221,55.30426193207802
+Edintore Wind Farm,Wind,Operational,342422.0,846573.0,Operational,Large (1MW+),-2.9625348952109722,57.505659724898074
+Sunnyside wind cluster,Wind,Operational,276612.0,611178.0,Operational,Large (1MW+),-3.948901114206687,55.379021324225086
+Ardoch and Over Enoch Wind Farm (Over Enoch),Wind,Operational,258600.0,648600.0,Operational,Large (1MW+),-4.252077744191289,55.710146867690376
+Ardoch and Over Enoch Wind Farm (Ardoch),Wind,Operational,258534.0,649697.0,Operational,Large (1MW+),-4.2536946180052855,55.71997638241024
+Noble Foods,Wind,Operational,328104.0,697428.0,Operational,Large (1MW+),-3.1592677187003697,56.16406545583752
+Marshill Farm,Wind,Operational,278551.0,645431.0,Operational,Large (1MW+),-3.933352927391173,55.68710247554662
+KELLAS WIND FARM,Wind,Operational,316592.0,853931.0,Operational,Large (1MW+),-3.3959926544582055,57.567710122901005
+Easter Melrose Wind Energy Project,Wind,Operational,375187.0,863494.0,Operational,Large (1MW+),-2.417510711732048,57.660634049203765
+Woodlands Wind Farm,Wind,Operational,279826.0,639404.0,Operational,Large (1MW+),-3.9104462779906353,55.63329730006387
+Earlsburn,Wind,Operational,269652.0,688422.0,Operational,Large (1MW+),-4.095504092958204,56.07080031735042
+Muirhall Extension,Wind,Operational,299342.0,652838.0,Operational,Large (1MW+),-3.6055405715197946,55.75838992762945
+Carscreugh Renewable Energy Park,Wind,Operational,225000.0,555000.0,Operational,Large (1MW+),-4.727950452802587,54.859106723365294
+Loch Sminig Wind Project,Wind,Operational,137480.0,952680.0,Operational,Large (1MW+),-6.4930313432394176,58.383524375734886
+Earlsburn North (Kingsburn) Wind Farm,Wind,Operational,268000.0,690500.0,Operational,Large (1MW+),-4.1230477763560325,56.089003951290294
+Penmanshiel Wind Farm,Wind,Operational,380006.0,667129.0,Operational,Large (1MW+),-2.3213033622570007,55.89686251954114
+Moy Wind Farm (2nd Application),Wind,Operational,276947.0,835012.0,Operational,Large (1MW+),-4.048800385582369,57.38881835465619
+Black Law Extension - 1b,Wind,Operational,289500.0,653500.0,Operational,Large (1MW+),-3.7625574690517625,55.76218684169567
+Green Knowes,Wind,Operational,296850.0,707550.0,Operational,Large (1MW+),-3.666253055807145,56.249223403216355
+Forss Wind Farm (Extension),Wind,Operational,302000.0,969500.0,Operational,Large (1MW+),-3.6881442784726404,58.602345237850926
+Droop Hill Wind Farm x,Wind,Operational,375708.0,781360.0,Operational,Large (1MW+),-2.4006775150357336,56.92288993741504
+Milton of Fisherie Wind Cluster,Wind,Operational,375067.0,859014.0,Operational,Large (1MW+),-2.41905767700154,57.62038823814493
+Black Law Extension - 1a,Wind,Operational,289500.0,653500.0,Operational,Large (1MW+),-3.7625574690517625,55.76218684169567
+Goathill Quarry Turbine,Wind,Operational,317941.0,688959.0,Operational,Large (1MW+),-3.320255868864742,56.08635474316967
+Mossmorran Wind Farm,Wind,Operational,318109.0,689419.0,Operational,Large (1MW+),-3.317698081898631,56.09051530823556
+Srondoire Community Wind Farm,Wind,Operational,182700.0,676700.0,Operational,Large (1MW+),-5.480491525517304,55.93409203198364
+Gremista Wind Farm,Wind,Operational,446287.0,1145628.0,Operational,Large (1MW+),-1.1671249725780215,60.192436784568336
+Stroupster Wind Farm - additional turbine,Wind,Operational,333969.0,965435.0,Operational,Large (1MW+),-3.136976633264414,58.571890637867725
+Muirhall South,Wind,Operational,299342.0,652838.0,Operational,Large (1MW+),-3.6055405715197946,55.75838992762945
+Plascow wind cluster (resubmission),Wind,Operational,287380.0,563820.0,Operational,Large (1MW+),-3.7602100359582638,54.95626429324171
+Burnhead,Wind,Operational,289158.0,670199.0,Operational,Large (1MW+),-3.774825835086296,55.91207389278264
+Rhodders Wind Farm,Wind,Operational,289525.0,702720.0,Operational,Large (1MW+),-3.782386750795595,56.20420268015063
+Rosehill Wind Turbines,Wind,Operational,286252.0,686188.0,Operational,Large (1MW+),-3.8280556311789247,56.05497764951855
+Glens of Foudland,Wind,Operational,361900.0,837400.0,Operational,Large (1MW+),-2.636076775689134,57.42533028974736
+Hill of Stroupster Windfarm,Wind,Operational,334250.0,966250.0,Operational,Large (1MW+),-3.1323828854652436,58.579251460187315
+Dungavel Hill,Wind,Operational,267954.0,636995.0,Operational,Large (1MW+),-4.0977336229304635,55.60858591113918
+Strathy North,Wind,Operational,281550.0,957550.0,Operational,Large (1MW+),-4.03359560615369,58.48998937650164
+Langhope Rig,Wind,Operational,340680.0,620050.0,Operational,Large (1MW+),-2.9398911630780726,55.47066539016498
+Bankend Rig II Wind Farm,Wind,Application Submitted,264000.0,633700.0,In development,Large (1MW+),-4.158827094453868,55.57791193473914
+Forrestfield Wind Farm,Wind,Application Submitted,286350.0,666350.0,In development,Large (1MW+),-3.8181049428133793,55.87685353320217
+Skeddoway Farm Wind Turbine (Resubmission),Wind,Operational,328104.0,697699.0,Operational,Large (1MW+),-3.159341070436889,56.16649965475503
+Bankend Wind Farm (extension),Wind,Application Submitted,264000.0,633700.0,In development,Large (1MW+),-4.158827094453868,55.57791193473914
+Torrance Farm Wind Park Extension,Wind,Operational,290908.0,666200.0,Operational,Large (1MW+),-3.7452304550909052,55.87656069084197
+Clashindarroch 2 (Revised),Wind,Operational,348000.0,831000.0,Operational,Large (1MW+),-2.866149140868707,57.36646733332968
+GlaxoSmithKline Wind Project (Turbine 4),Wind,Operational,235111.0,636360.0,Operational,Large (1MW+),-4.618168997354495,55.59286550435413
+Tod Hill Farm Wind Turbines,Wind,Operational,284064.0,683742.0,Operational,Large (1MW+),-3.8621096132859587,56.03248769704489
+Hill of Skilmafilly Cloffrickford (Denmore) Wind Farm,Wind,Operational,390213.0,840362.0,Operational,Large (1MW+),-2.164748458012022,57.453435003186826
+Bonerbo Wind Turbines (resubmission),Wind,Operational,353841.0,707688.0,Operational,Large (1MW+),-2.7466898809428293,56.259429350327885
+Nutberry Wind Farm,Wind,Operational,279021.0,635662.0,Operational,Large (1MW+),-3.921580970490129,55.59949436729823
+Calder Water Community Wind Farm,Wind,Operational,260869.0,640428.0,Operational,Large (1MW+),-4.211848747062633,55.63743392554896
+Millour Hill Community Windfarm (Re-submission),Wind,Operational,225843.0,652080.0,Operational,Large (1MW+),-4.775026484485996,55.73071784628269
+"Hillhead of Auquhirie, Resubmission",Wind,Operational,328500.0,785500.0,Operational,Large (1MW+),-3.1772086318035906,56.95518343074469
+Middleton Wind Farm,Wind,Operational,253158.0,656019.0,Operational,Large (1MW+),-4.3426027268103935,55.77513277281714
+Land South East Of Auchterhead,Wind,Application Submitted,287876.0,654682.0,In development,Large (1MW+),-3.7889103797943395,55.77242795304938
+Netherton of Windyhills,Wind,Operational,348948.0,857294.0,Operational,Large (1MW+),-2.855898277440113,57.602733597337696
+Monan Hill Wind Turbines,Wind,Operational,114171.0,904933.0,Operational,Large (1MW+),-6.831794627389123,57.94164314441715
+St Johns Wells Wind Cluster Extension,Wind,Operational,379960.0,836480.0,Operational,Large (1MW+),-2.3352849348192373,57.41822554128582
+Greenhill Croft,Wind,Operational,388080.0,856083.0,Operational,Large (1MW+),-2.201071206526615,57.594596045566675
+Castle of Auchry Farm,Wind,Operational,373109.0,821437.0,Operational,Large (1MW+),-2.447690340150973,57.28274831695526
+Yonderton Farm,Wind,Operational,403588.0,837834.0,Operational,Large (1MW+),-1.941899761726396,57.43082206745797
+Auchinderran Wind Farm,Wind,Operational,361419.0,854774.0,Operational,Large (1MW+),-2.6468419176102786,57.58134122656285
+Craig Wind Farm,Wind,Operational,331995.0,586055.0,Operational,Large (1MW+),-3.0689942766363303,55.16412214484378
+Braes O'Doune,Wind,Operational,272590.0,710500.0,Operational,Large (1MW+),-4.05892934451862,56.26982072730702
+Carcant Windfarm,Wind,Operational,336250.0,652850.0,Operational,Large (1MW+),-3.0175597810559553,55.76477327675026
+New Holland,Wind,Operational,350053.0,1003214.0,Operational,Large (1MW+),-2.8689108892833057,58.91328962561193
+Lochluichart,Wind,Operational,232030.0,866235.0,Operational,Large (1MW+),-4.816696601006147,57.654576366009216
+Blantyre Muir Wind Farm extension,Wind,Operational,268888.0,651781.0,Operational,Large (1MW+),-4.089987925644993,55.74160264020707
+Ark Hill,Wind,Operational,335700.0,742600.0,Operational,Large (1MW+),-3.0480613719365452,56.5709140813858
+Edinbane Wind Farm,Wind,Operational,134353.0,850769.0,Operational,Large (1MW+),-6.432192136319239,57.469100004784565
+Damhead Farm,Wind,Operational,279061.0,663992.0,Operational,Large (1MW+),-3.933483748333171,55.85390408137001
+Jacksbank Wind Farm (Glenbervie),Wind,Operational,376574.0,783246.0,Operational,Large (1MW+),-2.386627217945611,56.93987667006325
+Barlockhart Moor,Wind,Operational,221183.0,555886.0,Operational,Large (1MW+),-4.787888723486341,54.86570967973719
+Burnfoot Hill Extension,Wind,Operational,290393.0,703943.0,Operational,Large (1MW+),-3.768908528234763,56.215386048318244
+Bogenlea Farm,Wind,Operational,382155.0,852949.0,Operational,Large (1MW+),-2.299954304380279,57.56624903496396
+Earlseat,Wind,Operational,332961.0,698416.0,Operational,Large (1MW+),-3.0813262525793133,56.17364963254405
+West Browncastle,Wind,Operational,261117.0,642821.0,Operational,Large (1MW+),-4.20912188843235,55.65898985428462
+Harestanes,Wind,Operational,300000.0,595000.0,Operational,Large (1MW+),-3.5741925642515486,55.239033204688006
+Kildrummy Windfarm,Wind,Operational,357655.0,815170.0,Operational,Large (1MW+),-2.702934596729276,57.2252832464754
+Meikle Carewe (Re-Submission),Wind,Operational,383200.0,792000.0,Operational,Large (1MW+),-2.2783202698182334,57.018803660326995
+Barns of Ayre Wind Turbines (2),Wind,Operational,358890.0,1004047.0,Operational,Large (1MW+),-2.715652686942773,58.92171087538613
+Phase 1 Bettyhill Wind Farm,Wind,Operational,272326.0,962920.0,Operational,Large (1MW+),-4.194702974974454,58.5355782516502
+Tullo Wind Farm North Extension (Shiels Wind Farm),Wind,Operational,375080.0,772580.0,Operational,Large (1MW+),-2.4101287231136728,56.84398570347707
+Torrance Farm,Wind,Operational,290842.0,665671.0,Operational,Large (1MW+),-3.746071702006343,55.871795026203806
+Blantyre Muir Wind Farm,Wind,Operational,268888.0,651781.0,Operational,Large (1MW+),-4.089987925644993,55.74160264020707
+Little Byth,Wind,Operational,382764.0,857480.0,Operational,Large (1MW+),-2.2900985636744173,57.606971490954685
+Calliachar,Wind,Operational,285000.0,750000.0,Operational,Large (1MW+),-3.876073801098935,56.627667966232906
+Land at Overside and Greenwellheads Farms,Wind,Operational,406123.0,854692.0,Operational,Large (1MW+),-1.899268418446634,57.582222723852176
+Bu Farm,Wind,Operational,362283.0,1023560.0,Operational,Large (1MW+),-2.660083121940311,59.09724702092351
+Bowbeat Wind Farm,Wind,Operational,329600.0,647500.0,Operational,Large (1MW+),-3.1221375041754174,55.715790131447726
+Crystal Rig Extension II,Wind,Operational,366000.0,669000.0,Operational,Large (1MW+),-2.5454973331421864,55.912883713531045
+West Knock Wind Cluster,Wind,Operational,398494.0,844840.0,Operational,Large (1MW+),-2.0267809001771964,57.493764388618764
+Hill of Easterton Extension,Wind,Operational,376449.0,831808.0,Operational,Large (1MW+),-2.3932853656015505,57.376090683287686
+GlaxoSmithKline Wind Project,Wind,Operational,234144.0,636959.0,Operational,Large (1MW+),-4.633856415519393,55.59791338447987
+Myreton Crossroads,Wind,Operational,349741.0,856864.0,Operational,Large (1MW+),-2.8425417154710884,57.59896080812578
+Dun Law,Wind,Operational,347069.0,657344.0,Operational,Large (1MW+),-2.8460362952457023,55.80645371717808
+Dun Law Extension,Wind,Operational,347276.0,655153.0,Operational,Large (1MW+),-2.842309113353658,55.7867925988475
+Cathkin Braes Wind Farm (Castlemilk),Wind,Operational,261220.0,658203.0,Operational,Large (1MW+),-4.2152972961460025,55.797123005208576
+Rothes Wind Farm (Extension) (II),Wind,Operational,318500.0,850500.0,Operational,Large (1MW+),-3.362955804887615,57.53724852587503
+St John Hill,Wind,Operational,383502.0,778054.0,Operational,Large (1MW+),-2.2724319151155967,56.89353605387347
+Beinn an Tuirc,Wind,Operational,173950.0,636900.0,Operational,Large (1MW+),-5.587316348961624,55.57316830310064
+Gordonstown Hill Wind Farm,Wind,Operational,371136.0,841396.0,Operational,Large (1MW+),-2.482764115031514,57.461905838324704
+Westfield,Wind,Operational,319640.0,695487.0,Operational,Large (1MW+),-3.294929864328467,56.145278730074715
+Wathegar wind farm,Wind,Operational,328540.0,950761.0,Operational,Large (1MW+),-3.2256914050882624,58.43927214706941
+Brockholes Wind Cluster,Wind,Operational,382080.0,663751.0,Operational,Large (1MW+),-2.287913249681233,55.86659464533639
+Pentland Road Wind Farm,Wind,Operational,135500.0,938700.0,Operational,Large (1MW+),-6.51078033023243,58.25716480089902
+Glenurquhart and Strathglass Wind Farm project,Wind,Operational,234250.0,824290.0,Operational,Large (1MW+),-4.751096641078555,57.27906462820347
+Baillie Wind Farm,Wind,Operational,302550.0,965650.0,Operational,Large (1MW+),-3.677029348553288,58.567907259071575
+Bankend Rig,Wind,Operational,265553.0,633692.0,Operational,Large (1MW+),-4.134208512435361,55.578271215715894
+Whitelee Windfarm Extension Phase 1,Wind,Operational,256300.0,645000.0,Operational,Large (1MW+),-4.286763422646969,55.67715067019688
+Whitelee Windfarm Extension phase 2,Wind,Operational,254220.0,640867.0,Operational,Large (1MW+),-4.317616038967668,55.63942602420985
+The Rosti Factory,Wind,Operational,276956.0,649658.0,Operational,Large (1MW+),-3.9606074250064367,55.72465740967616
+Gallowhill,Wind,Operational,344124.0,1043753.0,Operational,Large (1MW+),-2.982191763415684,59.27655677173851
+St Fergus Moss Wind Farm,Wind,Operational,405416.0,853549.0,Operational,Large (1MW+),-1.9111161787401474,57.57196452500241
+Rosehall Hill Forest Windfarm,Wind,Operational,249550.0,903550.0,Operational,Large (1MW+),-4.546952743806733,57.99560676225929
+Clochnahill Wind Farm,Wind,Operational,382413.0,782503.0,Operational,Large (1MW+),-2.290616320391334,56.93346174150305
+Allt Dearg Wind Farmers LLP,Wind,Operational,182893.0,676616.0,Operational,Large (1MW+),-5.4773405299166225,55.933425903381426
+Spurness Wind Farm Repowering,Wind,Operational,360531.0,1033828.0,Operational,Large (1MW+),-2.6925224977137185,59.189289866517655
+Methlick Farmers Wind Energy Project,Wind,Operational,385500.0,837500.0,Operational,Large (1MW+),-2.243116086477777,57.42759960723869
+Gordonbush,Wind,Operational,284500.0,909500.0,Operational,Large (1MW+),-3.9590551198800994,58.05947955317412
+"F M C Land, Pitreavie Business Park",Wind,Operational,310145.0,685510.0,Operational,Large (1MW+),-3.444331283516154,56.053975014180466
+Lairg Wind Farm,Wind,Operational,261293.0,903916.0,Operational,Large (1MW+),-4.348703333835534,58.00271286800573
+Muirake,Wind,Operational,356817.0,858161.0,Operational,Large (1MW+),-2.7243975232464206,57.611344053670486
+Glenkerie Wind Farm,Wind,Operational,310453.0,628117.0,Operational,Large (1MW+),-3.4204917846947995,55.53852457081538
+Griffin Wind farm,Wind,Operational,293600.0,744600.0,Operational,Large (1MW+),-3.733748918725175,56.58121218461989
+Flotta,Wind,Operational,336770.0,995385.0,Operational,Large (1MW+),-3.0972583312993063,58.84123663055089
+Ben Aketil Extension,Wind,Operational,132500.0,846500.0,Operational,Large (1MW+),-6.4583264974571115,57.42978106243929
+Tangy Wind Farm Extension/Tangy 2,Wind,Operational,177000.0,626200.0,Operational,Large (1MW+),-5.530423268272379,55.47861479771355
+Tangy Wind Farm/Tangy 1,Wind,Operational,168500.0,628500.0,Operational,Large (1MW+),-5.666546989148436,55.49528900394608
+FMC Technologies,Wind,Operational,310010.0,685787.0,Operational,Large (1MW+),-3.4465911775094114,56.056437486923954
+Black Law,Wind,Operational,289500.0,653500.0,Operational,Large (1MW+),-3.7625574690517625,55.76218684169567
+Arecleoch Windfarm,Wind,Operational,221500.0,578500.0,Operational,Large (1MW+),-4.79703350625549,55.06879198585084
+Kilbraur Windfarm Farlary - Extension,Wind,Operational,283124.0,902064.0,Operational,Large (1MW+),-3.978666452421917,57.99237014027211
+Upper Ardgrain Wind Farm,Wind,Operational,396508.0,835110.0,Operational,Large (1MW+),-2.059769842850202,57.406352123524776
+Denhill,Wind,Operational,379611.0,835693.0,Operational,Large (1MW+),-2.341029256984187,57.41114073304424
+Haddo,Wind,Operational,381628.0,837639.0,Operational,Large (1MW+),-2.307603761730764,57.42870710428871
+Gairnieston Farm,Wind,Operational,374750.0,856031.0,Operational,Large (1MW+),-2.4240521667577895,57.593577087711544
+Mark Hill,Wind,Operational,225000.0,585000.0,Operational,Large (1MW+),-4.746291276867515,55.12837947427389
+Muirhall,Wind,Operational,300605.0,653760.0,Operational,Large (1MW+),-3.5857598336153336,55.766932079516366
+Achany Wind Farm,Wind,Operational,252350.0,904150.0,Operational,Large (1MW+),-4.50001100268222,58.0019300252547
+"West Hill, Flotta",Wind,Operational,335252.0,993820.0,Operational,Large (1MW+),-3.1230984483530646,58.826958248106344
+Lochelbank Wind Farm II,Wind,Operational,311440.0,713477.0,Operational,Large (1MW+),-3.432877095900716,56.30540191091949
+Millennium Extension II,Wind,Operational,225679.0,810840.0,Operational,Large (1MW+),-4.883633916148854,57.155208789501174
+"Bendealt Wind Farm, Highland",Wind,Operational,255500.0,871000.0,Operational,Large (1MW+),-4.426655070259512,57.705482906418894
+Hagshaw Hill Wind Farm,Wind,Operational,278980.0,630740.0,Operational,Large (1MW+),-3.9200730831928006,55.555284240646955
+"Hagshaw Hill (S15) Wind Farm, Lanarkshire",Wind,Operational,278965.0,630750.0,Operational,Large (1MW+),-3.920315106669748,55.555370317150185
+Beinn Tharsuinn Windfarm Project,Wind,Operational,261700.0,881900.0,Operational,Large (1MW+),-4.328995462889515,57.80525866641224
+Roughside Hill,Wind,Operational,333000.0,646200.0,Operational,Large (1MW+),-3.067711888535094,55.70459431926547
+Burnfoot Hill,Wind,Operational,290135.0,703250.0,Operational,Large (1MW+),-3.7727789368383546,56.20910336971593
+Hammar's Hill,Wind,Operational,338644.0,1023698.0,Operational,Large (1MW+),-3.0726681765034694,59.09573023120624
+Crystal Rig Wind Farm Phase 2a,Wind,Operational,367000.0,667500.0,Operational,Large (1MW+),-2.529317297431656,55.899477273648124
+Toddleburn,Wind,Operational,345050.0,653150.0,Operational,Large (1MW+),-2.8773952067841653,55.768549681812644
+Cairnmore Farm,Wind,Operational,351086.0,825261.0,Operational,Large (1MW+),-2.8137096559394434,57.31526361591429
+Boyndie Airfield Extension,Wind,Operational,361206.0,863606.0,Operational,Large (1MW+),-2.6518221361096086,57.66064901974821
+Strath of Brydock - Extension,Wind,Operational,365391.0,859727.0,Operational,Large (1MW+),-2.5811328751804594,57.62615094117642
+Craigengelt,Wind,Operational,272451.0,686495.0,Operational,Large (1MW+),-4.049655472865999,56.054253013063
+Achairn,Wind,Operational,329950.0,950650.0,Operational,Large (1MW+),-3.2015127426506647,58.43850401149206
+Hill of Lybster,Wind,Operational,302000.0,969500.0,Operational,Large (1MW+),-3.6881442784726404,58.602345237850926
+Hill of Balquhindachy extension,Wind,Operational,385642.0,842482.0,Operational,Large (1MW+),-2.2410455710730077,57.47235497737665
+"Burgar Hill (land Near), Evie",Wind,Operational,334300.0,1026200.0,Operational,Large (1MW+),-3.14922324539426,59.11754495793579
+Longpark,Wind,Operational,348050.0,642050.0,Operational,Large (1MW+),-2.8274732060251013,55.66915929799666
+Whitelee,Wind,Operational,256800.0,645435.0,Operational,Large (1MW+),-4.27904637741342,55.68120381029175
+Crystal Rig Phase 1,Wind,Operational,368350.0,665650.0,Operational,Large (1MW+),-2.507512111012137,55.88294698303228
+Pates Hill,Wind,Operational,299130.0,659300.0,Operational,Large (1MW+),-3.611312270082889,55.81638291507342
+Rothiesholm,Wind,Operational,362283.0,1023560.0,Operational,Large (1MW+),-2.660083121940311,59.09724702092351
+Arnish Moor,Wind,Operational,139155.0,929460.0,Operational,Large (1MW+),-6.438327737288343,58.176607044137285
+Meall an Tuirc Wind Farm,Wind,Operational,255500.0,871500.0,Operational,Large (1MW+),-4.426955453469663,57.709969962765
+Bilbster Wind Farm,Wind,Operational,327150.0,951850.0,Operational,Large (1MW+),-3.249839985233112,58.44882051750663
+Greendykeside,Wind,Operational,281134.0,670403.0,Operational,Large (1MW+),-3.9032072622912795,55.911988965346
+Thorfinn Wind Farm - NM1500,Wind,Operational,334600.0,1025700.0,Operational,Large (1MW+),-3.1438352446830335,59.11310203376317
+Burgar Hill,Wind,Operational,334300.0,1026200.0,Operational,Large (1MW+),-3.14922324539426,59.11754495793579
+Thorfinn Wind Farm - NM2000,Wind,Operational,334790.0,1025240.0,Operational,Large (1MW+),-3.140380808657862,59.10900114629756
+Burradale Hill,Wind,Operational,442500.0,1142500.0,Operational,Large (1MW+),-1.2360612469902357,60.16476398904867
+Hill of Easterton,Wind,Operational,376449.0,831808.0,Operational,Large (1MW+),-2.3932853656015505,57.376090683287686
+Hagshaw Hill Wind Farm Extension,Wind,Operational,279000.0,632000.0,Operational,Large (1MW+),-3.920308032619403,55.5666041446863
+Hadyard Hill,Wind,Operational,226478.0,599253.0,Operational,Large (1MW+),-4.73188569572223,55.25682821081181
+Lochhead Farm,Wind,Operational,275500.0,646500.0,Operational,Large (1MW+),-3.982335928418725,55.69592782764514
+Beinn Ghlas Wind Farm,Wind,Operational,196500.0,726000.0,Operational,Large (1MW+),-5.297692760906742,56.38233389598148
+Cruach Mhor,Wind,Operational,203500.0,687400.0,Operational,Large (1MW+),-5.155906835453487,56.039034016430264
+Myres Hill,Wind,Operational,256840.0,646620.0,Operational,Large (1MW+),-4.279029836270823,55.69185428411186
+Lerwick,Fossil Fuel,Operational,446456.0,1142790.0,Operational,Large (1MW+),-1.164724748275113,60.16693801453331
+Peterhead,Fossil Fuel,Operational,412790.0,843093.0,Operational,Large (1MW+),-1.7883787747996323,57.47789807061802
+Arnish,Fossil Fuel,Operational,142229.0,930499.0,Operational,Large (1MW+),-6.387368804406945,58.18771660900261
+Barra,Fossil Fuel,Operational,71706.0,803309.0,Operational,Large (1MW+),-7.4094623084924445,57.0037385031623
+Bowmore,Fossil Fuel,Operational,132024.0,660214.0,Operational,Large (1MW+),-6.273218051574506,55.76082628429582
+Kirkwall,Fossil Fuel,Operational,344667.0,1010985.0,Operational,Large (1MW+),-2.964354682620096,58.982405088665175
+Loch Carnan,Fossil Fuel,Operational,83233.0,842636.0,Operational,Large (1MW+),-7.270503352451265,57.36357421259828
+Stornoway,Fossil Fuel,Operational,143150.0,932158.0,Operational,Large (1MW+),-6.373580753760483,58.20311043489764
+Tiree,Fossil Fuel,Operational,100030.0,744120.0,Operational,Large (1MW+),-6.875644998402185,56.49323241483974
+Auchtertyre,Hydro,Operational,235422.0,729327.0,Operational,Small to medium (>=45kW and <1MW),-4.670229412641237,56.427349240177364
+Garry Gualach,Hydro,Operational,216600.0,799800.0,Operational,Small to medium (>=45kW and <1MW),-5.025412067312259,57.052637632546336
+Glen Tarbert,Hydro,Operational,186600.0,760500.0,Operational,Small to medium (>=45kW and <1MW),-5.486062201913272,56.687340989421706
+Inverbain,Hydro,Operational,178095.5186,856066.1849,Operational,Small to medium (>=45kW and <1MW),-5.709379658865685,57.54009221099413
+Stanley Mill,Hydro,Operational,311430.0,732835.0,Operational,Small to medium (>=45kW and <1MW),-3.4395865155978154,56.47925846774946
+Awe Barrage - A,Hydro,Operational,202987.0,729485.0,Operational,Small to medium (>=45kW and <1MW),-5.195430914836735,56.4163425707265
+Beannachran Dam - A,Hydro,Operational,233926.1258,831784.3843,Operational,Small to medium (>=45kW and <1MW),-4.761503308308366,57.346189035486034
+Cladach Dam,Hydro,Operational,219715.0,595201.0,Operational,Small to medium (>=45kW and <1MW),-4.835566529819997,55.21803614919346
+Cluanie Dam  - A,Hydro,Operational,218164.204,809842.5173,Operational,Small to medium (>=45kW and <1MW),-5.006956042083809,57.143345914595784
+Clunie Dam - A,Hydro,Operational,293345.8959,757790.003,Operational,Small to medium (>=45kW and <1MW),-3.7433411552674727,56.699594335637045
+"Duchally Power Station - A,C,E",Hydro,Operational,238694.1282,916750.919,Operational,Small to medium (>=45kW and <1MW),-4.739435178897334,58.110230312189245
+Dundreggan Dam A,Hydro,Operational,231413.0826,813651.7016,Operational,Small to medium (>=45kW and <1MW),-4.790866376324373,57.18257785651265
+Gisla Power Station - A,Hydro,Operational,113291.0388,926162.8848,Operational,Small to medium (>=45kW and <1MW),-6.872448357389123,58.13107224550609
+"Invergarry Dam - A, E",Hydro,Operational,238862.9652,809324.0093,Operational,Small to medium (>=45kW and <1MW),-4.664968219066313,57.146423041994375
+"Kilmelford Compset  A,C",Hydro,Operational,183921.6869,712587.0064,Operational,Small to medium (>=45kW and <1MW),-5.490003647431482,56.256474006038125
+Lochay Fish Pass Generator  -  C,Hydro,Operational,256968.2024,734182.0673,Operational,Small to medium (>=45kW and <1MW),-4.323870239256413,56.47795665719005
+"Loyne Power Station - A,C",Hydro,Operational,228554.8898,813307.0187,Operational,Small to medium (>=45kW and <1MW),-4.837851569811257,57.17842579811671
+Luichart Dam - A,Hydro,Operational,232652.8391,862232.7486,Operational,Small to medium (>=45kW and <1MW),-4.8035018277091,57.61890183945126
+Meig Dam,Hydro,Operational,237124.6647,855942.3608,Operational,Small to medium (>=45kW and <1MW),-4.724503848763138,57.564100456848934
+Misgeach Power Station - A,Hydro,Operational,229571.0183,838608.3761,Operational,Small to medium (>=45kW and <1MW),-4.838507606692752,57.40580362778946
+"Morar Power Station - A,C",Hydro,Operational,168582.0259,792663.6294,Operational,Small to medium (>=45kW and <1MW),-5.80875759053318,56.96707326181545
+Orrin Dam - A,Hydro,Operational,245505.3941,856091.6158,Operational,Small to medium (>=45kW and <1MW),-4.584663469412649,57.568383011256316
+Pitlochry Compensation Generation - A,Hydro,Operational,293500.038,757752.0142,Operational,Small to medium (>=45kW and <1MW),-3.7408094791634667,56.69928841268912
+Quoich Dam - A,Hydro,Operational,216881.8432,800852.8905,Operational,Small to medium (>=45kW and <1MW),-5.021540543053504,57.06219472871392
+Shin Diversion Dam - A,Hydro,Operational,257261.3273,897258.4795,Operational,Small to medium (>=45kW and <1MW),-4.412831906787457,57.941692052600594
+Stronuich Power Station - A,Hydro,Operational,250616.8964,742103.8882,Operational,Small to medium (>=45kW and <1MW),-4.431437829544096,56.54708860276219
+"Tobermory Power Station - A,E",Hydro,Operational,148722.4198,755603.4027,Operational,Small to medium (>=45kW and <1MW),-6.098102810659574,56.62464324042454
+Tralaig Power Station,Hydro,Operational,183921.6869,712587.0064,Operational,Small to medium (>=45kW and <1MW),-5.490003647431482,56.256474006038125
+Trinafour Power Station - A,Hydro,Operational,270988.1369,765725.1915,Operational,Small to medium (>=45kW and <1MW),-4.112192051542193,56.765188923433236
+Vaich Power Station,Hydro,Operational,234419.6788,875106.5866,Operational,Small to medium (>=45kW and <1MW),-4.782803548746949,57.735053669286145
+Upper Falloch,Hydro,Operational,236978.0,723752.0,Operational,Small to medium (>=45kW and <1MW),-4.641559215909196,56.37785725023098
+Edinburgh College,Photovoltaic,Operational,332566.0,665887.0,Operational,Small to medium (>=45kW and <1MW),-3.0795007577014384,55.8813875220387
+East Kilbride,Wind,Operational,264500.0,652000.0,Operational,Small to medium (>=45kW and <1MW),-4.15993591073653,55.74235969767218
+Breadalbane Community Campus,Biomass,Operating,285347.0,748799.0,Operational,Large (1MW+),-3.8698876917111305,56.616969436533864
+Queen Margaret University College,Biomass,Operating,333055.0,671433.0,Operational,Large (1MW+),-3.0730614513273102,55.93127699904662
+Shetland Heat And Power Ltd (Sheap) Aka Lerwick District Heating Scheme,Energy From Waste,Operating,446402.0,1142976.0,Operational,Large (1MW+),-1.165655343564476,60.1686140521095
+Mawmill Farm Gshp,Ground Source Heat Pump,Under construction,308528.0,698829.0,In development,Large (1MW+),-3.474856188881728,56.17329137675087
+East Lothian Eggs Gshp Shed,Ground Source Heat Pump,"Consented, not built",350111.0,667523.0,In development,Large (1MW+),-2.7993850530081303,55.898226164392774
+Craignathro Farm Gshp,Ground Source Heat Pump,"Consented, not built",346134.0,748908.0,In development,Large (1MW+),-2.8795953951344653,56.62889227553898
+Queens Quay District Heating Scheme,Water Source Heat Pump,Operating,249749.0,669542.0,Operational,Large (1MW+),-4.404380586452016,55.89548020250533
+Glenmhoresco,Water Source Heat Pump,Operating,266529.0,844694.0,Operational,Large (1MW+),-4.227249302691218,57.472784024101344
+Ormsary Fish Farm Wshp,Water Source Heat Pump,"Consented, not built",173493.0,671834.0,In development,Large (1MW+),-5.623489508461382,55.88621095978307
+Hunterston B,Nuclear,Operational,218252.0,651517.0,Operational,Large (1MW+),-4.895368806680929,55.72287768486943
+Torness,Nuclear,Operational,374500.0,675100.0,Operational,Large (1MW+),-2.410103758739437,55.96821579634127
