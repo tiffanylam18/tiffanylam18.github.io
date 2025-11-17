@@ -46,7 +46,6 @@
       "legend": {"title": "Days Above 35°C"}
     },
     "tooltip": [
-      {"field": "year", "title": "Year"},
       {"field": "hot_days", "title": "Days Above 35°C"}
     ]
   },

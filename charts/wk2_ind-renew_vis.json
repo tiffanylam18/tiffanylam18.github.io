@@ -19,7 +19,36 @@
     "format": {"type": "json"}
   },
   "transform": [{"calculate": "datum['value']/1000", "as": "output"}],
-  "mark": {"type": "line", "color": "#3965ea", "strokeWidth": "2"},
+  "layer": [
+    {
+      "mark": {"type": "line", "color": "#3965ea", "strokeWidth": 2}
+    },
+    {
+      "transform": [{"filter": {"param": "hover", "empty": false}}],
+      "mark": {"type": "point", "size": 100, "filled": true, "color": "#3965ea"}
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {"value": 0.3, "param": "hover", "empty": false},
+          "value": 0
+        }
+      },
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "fields": ["date"],
+            "nearest": true,
+            "on": "pointerover",
+            "clear": "pointerout"
+          }
+        }
+      ]
+    }
+  ],
   "encoding": {
     "x": {
       "field": "date",
@@ -35,7 +64,16 @@
         "titleColor": "#122B39",
         "grid": false
       }
-    }
+    },
+    "tooltip": [
+      {"field": "date", "type": "temporal", "title": "Year", "timeUnit": "year"},
+      {
+        "field": "output",
+        "type": "quantitative",
+        "title": "Output (GWh, Thousands)",
+        "format": ".2f"
+      }
+    ]
   },
   "config": {}
 }

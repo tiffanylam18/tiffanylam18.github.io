@@ -17,7 +17,32 @@
       "as": "CO₂ Emissions (Billions)"
     }
   ],
-  "mark": "line",
+  "layer": [
+    {"mark": {"type": "line", "strokeWidth": 2}},
+    {"transform": [{"filter": {"param": "hover", "empty": false}}],
+      "mark": {"type": "point", "size": 100, "filled": true}
+    },
+    {"mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {"value": 0.3, "param": "hover", "empty": false},
+          "value": 0
+        }
+      },
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "field": ["Year"],
+            "nearest": true,
+            "on": "pointerover",
+            "clear": "pointerout"
+          }
+        }
+      ]
+      }
+  ],
   "encoding": {
     "x": {
       "field": "Year",
@@ -28,7 +53,11 @@
       "field": "CO₂ Emissions (Billions)",
       "type": "quantitative",
       "axis": {"grid": false}
-    }
+    },
+    "tooltip": [
+      {"field": "Year", "type": "temporal", "title": "Year", "timeUnit": "year"},
+      {"field": "CO₂ Emissions (Billions)", "format": ".2f"}
+    ]
   },
   "config": {}
 }
