@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Air Quality in Wales: PM2.5 Pollution by Local Authority",
+    "subtitle": "Average PM2.5 concentration (µg/m³), 2023",
+    "anchor": "start"
+  },
+  "width": 300,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/refs/heads/main/MappingWorkshop/geo_data/LAD_WLS_2025_05.topojson",
+    "format": {"type": "topojson", "feature": "object_name"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.LAD25NM",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/main/data/wk7_wales_air-quality.json"
+        },
+        "key": "Area",
+        "fields": ["Data values"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.5},
+  "encoding": {
+    "color": {
+      "field": "Data values",
+      "type": "quantitative",
+      "scale": {"scheme": "oranges", "domain": [3.5, 7]},
+      "legend": {
+        "title": "PM2.5 (µg/m³)",
+        "orient": "bottom",
+        "direction": "horizontal"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "properties.LAD25NM",
+        "type": "nominal",
+        "title": "Local Authority"
+      },
+      {
+        "field": "Data values",
+        "type": "quantitative",
+        "title": "PM2.5 (µg/m³)",
+        "format": ".2f"
+      }
+    ]
+  },
+  "projection": {"type": "mercator"},
+  "config": {}
+}
