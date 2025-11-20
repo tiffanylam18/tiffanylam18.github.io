@@ -8,7 +8,7 @@
     "anchor": "start"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/data/wk6_temp_KL.json",
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_portfolio/data/wk6_temp_KL.json",
     "format": {"type": "json", "property": "daily"}
   },
   "transform": [

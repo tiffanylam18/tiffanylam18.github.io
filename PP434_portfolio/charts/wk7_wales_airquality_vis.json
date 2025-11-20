@@ -16,7 +16,7 @@
       "lookup": "properties.LAD25NM",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/main/data/wk7_wales_air-quality.json"
+          "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_portfolio/data/wk7_wales_air-quality.json"
         },
         "key": "Area",
         "fields": ["Data values"]

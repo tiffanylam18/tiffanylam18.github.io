@@ -7,7 +7,7 @@
     "anchor": "start"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/data/wk2_annual-co2-emissions-per-country.csv"
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_portfolio/data/wk2_annual-co2-emissions-per-country.csv"
   },
   "transform": [
     {"filter": "datum.Entity==='World'"},

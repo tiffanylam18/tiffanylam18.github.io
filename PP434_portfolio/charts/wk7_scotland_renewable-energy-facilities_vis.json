@@ -22,7 +22,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/data/wk7_scotland_energy-supply_latlon.csv"
+        "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_portfolio/data/wk7_scotland_energy-supply_latlon.csv"
       },
       "transform": [
         {"filter": "datum.Status === 'Operational'"},
