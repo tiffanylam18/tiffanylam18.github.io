@@ -1,0 +1,165 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": 700,
+  "height": 400,
+  "title": {
+    "text": "Persistent Protection Lag in the Coral Triangle",
+    "subtitle": "All six countries remain below 2% protection while global average reaches 7.6%",
+    "anchor": "start"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_project/data/cumulative_areas.json"
+  },
+  "layer": [
+    {
+      "transform": [{"filter": "datum.region == 'Coral Triangle'"}],
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "fields": ["country_name"],
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }
+      ],
+      "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"},
+      "encoding": {
+        "x": {
+          "field": "STATUS_YR",
+          "type": "ordinal",
+          "title": "Year",
+          "axis": {
+            "labelExpr": "datum.value == 2020 ? '' : datum.value",
+            "labelAngle": -45
+          }
+        },
+        "y": {
+          "field": "protection_rate_pct",
+          "type": "quantitative",
+          "title": "Marine Protected Area (% of EEZ)",
+          "scale": {"domain": [0, 10]}
+        },
+        "detail": {"field": "country_name", "type": "nominal"},
+        "tooltip": [
+          {"field": "country_name", "type": "nominal", "title": "Country"},
+          {"field": "STATUS_YR", "type": "ordinal", "title": "Year"},
+          {
+            "field": "protection_rate_pct",
+            "type": "quantitative",
+            "title": "% Protected",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [{"filter": "datum.region == 'Coral Triangle'"}],
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5,
+        "point": {"size": 50, "filled": true}
+      },
+      "encoding": {
+        "x": {"field": "STATUS_YR", "type": "ordinal"},
+        "y": {"field": "protection_rate_pct", "type": "quantitative"},
+        "color": {
+          "condition": {
+            "param": "hover",
+            "field": "country_name",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "Indonesia",
+                "Philippines",
+                "Malaysia",
+                "Papua New Guinea",
+                "Timor-Leste",
+                "Solomon Islands"
+              ],
+              "range": [
+                "#1f77b4",
+                "#ff7f0e",
+                "#17becf",
+                "#d62728",
+                "#9467bd",
+                "#8c564b"
+              ]
+            },
+            "legend": {
+              "title": "Coral Triangle Countries",
+              "orient": "right",
+              "offset": 10
+            }
+          },
+          "value": "lightgray"
+        },
+        "opacity": {"condition": {"param": "hover", "value": 1}, "value": 0.2}
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.region == 'Global'"},
+        {"filter": "datum.STATUS_YR < 2020"}
+      ],
+      "mark": {
+        "type": "line",
+        "strokeWidth": 3,
+        "strokeDash": [8, 4],
+        "color": "#2ca02c"
+      },
+      "encoding": {
+        "x": {"field": "STATUS_YR", "type": "ordinal"},
+        "y": {"field": "protection_rate_pct", "type": "quantitative"},
+        "tooltip": [
+          {"field": "country_name", "type": "nominal", "title": "Benchmark"},
+          {"field": "STATUS_YR", "type": "ordinal", "title": "Year"},
+          {
+            "field": "protection_rate_pct",
+            "type": "quantitative",
+            "title": "% Protected",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {"values": [{"x": 2015, "y": 7.7, "label": "Global Average"}]},
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 5,
+        "dy": 0,
+        "color": "#2ca02c",
+        "fontSize": 11
+      },
+      "encoding": {
+        "x": {"field": "x", "type": "ordinal"},
+        "y": {"field": "y", "type": "quantitative"},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    },
+    {
+      "data": {"values": [{}]},
+      "mark": {"type": "rule", "strokeDash": [5, 5], "color": "red", "size": 2},
+      "encoding": {"y": {"datum": 10, "type": "quantitative"}}
+    },
+    {
+      "data": {"values": [{"target": 10, "label": "SDG 10% Target (2020)"}]},
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": 340,
+        "dy": -5,
+        "color": "red",
+        "fontSize": 10
+      },
+      "encoding": {
+        "y": {"datum": 10, "type": "quantitative"},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    }
+  ],
+  "config": {}
+}
