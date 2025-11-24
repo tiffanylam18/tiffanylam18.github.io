@@ -1,0 +1,90 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "National Governments Dominate Marine Protection Across the Coral Triangle",
+    "subtitle": "Most countries centralize MPA management, except Solomon Islands' indigenous-led model",
+    "anchor": "start"
+  },
+  "width": 600,
+  "height": 350,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_project/data/area_governance.json"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "country_name",
+      "type": "nominal",
+      "title": "",
+      "sort": {"field": "REP_M_AREA", "op": "sum", "order": "descending"},
+      "axis": {"labelAngle": -45}
+    },
+    "y": {
+      "aggregate": "sum",
+      "field": "pct_area",
+      "type": "quantitative",
+      "title": "Share of Country's MPA Area",
+      "stack": "normalize",
+      "axis": {"format": ".0%"}
+    },
+    "color": {
+      "field": "GOV_TYPE",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Federal or national ministry or agency",
+          "Sub-national ministry or agency",
+          "Collaborative governance",
+          "Indigenous peoples",
+          "Local communities",
+          "Government-delegated management",
+          "Not Reported"
+        ],
+        "range": [
+          "#4e79a7",
+          "#f28e2b",
+          "#59a14f",
+          "#e15759",
+          "#b07aa1",
+          "#9c755f",
+          "#d3d3d3"
+        ]
+      },
+      "legend": {
+        "title": "Governance Type",
+        "orient": "right",
+        "labelLimit": 250
+      },
+      "sort": [
+        "Federal or national ministry or agency",
+        "Sub-national ministry or agency",
+        "Collaborative governance",
+        "Indigenous peoples",
+        "Local communities",
+        "Government-delegated management",
+        "Not Reported"
+      ]
+    },
+    "tooltip": [
+      {"field": "GOV_TYPE", "type": "nominal", "title": "Governance Type"},
+      {
+        "field": "REP_M_AREA",
+        "type": "quantitative",
+        "title": "MPA Area (km²)",
+        "format": ",.0f"
+      },
+      {
+        "field": "protected_area_count",
+        "type": "quantitative",
+        "title": "Number of MPAs"
+      },
+      {
+        "field": "pct_area",
+        "type": "quantitative",
+        "title": "% of Country Total",
+        "format": ".2f"
+      }
+    ]
+  },
+  "config": {}
+}
