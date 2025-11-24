@@ -28,26 +28,28 @@
       "axis": {"format": ".0%"}
     },
     "color": {
-      "field": "GOV_TYPE",
+      "field": "gov_type_short",
       "type": "nominal",
       "scale": {
         "domain": [
-          "Federal or national ministry or agency",
-          "Sub-national ministry or agency",
-          "Collaborative governance",
-          "Indigenous peoples",
-          "Local communities",
-          "Government-delegated management",
+          "National",
+          "Sub-National",
+          "Joint",
+          "Collaborative",
+          "Indigenous Communities",
+          "Local Communities",
+          "Delegated Management",
           "Not Reported"
         ],
         "range": [
           "#4e79a7",
-          "#f28e2b",
+          "#f28e2c",
           "#59a14f",
+          "#edc949",
           "#e15759",
           "#b07aa1",
           "#9c755f",
-          "#d3d3d3"
+          "#bab0ab"
         ]
       },
       "legend": {
@@ -56,12 +58,13 @@
         "labelLimit": 250
       },
       "sort": [
-        "Federal or national ministry or agency",
-        "Sub-national ministry or agency",
-        "Collaborative governance",
-        "Indigenous peoples",
-        "Local communities",
-        "Government-delegated management",
+        "National",
+        "Sub-National",
+        "Joint",
+        "Collaborative",
+        "Indigenous Communities",
+        "Local Communities",
+        "Delegated Management",
         "Not Reported"
       ]
     },
