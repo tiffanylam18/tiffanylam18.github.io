@@ -1,0 +1,74 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 500,
+  "title": {
+    "text": "Minimal Marine Protection Across the Coral Triangle",
+    "subtitle": "All countries protect less than 2% of marine waters despite region's global biodiversity significance",
+    "anchor": "start"
+  },
+  "projection": {"type": "mercator", "center": [133, 2], "scale": 460},
+  "layer": [
+    {
+      "data": {"sphere": true},
+      "mark": {"type": "geoshape", "fill": "aliceblue"}
+    },
+    {
+      "data": {
+        "url": "https://vega.github.io/vega-datasets/data/world-110m.json",
+        "format": {"type": "topojson", "feature": "countries"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#bebebe",
+        "stroke": "white",
+        "strokeWidth": 0.5
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_project/data/ct_chloro.geojson",
+        "format": {"type": "json", "property": "features"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "stroke": "white",
+        "strokeWidth": 0.5,
+        "fillOpacity": 0.85
+      },
+      "encoding": {
+        "color": {
+          "field": "properties.protection_rate_pct",
+          "type": "quantitative",
+          "scale": {"scheme": "blues", "domain": [0, 2]},
+          "legend": {"title": "% of EEZ Protected", "format": ".2f"}
+        },
+        "tooltip": [
+          {
+            "field": "properties.country_name",
+            "type": "nominal",
+            "title": "Country"
+          },
+          {
+            "field": "properties.protection_rate_pct",
+            "type": "quantitative",
+            "title": "% Protected",
+            "format": ".2f"
+          },
+          {
+            "field": "properties.num_mpas",
+            "type": "quantitative",
+            "title": "Number of MPAs"
+          },
+          {
+            "field": "properties.mpa_area_km2",
+            "type": "quantitative",
+            "title": "MPA Area (km²)",
+            "format": ",.0f"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {}
+}
