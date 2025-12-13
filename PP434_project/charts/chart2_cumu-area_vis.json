@@ -4,15 +4,31 @@
   "height": 400,
   "title": {
     "text": "Persistent Protection Lag in the Coral Triangle",
-    "subtitle": "All six countries remain below 2% protection while global average reaches 7.6%",
+    "subtitle": ["All six countries remain below 2% protection while global average reaches 7.6%", "", "Marine Protected Area (% of EEZ)"],
     "anchor": "start"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_project/data/cumulative_areas.json"
   },
+  "params": [
+    {
+      "name": "yearSlider",
+      "value": 2019,
+      "bind": {
+        "input": "range",
+        "min": 1977,
+        "max": 2019,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
   "layer": [
     {
-      "transform": [{"filter": "datum.region == 'Coral Triangle'"}],
+      "transform": [
+        {"filter": "datum.region == 'Coral Triangle'"},
+        {"filter": "datum.STATUS_YR <= yearSlider"}
+      ],
       "params": [
         {
           "name": "hover",
@@ -29,7 +45,7 @@
         "x": {
           "field": "STATUS_YR",
           "type": "ordinal",
-          "title": "Year",
+          "title": "",
           "axis": {
             "labelExpr": "datum.value == 2020 ? '' : datum.value",
             "labelAngle": -45
@@ -38,8 +54,9 @@
         "y": {
           "field": "protection_rate_pct",
           "type": "quantitative",
-          "title": "Marine Protected Area (% of EEZ)",
-          "scale": {"domain": [0, 10]}
+          "title": "",
+          "scale": {"domain": [0, 10]},
+          "axis": {"format":"%", "labelExpr": "datum.value + '%'"}
         },
         "detail": {"field": "country_name", "type": "nominal"},
         "tooltip": [
@@ -55,7 +72,10 @@
       }
     },
     {
-      "transform": [{"filter": "datum.region == 'Coral Triangle'"}],
+      "transform": [
+        {"filter": "datum.region == 'Coral Triangle'"},
+        {"filter": "datum.STATUS_YR <= yearSlider"}
+      ],
       "mark": {
         "type": "line",
         "strokeWidth": 2.5,
@@ -89,7 +109,7 @@
             },
             "legend": {
               "title": "Coral Triangle Countries",
-              "orient": "right",
+              "orient": "bottom",
               "offset": 10
             }
           },
@@ -101,7 +121,8 @@
     {
       "transform": [
         {"filter": "datum.region == 'Global'"},
-        {"filter": "datum.STATUS_YR < 2020"}
+        {"filter": "datum.STATUS_YR < 2020"},
+        {"filter": "datum.STATUS_YR <= yearSlider"}
       ],
       "mark": {
         "type": "line",
@@ -125,7 +146,16 @@
       }
     },
     {
-      "data": {"values": [{"x": 2015, "y": 7.7, "label": "Global Average"}]},
+      "transform": [
+        {"filter": "datum.region == 'Global'"},
+        {"filter": "datum.STATUS_YR < 2020"},
+        {"filter": "datum.STATUS_YR <= yearSlider"},
+        {
+          "window": [{"op": "max", "field": "STATUS_YR", "as": "maxYear"}],
+          "frame": [null, null]
+        },
+        {"filter": "datum.STATUS_YR == datum.maxYear"}
+      ],
       "mark": {
         "type": "text",
         "align": "left",
@@ -135,9 +165,9 @@
         "fontSize": 11
       },
       "encoding": {
-        "x": {"field": "x", "type": "ordinal"},
-        "y": {"field": "y", "type": "quantitative"},
-        "text": {"field": "label", "type": "nominal"}
+        "x": {"field": "STATUS_YR", "type": "ordinal"},
+        "y": {"field": "protection_rate_pct", "type": "quantitative"},
+        "text": {"value": "Global Average"}
       }
     },
     {
