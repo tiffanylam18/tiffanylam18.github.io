@@ -1,0 +1,221 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": 500,
+  "height": 350,
+  "title": {
+    "text": "Solomon Islands: Projected to Reach Only 0.07% Protection by 2030",
+    "subtitle": ["", "Marine Protected Area (% of EEZ)"],
+    "anchor": "start"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_project/data/chart2_regression.json"
+  },
+  "transform": [{"filter": "datum.country_name == 'Solomon Islands'"}],
+  "layer": [
+    {
+      "transform": [{"filter": "datum.is_projection == false"}],
+      "mark": {"type": "area", "opacity": 0.2, "color": "#3498db"},
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "scale": {"domain": [1977, 2030]},
+          "title": "",
+          "axis": {"format": "d"}
+        },
+        "y": {
+          "field": "ci_lower",
+          "type": "quantitative",
+          "title": "",
+          "scale": {"domain": [0, 30]}
+        },
+        "y2": {"field": "ci_upper"}
+      }
+    },
+    {
+      "transform": [{"filter": "datum.is_projection == true"}],
+      "mark": {"type": "area", "opacity": 0.15, "color": "#95a5a6"},
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative"},
+        "y": {"field": "ci_lower", "type": "quantitative"},
+        "y2": {"field": "ci_upper"}
+      }
+    },
+    {
+      "transform": [{"filter": "datum.actual_value != null"}],
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 100,
+        "color": "#2c3e50"
+      },
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative"},
+        "y": {
+          "field": "actual_value",
+          "type": "quantitative",
+          "axis": {"format": "%", "labelExpr": "datum.value + '%'"}
+        },
+        "tooltip": [
+          {"field": "year", "type": "quantitative", "title": "Year"},
+          {
+            "field": "actual_value",
+            "type": "quantitative",
+            "title": "% Protected",
+            "format": ".3f"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [{"filter": "datum.is_projection == false"}],
+      "mark": {"type": "line", "strokeWidth": 3, "color": "#3498db"},
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative"},
+        "y": {"field": "predicted_value", "type": "quantitative"}
+      }
+    },
+    {
+      "transform": [{"filter": "datum.is_projection == true"}],
+      "mark": {
+        "type": "line",
+        "strokeWidth": 3,
+        "strokeDash": [8, 4],
+        "color": "#95a5a6"
+      },
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative"},
+        "y": {"field": "predicted_value", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "strokeDash": [5, 5],
+        "color": "#e74c3c",
+        "size": 2
+      },
+      "encoding": {"y": {"datum": 10}}
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "strokeDash": [5, 5],
+        "color": "#c0392b",
+        "size": 2
+      },
+      "encoding": {"y": {"datum": 30}}
+    },
+    {
+      "data": {
+        "values": [{"x": 1977, "y": 10.5, "label": "10% Target (2020)"}]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 11,
+        "color": "#e74c3c"
+      },
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative"},
+        "y": {"field": "y", "type": "quantitative"},
+        "text": {"field": "label"}
+      }
+    },
+    {
+      "data": {
+        "values": [{"x": 1977, "y": 30.5, "label": "30% Target (2030)"}]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 11,
+        "color": "#c0392b"
+      },
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative"},
+        "y": {"field": "y", "type": "quantitative"},
+        "text": {"field": "label"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "x": 2022.5,
+            "y": 1,
+            "label": "Current anual growth: 0.002% per year"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 10,
+        "color": "#34495e",
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative"},
+        "y": {"field": "y", "type": "quantitative"},
+        "text": {"field": "label"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "x": 2022.5,
+            "y": 10.5,
+            "label": "Growth needed: 0.90% per year (510x faster)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 10,
+        "color": "#e74c3c",
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative"},
+        "y": {"field": "y", "type": "quantitative"},
+        "text": {"field": "label"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "x": 2022.5,
+            "y": 30.5,
+            "label": "Growth needed: 2.72% per year (1537x faster)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 10,
+        "color": "#c0392b",
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative"},
+        "y": {"field": "y", "type": "quantitative"},
+        "text": {"field": "label"}
+      }
+    }
+  ],
+  "config": {
+    "background": "rgba(0,0,0,0.01)",
+    "title": {
+      "fontSize": 24,
+      "font": "Times New Roman",
+      "fontWeight": "normal",
+      "subtitleFontWeight": "lighter"
+    },
+    "view": {"stroke": "transparent"}
+  }
+}
