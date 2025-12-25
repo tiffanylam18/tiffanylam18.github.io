@@ -1,0 +1,122 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Plant vs Animal Protein: Economic Case for Sustainable Diets",
+    "subtitle": [
+      "Beans cost 5× less than beef per 100g, offering accessible pathway to lower-carbon diets",
+      "",
+      "Price per 100g (£)"
+    ],
+    "anchor": "start"
+  },
+  "width": 500,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_portfolio/data/wk8_protein_prices.json"
+  },
+  "transform": [
+    {"pivot": "protein_type", "value": "avg_price", "groupby": ["date"]}
+  ],
+  "layer": [
+    {
+      "transform": [
+        {
+          "fold": ["Beef", "Pork", "Chicken", "Beans"],
+          "as": ["protein_type", "avg_price"]
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "axis": {"title": null, "grid": false}
+        },
+        "y": {
+          "field": "avg_price",
+          "type": "quantitative",
+          "axis": {"title": "", "grid": false, "format": ".2f"}
+        },
+        "color": {
+          "field": "protein_type",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Beef", "Pork", "Chicken", "Beans"],
+            "range": ["#C1121F", "#E07A5F", "#F2CC8F", "#6A994E"]
+          },
+          "legend": {"title": "Protein Source"}
+        }
+      },
+      "layer": [
+        {"mark": {"type": "line", "strokeWidth": 2.5}},
+        {
+          "transform": [{"filter": {"param": "hoverProtein", "empty": false}}],
+          "mark": {"type": "point", "size": 100, "filled": true}
+        }
+      ]
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "x": {"field": "date", "type": "temporal"},
+        "opacity": {
+          "condition": {"value": 0.3, "param": "hoverProtein", "empty": false},
+          "value": 0
+        },
+        "tooltip": [
+          {
+            "field": "date",
+            "type": "temporal",
+            "title": "Date",
+            "format": "%Y Q%q"
+          },
+          {
+            "field": "Beef",
+            "type": "quantitative",
+            "title": "Beef (£)",
+            "format": ".2f"
+          },
+          {
+            "field": "Pork",
+            "type": "quantitative",
+            "title": "Pork (£)",
+            "format": ".2f"
+          },
+          {
+            "field": "Chicken",
+            "type": "quantitative",
+            "title": "Chicken (£)",
+            "format": ".2f"
+          },
+          {
+            "field": "Beans",
+            "type": "quantitative",
+            "title": "Beans (£)",
+            "format": ".2f"
+          }
+        ]
+      },
+      "params": [
+        {
+          "name": "hoverProtein",
+          "select": {
+            "type": "point",
+            "fields": ["date"],
+            "nearest": true,
+            "on": "pointerover",
+            "clear": "pointerout"
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "background": "rgba(0,0,0,0.01)",
+    "title": {
+      "fontSize": 24,
+      "font": "Times New Roman",
+      "fontWeight": "normal",
+      "subtitleFontWeight": "lighter"
+    },
+    "view": {"stroke": "transparent"}
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "The Widening Affordability Gap: Tracking Meat-to-Bean Price Ratios",
+    "subtitle": [
+      "Beans consistently cost 5-7× less than beef, strengthening the economic case for plant-based protein choices",
+      "",
+      "Times More Expensive Than Beans"
+    ],
+    "anchor": "start"
+  },
+  "width": 500,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_portfolio/data/wk8_protein_ratios.json"
+  },
+  "transform": [
+    {"pivot": "meat_type", "value": "times_more_expensive", "groupby": ["date"]}
+  ],
+  "layer": [
+    {
+      "transform": [
+        {
+          "fold": ["Beef", "Pork", "Chicken"],
+          "as": ["meat_type", "times_more_expensive"]
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "axis": {"title": null, "grid": false}
+        },
+        "y": {
+          "field": "times_more_expensive",
+          "type": "quantitative",
+          "axis": {"title": "", "grid": false, "format": ".1f"}
+        },
+        "color": {
+          "field": "meat_type",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Beef", "Pork", "Chicken"],
+            "range": ["#C1121F", "#E07A5F", "#F2CC8F"]
+          },
+          "legend": {"title": "Meat Type"}
+        }
+      },
+      "layer": [
+        {"mark": {"type": "line", "strokeWidth": 2.5}},
+        {
+          "transform": [{"filter": {"param": "hoverRatio", "empty": false}}],
+          "mark": {"type": "point", "size": 100, "filled": true}
+        }
+      ]
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "x": {"field": "date", "type": "temporal"},
+        "opacity": {
+          "condition": {"value": 0.3, "param": "hoverRatio", "empty": false},
+          "value": 0
+        },
+        "tooltip": [
+          {
+            "field": "date",
+            "type": "temporal",
+            "title": "Date",
+            "format": "%Y Q%q"
+          },
+          {
+            "field": "Beef",
+            "type": "quantitative",
+            "title": "Beef (× beans)",
+            "format": ".2f"
+          },
+          {
+            "field": "Pork",
+            "type": "quantitative",
+            "title": "Pork (× beans)",
+            "format": ".2f"
+          },
+          {
+            "field": "Chicken",
+            "type": "quantitative",
+            "title": "Chicken (× beans)",
+            "format": ".2f"
+          }
+        ]
+      },
+      "params": [
+        {
+          "name": "hoverRatio",
+          "select": {
+            "type": "point",
+            "fields": ["date"],
+            "nearest": true,
+            "on": "pointerover",
+            "clear": "pointerout"
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "background": "rgba(0,0,0,0.01)",
+    "title": {
+      "fontSize": 24,
+      "font": "Times New Roman",
+      "fontWeight": "normal",
+      "subtitleFontWeight": "lighter"
+    },
+    "view": {"stroke": "transparent"}
+  }
+}
