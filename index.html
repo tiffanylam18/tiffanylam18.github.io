@@ -129,6 +129,21 @@
         </figcaption>
     </section>
         
+    <section>
+        <div class="chart-description">
+            <h2>Week 8: Extracting a story from millions of prices</h2>
+            <p> Simplifying millions of UK supermarket price observations for visualization.</p>
+        </div>
+        <figure id="Location19"></figure>
+        <figcaption style="font-size: 15px; font-weight: normal;">
+            <small>Source: Davies, R (2021), “Prices and inflation in the UK – A new dataset”, Centre for Economic Performance, Occasional Paper 55, February.</small>
+        </figcaption>           
+        <figure id="Location20"></figure>
+        <figcaption style="font-size: 15px; font-weight: normal;">
+            <small>Source: Davies, R (2021), “Prices and inflation in the UK – A new dataset”, Centre for Economic Performance, Occasional Paper 55, February.</small>
+        </figcaption>
+    </section>
+
     <script>
         const portfolio_chart_path = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_portfolio/charts/"
 
@@ -174,6 +189,12 @@
 
         let figure_18_spec = `${portfolio_chart_path}wk7_scotland_renewable-energy-facilities_vis.json`
         vegaEmbed('#Location18', figure_18_spec)
+
+        let figure_19_spec = `${portfolio_chart_path}wk8_protein-prices_vis.json`
+        vegaEmbed('#Location19', figure_19_spec)
+
+        let figure_20_spec = `${portfolio_chart_path}wk8_protein-ratios_vis.json`
+        vegaEmbed('#Location20', figure_20_spec)
 
     </script>
 
