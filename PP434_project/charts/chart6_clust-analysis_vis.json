@@ -1,0 +1,107 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Protection Follows an All-or-Nothing Pattern",
+    "subtitle": [
+      "66% of MPAs allow fishing (0% no-take), while 34% are fully protected strict reserves",
+      "",
+      "Protection Intensity (No-Take Area %)"
+    ],
+    "anchor": "start"
+  },
+  "width": 700,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_project/data/chart6_cluster_analysis.json"
+  },
+  "params": [
+    {
+      "name": "countryFilter",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": ["All", "IDN", "PHL", "MYS", "PNG", "TLS", "SLB"],
+        "labels": [
+          "All Countries",
+          "Indonesia",
+          "Philippines",
+          "Malaysia",
+          "Papua New Guinea",
+          "Timor-Leste",
+          "Solomon Islands"
+        ],
+        "name": "Country: "
+      }
+    },
+    {
+      "name": "clusterHighlight",
+      "select": {"type": "point", "fields": ["cluster"]},
+      "bind": "legend"
+    }
+  ],
+  "transform": [
+    {"filter": "countryFilter == 'All' || datum.PRNT_ISO3 == countryFilter"}
+  ],
+  "mark": {"type": "circle", "size": 150, "opacity": 0.8},
+  "encoding": {
+    "x": {
+      "field": "log_area",
+      "type": "quantitative",
+      "title": "MPA Size (log km²)",
+      "scale": {"domain": [-2, 4.5]},
+      "axis": {"grid": true, "tickCount": 7}
+    },
+    "y": {
+      "field": "protection_intensity",
+      "type": "quantitative",
+      "title": "",
+      "scale": {"domain": [-0.05, 1.05]},
+      "axis": {"grid": true, "format": ".0%"}
+    },
+    "color": {
+      "field": "cluster",
+      "type": "nominal",
+      "title": "Cluster",
+      "scale": {
+        "domain": [0, 1, 2, 3],
+        "range": ["#66c2a5", "#fc8d62", "#8da0cb", "#e78ac3"]
+      },
+      "legend": {"orient": "right", "labelFontSize": 12, "titleFontSize": 13}
+    },
+    "opacity": {
+      "condition": {"param": "clusterHighlight", "value": 1},
+      "value": 0.15
+    },
+    "tooltip": [
+      {"field": "NAME_ENG", "type": "nominal", "title": "MPA Name"},
+      {"field": "country_name", "type": "nominal", "title": "Country"},
+      {
+        "field": "REP_M_AREA",
+        "type": "quantitative",
+        "title": "Area (km²)",
+        "format": ",.2f"
+      },
+      {
+        "field": "protection_intensity",
+        "type": "quantitative",
+        "title": "No-Take %",
+        "format": ".0%"
+      },
+      {"field": "age", "type": "quantitative", "title": "Age (years)"},
+      {"field": "GOV_TYPE", "type": "nominal", "title": "Governance"},
+      {"field": "IUCN_CAT", "type": "nominal", "title": "IUCN Category"},
+      {"field": "cluster", "type": "nominal", "title": "Cluster"}
+    ]
+  },
+  "config": {
+    "background": "rgba(0,0,0,0.01)",
+    "title": {
+      "fontSize": 24,
+      "font": "Times New Roman",
+      "fontWeight": "normal",
+      "subtitleFontWeight": "lighter"
+    },
+    "axis": {"titleFontWeight": "normal"},
+    "view": {"stroke": "transparent"}
+  }
+}
