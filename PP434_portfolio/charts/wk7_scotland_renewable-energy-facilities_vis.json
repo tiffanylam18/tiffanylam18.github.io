@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Scotland's Operational Renewable Energy Facilities",
-    "subtitle": "Major technologies by location and size, 2023",
+    "text": "Wind Power Dominates Scotland's Renewable Landscape",
+    "subtitle": "57% of operational facilities are wind-powered, with 90% of all sites exceeding 1MW capacity",
     "anchor": "start"
   },
   "width": 300,
@@ -24,6 +24,18 @@
       "data": {
         "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_portfolio/data/wk7_scotland_energy-supply_latlon.csv"
       },
+      "params": [
+        {
+          "name": "highlight",
+          "select": {
+            "type": "point",
+            "fields": ["PrimaryTechnology"],
+            "on": "click",
+            "clear": "dblclick"
+          },
+          "bind": "legend"
+        }
+      ],
       "transform": [
         {"filter": "datum.Status === 'Operational'"},
         {
@@ -32,9 +44,9 @@
       ],
       "mark": {
         "type": "circle",
-        "opacity": 0.7,
         "stroke": "white",
-        "strokeWidth": 0.5
+        "strokeWidth": 0.5,
+        "cursor": "pointer"
       },
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
@@ -46,6 +58,7 @@
             "domain": ["Small to medium (>=45kW and <1MW)", "Large (1MW+)"],
             "range": [30, 150]
           },
+          "sort": ["Small to medium (>=45kW and <1MW)", "Large (1MW+)"],
           "legend": {"title": "Facility Size", "orient": "bottom"}
         },
         "color": {
@@ -57,13 +70,13 @@
           },
           "legend": {"title": "Technology Type", "orient": "right"}
         },
+        "opacity": {
+          "condition": {"param": "highlight", "value": 0.9},
+          "value": 0.15
+        },
         "tooltip": [
           {"field": "Name", "type": "nominal", "title": "Facility"},
-          {
-            "field": "PrimaryTechnology",
-            "type": "nominal",
-            "title": "Technology"
-          },
+          {"field": "PrimaryTechnology", "type": "nominal", "title": "Technology"},
           {"field": "SizeCategory", "type": "nominal", "title": "Facility Size"}
         ]
       }

@@ -35,14 +35,19 @@
     },
     {
       "name": "clusterHighlight",
-      "select": {"type": "point", "fields": ["cluster"]},
+      "select": {
+        "type": "point", 
+        "fields": ["cluster"],
+        "on": "click",
+        "clear": "dblclick"
+      },
       "bind": "legend"
     }
   ],
   "transform": [
     {"filter": "countryFilter == 'All' || datum.PRNT_ISO3 == countryFilter"}
   ],
-  "mark": {"type": "circle", "size": 150, "opacity": 0.8},
+  "mark": {"type": "circle", "size": 150, "opacity": 0.8, "cursor": "pointer"},
   "encoding": {
     "x": {
       "field": "log_area",

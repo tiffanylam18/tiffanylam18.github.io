@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Renewables Output in Indonesia",
+    "text": "Indonesia's Renewable Energy Production Accelerates",
     "anchor": "start",
-    "subtitle": "IEA via ECO-API"
+    "subtitle": ["Output surges from 6,800 to 67,700GWh, representing 10× growth and exceeding Thailand's trajectory","","GWh (Thousands)"]
   },
   "height": 200,
   "width": 300,
@@ -56,7 +56,7 @@
       "type": "quantitative",
       "scale": {"domain": [0, 70]},
       "axis": {
-        "title": "GWh (Thousands)",
+        "title": "",
         "grid": false
       }
     },
