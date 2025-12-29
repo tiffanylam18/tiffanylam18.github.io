@@ -1,12 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Thailand's Renewable Energy Production Grows Steadily",
+    "text": "Thailand's Renewable Output Grows Sixfold",
     "anchor": "start",
-    "subtitle": ["Output increases from 5,000 to 30,000GWh, representing 6× growth over 30 years","","GWh (Thousands)"]
+    "subtitle": ["Production increases from 5,000 to 30,000GWh","","GWh (Thousands)"]
   },
-  "height": 200,
-  "width": 300,
+  "height": 250,
+  "width": 350,
   "autosize": {"type": "fit", "contains": "padding", "resize": false},
   "background": "#ffffff",
   "view": {"fill": "#ffffff", "strokeOpacity": 0},

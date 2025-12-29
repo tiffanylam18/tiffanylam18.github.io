@@ -62,8 +62,8 @@
         <div class="chart-description">
             <h2>Week 3: Debate</h2>
             <p>Task: Producing two charts that support or refute (or are related to in some way) to a topic of policy debate.</p>
-            <p>Policy topic: </p>
-            <p>Comment</p>
+            <p>Policy topic: Media emphasizes China, India, the US and the EU as top emitters. Does per-capita analysis change which countries bear primary responsibility for addressing climate change?</p>
+            <p>Per capita data exposes Qatar, the US, and Australia as top emitters, not China or India, revealing how aggregate metrics distort climate accountability narratives. </p>
         </div>
         <figure id="Location5"></figure>
         <figure id="Location6"></figure>
@@ -77,13 +77,15 @@
             <h2>Week 4: Replication</h2>
             <p>Task: Finding a chart that a policy organization, a journalist, think tank, television channel or company has used, replicating it, and then improving on it.</p>
         </div>
+        <p>Original chart: Carbon Brief produced this visualization tracking gender representation at COP climate conferences. The yellow-purple contrast distinguishes female and male delegates, with select meetings emphasized. Though the progression toward parity is evident, the visualization could be improved.</p>
         <img src="https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_portfolio/charts/wk4_original_vis.png">
+        <p>My replication: My version retains the original style, including the yellow-purple palette, highlighted COP meetings, and vertical bar structure. The underlying dataset was manually constructed by tracing values from Carbon Brief's published image, as raw data wasn't accessible.</p>
         <figure id="Location7"></figure>
         <figure id="Location8"></figure>
         <figcaption style="font-size: 15px; font-weight: normal;">
             <small>Source: Carbon Brief https://www.carbonbrief.org/analysis-which-countries-have-sent-the-most-delegates-to-cop30/</small>
         </figcaption>
-        <p>Improvements</p>
+        <p>Key improvements: I normalized gender percentages to a stacked 100% scale, added a 50% parity line to show progress, and revised the title to emphasize balance improvement.</p>
     </section>
 
     <section>
@@ -91,11 +93,22 @@
             <h2>Week 5: Accessing data: Scraper and API</h2>
             <p>Task: Adding chart that uses a live link to an API.</p>
         </div>
+        <p>This visualization showcases live API integration using Open-Meteo's Historical Weather Archive, which provides historical climate data for any location worldwide. The chart references the API endpoint directly in the Vega-lite specification, eliminating the need for manual data downloads or intermediate processing. </p>
+        <p>API structure
+            - Base endpoint: https://archive-api.open-meteo.com/v1/archive
+            - Location: latitude=14.6042&longitude=120.9822
+            - Time period: start_date=2014-01-01&end_date=2024-12-31
+            - Weather variable: daily=temperature_2m_max
+            - Timezone: timezone=Asia/Manila
+            - Complete URL: https://archive-api.open-meteo.com/v1/archive?latitude=14.6042&longitude=120.9822&start_date=2014-01-01&end_date=2024-12-31&daily=temperature_2m_max&timezone=Asia/Manila
+        </p>
+        <p>This approach enables dynamic data loading. The visualization fetches updated JSON data each time the page loads and Vega-Lite parses it directly in the browser. By connecting to live data sources rather than static files, the chart maintains currency without manual updates.</p>
         <figure id="Location9"></figure>
         <figcaption style="font-size: 15px; font-weight: normal;">
             <small>Source: Open-Meteo https://https://open-meteo.com/en/docs/historical-weather-api</small>
         </figcaption>
         <p>Task: Scraping a website, cleaning and normalizing the data, and exporting it into TIDY format.</p>
+        <p>I scraped Wikipedia's renewable energy table using BeautifulSoup and pandas, filtered for six Southeast Asian countries, and reshaped to long format for visualization.</p>
         <figure id="Location10"></figure>
         <figcaption style="font-size: 15px; font-weight: normal;">
             <small>Source: Wikipedia https://en.wikipedia.org/wiki/List_of_countries_by_renewable_electricity_production</small>
@@ -107,6 +120,7 @@
             <h2>Week 6: Loops</h2>
             <p>Task: Using a loop to batch download different series as JSON files and another loop to embed them.</p>
         </div>
+        <p>I batch downloaded temperature data across Southeast Asian cities using a Python loop to call Open-Meteo's API. I then used a JavaScript loop to embed all charts, iterating through city codes rather than writing separate commands. This approach demonstrates scalable visualization workflows for multi-location climate data.</p>
         <div id="chartGridx2">
             <figure id="Location11"></figure>
             <figure id="Location12"></figure>
@@ -125,10 +139,12 @@
             <h2>Week 7: Maps</h2>
             <p>Taks: Creating coordinate and choropleth maps of Scotland and Wales.</p>
         </div>
+        <p>I mapped PM2.5 air pollution across Welsh local authorities using a choropleth.</p>
         <figure id="Location17"></figure>
         <figcaption style="font-size: 15px; font-weight: normal;">
             <small>Source: StatsWales https://stats.gov.wales/en-GB/36f88bfb-36a3-4b54-9c24-51dcab107a62</small>
-        </figcaption>           
+        </figcaption>
+        <p>I mapped Scotland's operational renewable facilities using coordinate data, with interactive filtering by technology type revealing wind power's geographic dominance across the country.</p>           
         <figure id="Location18"></figure>
         <figcaption style="font-size: 15px; font-weight: normal;">
             <small>Source: data.gov.uk https://www.data.gov.uk/dataset/9adbe287-fbe4-4db7-b158-255372da2f96/energy-supply-point-locations-scotland</small>

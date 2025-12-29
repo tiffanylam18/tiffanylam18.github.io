@@ -1,12 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Indonesia's Renewable Energy Production Accelerates",
+    "text": "Indonesia's Renewable Output Grows Tenfold",
     "anchor": "start",
-    "subtitle": ["Output surges from 6,800 to 67,700GWh, representing 10× growth and exceeding Thailand's trajectory","","GWh (Thousands)"]
+    "subtitle": ["Production reaches 67,700GWh, outpacing Thailand","","GWh (Thousands)"]
   },
-  "height": 200,
-  "width": 300,
+  "height": 250,
+  "width": 350,
   "autosize": {"type": "fit", "contains": "padding", "resize": false},
   "background": "#ffffff",
   "view": {"fill": "#ffffff", "strokeOpacity": 0},

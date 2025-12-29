@@ -6,6 +6,8 @@
     "subtitleColor": "gray",
     "anchor": "start"
   },
+  "height": 250,
+  "width": 350,
   "data": {
     "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_portfolio/data/wk2_annual-co2-emissions-per-country.csv"
   },
