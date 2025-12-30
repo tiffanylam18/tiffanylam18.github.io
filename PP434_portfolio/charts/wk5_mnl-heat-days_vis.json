@@ -4,7 +4,7 @@
   "height": 300,
   "title": {
     "text": "Manila's Extreme Heat Days Surge to Record High in 2024",
-    "subtitle": "45 days exceeded 35°C, more than double any previous years",
+    "subtitle": ["45 days exceeded 35°C, more than double any previous years","","Days Above 35°C"],
     "anchor": "start"
   },
   "data": {
@@ -37,7 +37,7 @@
       "field": "hot_days",
       "type": "quantitative",
       "scale": {"domain": [0, 50]},
-      "axis": {"title": "Days Above 35°C", "domain": false}
+      "axis": {"title": "", "domain": false,"labelExpr": "datum.value + '°C'"}
     },
     "color": {
       "field": "hot_days",
