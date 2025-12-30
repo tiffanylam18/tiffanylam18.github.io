@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+    color: #1e293b;
+    background: #fafafa;
+}
+
+/* Navigation */
+nav {
+    background: white;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #e2e8f0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #059669;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #64748b;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-menu a:hover {
+    color: #059669;
+}
+
+/* Hero Section */
+.hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8rem 2rem 6rem;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+.hero .lead {
+    font-size: 1.5rem;
+    color: #475569;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.hero .description {
+    font-size: 1.15rem;
+    color: #64748b;
+    margin-bottom: 3rem;
+    line-height: 1.7;
+}
+
+/* Links Section */
+.links-section {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #0f172a;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.project-item {
+    padding: 2rem 0;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.project-item:hover {
+    padding-left: 1rem;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #0f172a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.project-link:hover {
+    color: #059669;
+}
+
+.arrow {
+    color: #059669;
+    font-size: 1.5rem;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all 0.3s;
+}
+
+.project-item:hover .arrow {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* About Section */
+.about {
+    max-width: 1000px;
+    margin: 6rem auto;
+    padding: 0 2rem;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.about-image {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(5, 150, 105, 0.15);
+}
+
+.image-placeholder {
+    width: 100%;
+    aspect-ratio: 1;
+    background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #059669;
+    font-size: 1rem;
+    box-shadow: 0 10px 40px rgba(5, 150, 105, 0.15);
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    color: #0f172a;
+    margin-bottom: 2rem;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    color: #475569;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+.skill-tag {
+    color: #059669;
+    font-weight: 600;
+}
+
+/* Contact */
+.contact {
+    background: #f0fdf4;
+    padding: 4rem 2rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #0f172a;
+    margin-bottom: 2rem;
+}
+
+.contact-options {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-link {
+    color: #059669;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.contact-link:hover {
+    background: #d1fae5;
+}
+
+footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .image-placeholder {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero .lead {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .nav-menu {
+        gap: 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    .project-link {
+        font-size: 1.2rem;
+    }
+}
