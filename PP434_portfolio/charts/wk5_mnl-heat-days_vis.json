@@ -37,7 +37,7 @@
       "field": "hot_days",
       "type": "quantitative",
       "scale": {"domain": [0, 50]},
-      "axis": {"title": "", "domain": false,"labelExpr": "datum.value + '°C'"}
+      "axis": {"title": "", "domain": false}
     },
     "color": {
       "field": "hot_days",
