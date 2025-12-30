@@ -34,7 +34,7 @@
         "y": {
           "field": "avg_price",
           "type": "quantitative",
-          "axis": {"title": "", "grid": false, "format": ".2f"}
+          "axis": {"title": "", "grid": false, "format": ".2f","labelExpr": "'£' + datum.value"}
         },
         "color": {
           "field": "protein_type",

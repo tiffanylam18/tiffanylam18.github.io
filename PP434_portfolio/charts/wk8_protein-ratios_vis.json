@@ -34,7 +34,7 @@
         "y": {
           "field": "times_more_expensive",
           "type": "quantitative",
-          "axis": {"title": "", "grid": false, "format": ".1f"}
+          "axis": {"title": "", "grid": false, "format": ".0f","labelExpr": "datum.value + 'x'"}
         },
         "color": {
           "field": "meat_type",

@@ -3,7 +3,7 @@
   "title": {
     "text": "Indonesia's Renewable Output Grows Tenfold",
     "anchor": "start",
-    "subtitle": ["Production reaches 67,700GWh, outpacing Thailand","","GWh (Thousands)"]
+    "subtitle": ["Production reaches 67,700GWh, outpacing Thailand","","GWh"]
   },
   "height": 250,
   "width": 350,
@@ -14,7 +14,6 @@
     "url": "https://api.economicsobservatory.com/idn/rGWh?vega",
     "format": {"type": "json"}
   },
-  "transform": [{"calculate": "datum['value']/1000", "as": "output"}],
   "layer": [
     {
       "mark": {"type": "line", "strokeWidth": 2}
@@ -52,9 +51,9 @@
       "axis": {"title": "", "grid": false}
     },
     "y": {
-      "field": "output",
+      "field": "value",
       "type": "quantitative",
-      "scale": {"domain": [0, 70]},
+      "scale": {"domain": [0, 70000]},
       "axis": {
         "title": "",
         "grid": false
@@ -62,7 +61,7 @@
     },
     "tooltip": [
       {"field": "date", "type": "temporal", "title": "Year", "timeUnit": "year"},
-      {"field": "output", "type": "quantitative", "title": "Output (GWh, Thousands)", "format": ".2f"}
+      {"field": "value", "type": "quantitative", "title": "Output (GWh, Thousands)", "format": ".2f"}
     ]
   },
   "config": {}
