@@ -3,8 +3,8 @@
   "width": 300,
   "height": 200,
   "title": {
-    "text": "Temperature Trends: Kuala Lumpur",
-    "subtitle": "Daily means, 2014-2024",
+    "text": "Kuala Lumpur's Warming Trend",
+    "subtitle": "Daily mean temperatures, 2014-2024",
     "anchor": "start"
   },
   "data": {
@@ -34,7 +34,7 @@
           "field": "temperature_2m_mean",
           "type": "quantitative",
           "scale": {"domain": [15, 35]},
-          "axis": {"title": "Mean Temperature (°C)", "domain": false}
+          "axis": {"title": "", "domain": false,"labelExpr": "datum.value + '°C'"}
         }
       }
     },

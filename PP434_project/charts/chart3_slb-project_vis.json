@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-  "width": 500,
-  "height": 350,
+  "width": 350,
+  "height": 250,
   "title": {
     "text": "Solomon Islands: Projected to Reach Only 0.07% Protection by 2030",
     "subtitle": ["", "Marine Protected Area (% of EEZ)"],

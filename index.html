@@ -156,6 +156,7 @@
             <h2>Week 8: Big Data</h2>
             <p>Task: Producing two charts from a UK supermarket price dataset, simplifying millions of observations for visualization.</p>
         </div>
+        <p>I analyzed UK protein prices from the Long Run Prices Database (1988-2022), selecting per-kilogram meat items and tinned beans for fair comparison. After normalizing to price per 100g, I aggregated quarterly averages and calculated meat-to-bean price ratios. Beans cost five times less than beef, supporting economic accessibility of sustainable protein. </p>
         <figure id="Location19"></figure>
         <figcaption style="font-size: 15px; font-weight: normal;">
             <small>Source: Davies, R (2021), “Prices and inflation in the UK – A new dataset”, Centre for Economic Performance, Occasional Paper 55, February.</small>
@@ -171,13 +172,14 @@
             <h2>Week 9: Interactivity</h2>
             <p>Task: Producing two charts that include more advanced interactivity.</p>
         </div>
+        <p>I added a year slider enabling users to track marine protection progress from 1977-2019, and hover interaction to highlight individual country trajectories against the global average.</p>
         <figure id="Location21"></figure>
         <figcaption style="font-size: 15px; font-weight: normal;">
             <small>Source:</small>
         </figcaption>           
         <figure id="Location22"></figure>
         <figcaption style="font-size: 15px; font-weight: normal;">
-            <small>Source:.</small>
+            <small>Source:</small>
         </figcaption>
     </section>
 
@@ -186,6 +188,7 @@
             <h2>Week 10: Advanced Analytics and Machine Learning</h2>
             <p>Task: Producing a chart using more advanced analytics like regression, shock analysis, or heat maps.</p>
         </div>
+        <p>I applied linear regression to each country's marine protection trajectory, projecting to 2030 with 95% confidence intervals. Charts reveal significant gaps between current progress and international targets, quantifying required acceleration.</p>
          <div id="chartGridx2">
             <figure id="Location23"></figure>
             <figure id="Location24"></figure>
@@ -195,7 +198,10 @@
         <figcaption style="font-size: 15px; font-weight: normal;">
             <small>Source:</small>
         </figcaption>
-        <p>Task: Conduct an applied data analysis using machine learning (supervised or unsupervised), and visualizing it.</p>           
+        <p>Task: Conduct an applied data analysis using machine learning (supervised or unsupervised), and visualizing it.</p>
+        <p>Hypothesis: Marine protected areas (MPAs) will cluster by national governance approach, with countries choosing either larger, multi-use areas with low no-take zones or smaller, strictly protected reserves.</p>
+        <p>I applied K-means clustering to Coral Triangle MPAs using five standardized features: log area, protection intensity, IUCN strictness, and management plans. Elbow method identified four optimal clusters.</p>
+        <p>Four management groups emerged based on size and strictness, not geography. Malaysia uniquely showed a consistent national strategy with medium, high-intensity MPAs.</p>           
         <figure id="Location27"></figure>
         <figcaption style="font-size: 15px; font-weight: normal;">
             <small>Source:.</small>
@@ -258,7 +264,7 @@
         let figure_20_spec = `${portfolio_chart_path}wk8_protein-ratios_vis.json`
         vegaEmbed('#Location20', figure_20_spec)
 
-        let figure_21_spec = `${project_chart_path}chart2_cumu-area_vis`
+        let figure_21_spec = `${project_chart_path}chart2_cumu-area_vis.json`
         vegaEmbed('#Location21', figure_21_spec)
 
         const project_cities = ['ind', 'phl', 'mys', 'slb'];
@@ -268,7 +274,7 @@
             let spec = `${project_chart_path}chart3_${project_cities[i]}-project_vis.json`; vegaEmbed(`#${project_locationIds[i]}`, spec);
         }
 
-        let figure_27_spec = `${project_chart_path}chart6_clust-analysis_vis`
+        let figure_27_spec = `${project_chart_path}chart6_clust-analysis_vis.json`
         vegaEmbed('#Location27', figure_27_spec)
 
     </script>
