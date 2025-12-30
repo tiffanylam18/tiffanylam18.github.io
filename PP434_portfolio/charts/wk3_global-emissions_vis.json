@@ -1,9 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "title": {
-    "text": "Global CO₂ Emissions: The Overall Trajectory",
-    "subtitle": "Annual emissions: 1993-2023",
-    "subtitleColor": "gray",
+    "text": "Global Emissions Double Despite Climate Commitments",
+    "subtitle": ["Annual CO₂ rose from 15.5 to 37.1 billion tonnes, 1990-2023","","CO₂ Emissions"],
     "anchor": "start"
   },
   "height": 250,
@@ -21,10 +20,12 @@
   ],
   "layer": [
     {"mark": {"type": "line", "strokeWidth": 2}},
-    {"transform": [{"filter": {"param": "hover", "empty": false}}],
+    {
+      "transform": [{"filter": {"param": "hover", "empty": false}}],
       "mark": {"type": "point", "size": 100, "filled": true}
     },
-    {"mark": "rule",
+    {
+      "mark": "rule",
       "encoding": {
         "opacity": {
           "condition": {"value": 0.3, "param": "hover", "empty": false},
@@ -36,28 +37,40 @@
           "name": "hover",
           "select": {
             "type": "point",
-            "field": ["Year"],
+            "fields": ["Year"],
             "nearest": true,
             "on": "pointerover",
             "clear": "pointerout"
           }
         }
       ]
-      }
+    }
   ],
   "encoding": {
     "x": {
       "field": "Year",
       "type": "temporal",
-      "axis": {"grid": false, "title": null}
+      "axis": {
+        "grid": false,
+        "domain": false,
+        "title": null}
     },
     "y": {
       "field": "CO₂ Emissions (Billions)",
       "type": "quantitative",
-      "axis": {"grid": false}
+      "title": "",
+      "axis": {
+        "grid": false, 
+        "domain": false,
+        "labelExpr": "datum.value + 'b'"}
     },
     "tooltip": [
-      {"field": "Year", "type": "temporal", "title": "Year", "timeUnit": "year"},
+      {
+        "field": "Year",
+        "type": "temporal",
+        "title": "Year",
+        "timeUnit": "year"
+      },
       {"field": "CO₂ Emissions (Billions)", "format": ".2f"}
     ]
   },

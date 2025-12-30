@@ -1,9 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "title": {
-    "text": "Climate Responsibility: Per Capita CO₂ Emissions by Country",
-    "subtitle": "Key players in global climate negotiations, from highest per capita emitters to largest populations",
-    "subtitleColor": "gray",
+    "text": "Per-Capita Analysis Reveals Different Climate Responsibility Pattern",
+    "subtitle": ["Qatar, US, and Australia top per-person emissions despite media focus on China and India","","Annual Emissions (Per Capita)"],
     "anchor": "start"
   },
   "data": {
@@ -51,7 +50,7 @@
       "field": "Annual CO₂ emissions (per capita)",
       "type": "quantitative",
       "aggregate": "sum",
-      "axis": {"title": "Annual Emissions (Per Capita)"}
+      "axis": {"title": ""}
     },
     "color": {
       "field": "Entity",
@@ -71,7 +70,11 @@
     "tooltip": [
       {"field": "Year", "type": "ordinal", "title": "Year"},
       {"field": "Entity", "title": "Country"},
-      {"field": "Annual CO₂ emissions (per capita)", "title": "Emissions (per capita)", "format": ".2f"},
+      {
+        "field": "Annual CO₂ emissions (per capita)",
+        "title": "Emissions (per capita)",
+        "format": ".2f"
+      },
       {"field": "pct_of_total", "title": "Share of Total (%)", "format": ".2f"}
     ]
   },
