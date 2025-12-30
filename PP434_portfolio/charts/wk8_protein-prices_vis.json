@@ -5,7 +5,7 @@
     "subtitle": [
       "Beans cost 5× less than beef per 100g, offering accessible pathway to lower-carbon diets",
       "",
-      "Price per 100g (£)"
+      "Price per 100g"
     ],
     "anchor": "start"
   },
@@ -34,7 +34,7 @@
         "y": {
           "field": "avg_price",
           "type": "quantitative",
-          "axis": {"title": "", "grid": false, "format": ".2f","labelExpr": "'£' + datum.value"}
+          "axis": {"title": "", "grid": false,"labelExpr": "'£' + format(datum.value, '.2f')"}
         },
         "color": {
           "field": "protein_type",

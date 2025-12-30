@@ -3,7 +3,7 @@
   "title": {
     "text": "Indonesia's Renewable Output Grows Tenfold",
     "anchor": "start",
-    "subtitle": ["Production reaches 67,700GWh, outpacing Thailand","","GWh"]
+    "subtitle": ["Production reaches 67,700GWh, outpacing Thailand","","Renewable Energy Output"]
   },
   "height": 250,
   "width": 350,
@@ -56,7 +56,8 @@
       "scale": {"domain": [0, 70000]},
       "axis": {
         "title": "",
-        "grid": false
+        "grid": false,
+        "labelExpr": "format(datum.value, ',') + ' GWh'"
       }
     },
     "tooltip": [
