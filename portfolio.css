@@ -149,21 +149,15 @@ section h2 {
 
 /* Chart Styling */
 figure {
-    margin: 2rem auto;
-    text-align: center;
-    display: block;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
+
 figure > div {
-    margin: 0 auto;
-}
-
-.vega-embed {
-    margin: 0 auto !important;
-    text-align: center;
-}
-
-.vega-embed summary {
-    text-align: center;
+    margin: inline-block;
 }
 
 figcaption {
