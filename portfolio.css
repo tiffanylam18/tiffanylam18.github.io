@@ -149,7 +149,8 @@ section h2 {
 
 /* Chart Styling */
 figure {
-    margin: 2rem 0;
+    margin: 2rem auto;
+    text-align: center;
 }
 
 figcaption {
@@ -170,7 +171,7 @@ img {
 #chartGridx2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1rem;
     margin: 2rem 0;
 }
 
