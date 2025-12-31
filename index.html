@@ -89,6 +89,12 @@
         document.querySelectorAll("a").forEach(link => {
             const href = link.href.toLowerCase();
             const currentDomain = window.location.hostname;
+
+            // Exclude mailto links
+            if (href.startsWith('mailto:')) {
+                return
+            }
+
             const isInternalLink = href.includes('#') || link.hostname === currentDomain;
 
             if (!isInternalLink) {
