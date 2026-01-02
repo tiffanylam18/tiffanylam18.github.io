@@ -190,13 +190,13 @@
         const project_chart_path = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_project/charts/";
         const embedConfig = {actions: false};
 
-        // Chart 1: Animated map
-        vegaEmbed('#chart1', `${project_chart_path}chart1_map_vis.json`, embedConfig);
+        // Chart 1: Choropleth map
+        vegaEmbed('#chart1', `${project_chart_path}chart1_mpa-choro_vis.json`, embedConfig);
 
-        // Chart 2: Growth lines
-        vegaEmbed('#chart2', `${project_chart_path}chart2_growth_vis.json`, embedConfig);
+        // Chart 2: MPA line chart
+        vegaEmbed('#chart2', `${project_chart_path}chart2_cumu-area_vis.json`, embedConfig);
 
-        // Chart 3: Projections (4 countries)
+        // Chart 3: MPA projections (4 countries)
         vegaEmbed('#chart3a', `${project_chart_path}chart3_ind-project_vis.json`, embedConfig);
         vegaEmbed('#chart3b', `${project_chart_path}chart3_phl-project_vis.json`, embedConfig);
         vegaEmbed('#chart3c', `${project_chart_path}chart3_mys-project_vis.json`, embedConfig);
@@ -205,8 +205,8 @@
         // Chart 6: Cluster analysis
         vegaEmbed('#chart6', `${project_chart_path}chart6_clust-analysis_vis.json`, embedConfig);
 
-        // Chart 7: Governance
-        vegaEmbed('#chart7', `${project_chart_path}chart7_governance_vis.json`, embedConfig);
+        // Chart 7: Governance analysis
+        vegaEmbed('#chart7', `${project_chart_path}chart7_gov-type_vis.json`, embedConfig);
 
         // Handle external links
         document.querySelectorAll("a").forEach(link => {
