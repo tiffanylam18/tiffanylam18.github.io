@@ -6,7 +6,6 @@
     <title>Tiffany Lam | Marine Conservation in the Coral Triangle</title>
     
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="portfolio.css">
     <link rel="stylesheet" type="text/css" href="project.css">
     
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
@@ -41,95 +40,101 @@
             <h2>Aims</h2>
             <div class="write-up-content">
                 <p>The Coral Triangle, spanning Indonesia, Philippines, Malaysia, Papua New Guinea, Timor-Leste, and Solomon Islands, contains 76% of the world's coral species and supports 120 million people directly dependent on marine resources. Despite its ecological significance, the region faces mounting pressure from overfishing, coastal development, and climate change. International conservation frameworks, including the Convention on Biological Diversity's 30×30 target (protecting 30% of oceans by 2030), establish ambitious benchmarks for marine protection.</p>
-                
-                <p>This project aims to (i) quantify the gap between current marine protection levels and international targets across Coral Triangle countries, (ii) identify patterns in marine protected area (MPA) design that reveal country-specific conservation strategies, and (iii) assess whether existing protection approaches reflect genuine conservation commitment or merely "paper park" designations. By analyzing 135 operational MPAs using temporal trend analysis, statistical projections, and machine learning clustering, this research evaluates whether the Coral Triangle's protection trajectory aligns with global conservation goals.</p>
-                
-                <p>The analysis addresses three key questions: How far are Coral Triangle countries from achieving 30% marine protection? Do countries pursue distinct protection philosophies (large multi-use zones versus small strict reserves)? What governance structures characterize different MPA types? Understanding these patterns is essential for designing evidence-based policies that accelerate marine conservation while respecting national contexts and capacities.</p>
+                <p>This project aims to:</p>
+                <ul>
+                    <li>Quantify the gap between current marine protection levels and international targets across Coral Triangle countries</li>
+                    <li>Identify patterns in marine protected area (MPA) design that reveal country-specific conservation strategies</li>
+                    <li>Assess whether existing protection approaches reflect genuine conservation commitment or merely "paper park" designations</li>
+                </ul>
+                <p>By analyzing 135 operational MPAs using temporal trend analysis, statistical projections, and machine learning clustering, this research evaluates whether the Coral Triangle's protection trajectory aligns with global conservation goals.</p>
+                <p>The analysis addresses three key questions:</p>
+                <ul>
+                    <li>How far are Coral Triangle countries from achieving 30% marine protection?</li>
+                    <li>Do countries pursue distinct protection philosophies (large multi-use zones versus small strict reserves)?</li>
+                    <li>What governance structures characterize different MPA types?</li>
+                </ul>
+                <p>Understanding these patterns is essential for designing evidence-based policies that accelerate marine conservation while respecting national contexts and capacities.</p>
+            </div>
+        </section>
+    
+        <!-- DATA SECTION -->
+        <section class="write-up-section">
+            <h2>Data</h2>
+            <div class="write-up-content">
+                <p>This analysis integrates three primary datasets. The World Database on Protected Areas (WDPA), maintained by UNEP-WCMC, provides comprehensive global MPA records including geographic boundaries, establishment dates, IUCN management categories, governance structures, and no-take area designations. For the Coral Triangle region, I filtered to operational MPAs only (excluding proposed or designated sites), focusing on areas with verified marine components. This yielded 135 MPAs with complete attribute data suitable for quantitative analysis.</p>
+                <p>Marine region boundaries come from the Marine Regions database, specifically Exclusive Economic Zone (EEZ) shapefiles defining each country's maritime jurisdiction. These boundaries enable calculation of protection percentages (MPA area as proportion of total EEZ area) and ensure spatial analyses respect international maritime law. Global benchmark data from Protected Planet's annual reports provide comparative context, particularly the 7.6% global ocean protection average and 30% target framework.</p>
+                <p>Data processing employed a fully automated Python pipeline using pandas for tabular manipulation and geopandas for spatial operations.</p>
+                <p>Key transformations included:</p>
+                <ul>
+                    <li>Filtering to operational status only</li>
+                    <li>Calculating protection intensity (no-take area ÷ total MPA area)</li>
+                    <li>Deriving MPA age (2024 − establishment year)</li>
+                    <li>Log-transforming area measurements to handle the 100,000× size range</li>
+                    <li>Encoding categorical variables (IUCN categories, governance types) for machine learning analysis. Spatial joins matched MPAs to country EEZs, handling edge cases where MPAs span multiple jurisdictions</li> 
+                </ul>
+                <p>This pipeline is reproducible, updating results with new WDPA releases requires only re-running the processing scripts.</p>
             </div>
         </section>
 
-        <!-- CURRENT SITUATION -->
-        <section>
-            <h2>Current Marine Protection Coverage</h2>
-            <div class="content-text">
-                <p>Marine protection in the Coral Triangle remains far below global benchmarks. While the global average reaches 7.6% ocean coverage, all six Coral Triangle countries remain below 2%. This persistent protection lag, visualized through temporal and spatial analysis, establishes the scale of the conservation challenge.</p>
-            </div>
-            
-            <div class="figures-row">
-                <div class="figure-container">
+        <!-- VISUALIZATION AND ANALYSIS -->
+        <section class="findings-section">
+            <h2>Visualization & Analysis</h2>
+        <!-- SUBSECTION 1: CURRENT COVERAGE -->
+            <div class="subsection">
+                <h3>Current Marine Protection Coverage</h2>
+                <div class="content-text">
+                    <p>Marine protection in the Coral Triangle remains far below global benchmarks. While the global average reaches 7.6% ocean coverage, all six Coral Triangle countries remain below 2%. This persistent protection lag, visualized through temporal and spatial analysis, establishes the scale of the conservation challenge.</p>
+                </div>
+                <div class="figure-container-large">
                     <div id="chart1" class="chart-wrapper"></div>
                     <p class="fig-caption">
                         <strong>Chart 1:</strong> Geographic distribution of marine protected areas across the Coral Triangle. Interactive year slider enables temporal exploration of MPA establishment patterns from 1977-2019.
                     </p>
                 </div>
-            </div>
-
-            <div class="figures-row">
-                <div class="figure-container">
+                <div class="figure-container-large">
                     <div id="chart2" class="chart-wrapper"></div>
                     <p class="fig-caption">
                         <strong>Chart 2:</strong> Growth of cumulative marine protected area by country. Indonesia and Philippines dominate absolute protection area, though all countries show acceleration after 2000.
                     </p>
                 </div>
             </div>
-        </section>
-
         <!-- PROJECTIONS -->
-        <section>
-            <h2>Progress Toward 30% Protection Targets</h2>
-            <div class="content-text">
-                <p>Linear regression projections reveal the magnitude of required acceleration to meet 2030 targets. Current trajectories, extended with 95% confidence intervals, show that no country will reach 30% protection without dramatic policy intervention. Countries must accelerate MPA establishment rates by 16× to 1,537×—an implausible scaling requirement that exposes fundamental gaps between international commitments and national implementation.</p>
+            <div class="subsection">
+                <h3>Progress Toward 30% Protection Targets</h2>
+                <div class="content-text">
+                    <p>Linear regression projections reveal the magnitude of required acceleration to meet 2030 targets. Current trajectories, extended with 95% confidence intervals, show that no country will reach 30% protection without dramatic policy intervention. Countries must accelerate MPA establishment rates by 16× to 1,537×, an implausible scaling requirement that exposes fundamental gaps between international commitments and national implementation.</p>
+                </div>
+                <div id="chartGridx2">
+                    <div class="figure-container">
+                        <div id="chart3a" class="chart-wrapper"></div>
+                        <p class="fig-caption"><strong>Indonesia:</strong> Requires 16× acceleration from current trajectory</p>
+                    </div>
+                    <div class="figure-container">
+                        <div id="chart3b" class="chart-wrapper"></div>
+                        <p class="fig-caption"><strong>Philippines:</strong> Requires 88× acceleration from current trajectory</p>
+                    </div>
+                    <div class="figure-container">
+                        <div id="chart3c" class="chart-wrapper"></div>
+                        <p class="fig-caption"><strong>Malaysia:</strong> Requires 170× acceleration from current trajectory</p>
+                    </div>
+                    <div class="figure-container">
+                        <div id="chart3d" class="chart-wrapper"></div>
+                        <p class="fig-caption"><strong>Solomon Islands:</strong> Requires 1,537× acceleration from current trajectory</p>
+                    </div>
+                </div>
             </div>
-            
-            <div id="chartGridx2">
-                <div class="figure-container">
-                    <div id="chart3a" class="chart-wrapper"></div>
-                    <p class="fig-caption"><strong>Indonesia:</strong> Requires 16× acceleration from current trajectory</p>
-                </div>
-                <div class="figure-container">
-                    <div id="chart3b" class="chart-wrapper"></div>
-                    <p class="fig-caption"><strong>Philippines:</strong> Requires 88× acceleration from current trajectory</p>
-                </div>
-                <div class="figure-container">
-                    <div id="chart3c" class="chart-wrapper"></div>
-                    <p class="fig-caption"><strong>Malaysia:</strong> Requires 170× acceleration from current trajectory</p>
-                </div>
-                <div class="figure-container">
-                    <div id="chart3d" class="chart-wrapper"></div>
-                    <p class="fig-caption"><strong>Solomon Islands:</strong> Requires 1,537× acceleration from current trajectory</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- DATA SECTION -->
-        <section class="write-up-section">
-            <h2>Data</h2>
-            <div class="write-up-content">
-                <p>This analysis integrates three primary datasets. The World Database on Protected Areas (WDPA), maintained by UNEP-WCMC, provides comprehensive global MPA records including geographic boundaries, establishment dates, IUCN management categories, governance structures, and no-take area designations. For the Coral Triangle region, I filtered to operational MPAs only (excluding proposed or designated sites), focusing on areas with verified marine components. This yielded 135 MPAs with complete attribute data suitable for quantitative analysis.</p>
-                
-                <p>Marine region boundaries come from the Marine Regions database, specifically Exclusive Economic Zone (EEZ) shapefiles defining each country's maritime jurisdiction. These boundaries enable calculation of protection percentages (MPA area as proportion of total EEZ area) and ensure spatial analyses respect international maritime law. Global benchmark data from Protected Planet's annual reports provide comparative context, particularly the 7.6% global ocean protection average and 30% target framework.</p>
-                
-                <p>Data processing employed a fully automated Python pipeline using pandas for tabular manipulation and geopandas for spatial operations. Key transformations included: (i) filtering to operational status only, (ii) calculating protection intensity (no-take area ÷ total MPA area), (iii) deriving MPA age (2024 − establishment year), (iv) log-transforming area measurements to handle the 100,000× size range, and (v) encoding categorical variables (IUCN categories, governance types) for machine learning analysis. Spatial joins matched MPAs to country EEZs, handling edge cases where MPAs span multiple jurisdictions. This pipeline is reproducible—updating results with new WDPA releases requires only re-running the processing scripts.</p>
-            </div>
-        </section>
-
         <!-- UNDERSTANDING PATTERNS -->
-        <section>
-            <h2>Protection Strategies Across MPA Types</h2>
-            <div class="content-text">
-                <p>K-means clustering analysis reveals that Coral Triangle MPAs follow an all-or-nothing protection pattern rather than a graduated spectrum. 66% of MPAs allow fishing (0% no-take area), while 34% prohibit all extraction (100% no-take). This binary approach creates four distinct MPA archetypes when combined with size variation, exposing fundamental differences in national conservation philosophies.</p>
-            </div>
-            
-            <div class="figures-row-single">
+            <div class="subsection">
+                <h3>Protection Strategies Across MPA Types</h2>
+                <div class="content-text">
+                    <p>K-means clustering analysis reveals that Coral Triangle MPAs follow an all-or-nothing protection pattern rather than a graduated spectrum. 66% of MPAs allow fishing (0% no-take area), while 34% prohibit all extraction (100% no-take). This binary approach creates four distinct MPA archetypes when combined with size variation, exposing fundamental differences in national conservation philosophies.</p>
+                </div>
                 <div class="figure-container-large">
                     <div id="chart6" class="chart-wrapper"></div>
                     <p class="fig-caption">
                         <strong>Chart 6:</strong> Cluster analysis of 81 operational MPAs using k-means algorithm. Interactive country filter and legend selection enable exploration of national protection strategies. Indonesia favors large multi-use zones (Clusters 0-1), Philippines emphasizes small strict reserves (Cluster 2), while Malaysia shows consistent medium-size, high-protection approach (Cluster 3).
                     </p>
                 </div>
-            </div>
-
-            <div class="figures-row">
                 <div class="figure-container">
                     <div id="chart7" class="chart-wrapper"></div>
                     <p class="fig-caption">
@@ -138,15 +143,12 @@
                 </div>
             </div>
         </section>
-
         <!-- ANALYTICAL CHALLENGES -->
         <section class="write-up-section">
             <h2>Analytical Challenges</h2>
             <div class="write-up-content">
-                <p>This analysis required several methodological decisions that shape interpretation of results. First, I restricted analysis to operational MPAs exclusively, excluding proposed or designated sites. While this reduces sample size (135 operational vs. 200+ if including all statuses), it ensures findings reflect actual protection rather than aspirational policy. Proposed MPAs lack real management characteristics—their "protection intensity" is hypothetical, and their boundaries may change during implementation. Including them would confound comparisons between genuine conservation and paper commitments.</p>
-                
-                <p>Second, the protection intensity variable (no-take area as percentage of total MPA area) exhibits a strongly bimodal distribution: 66% of MPAs have zero no-take area, while most others approach 100% no-take. This is not a data quality issue but a genuine policy pattern revealing binary thinking in conservation design. K-means clustering naturally identifies this as the dominant organizing principle. Alternative approaches—clustering on governance or age without protection intensity—reveal less distinct patterns, confirming that the 0%/100% split represents the core strategic divide in Coral Triangle marine conservation.</p>
-                
+                <p>This analysis required several methodological decisions that shape interpretation of results. First, I restricted analysis to operational MPAs exclusively, excluding proposed or designated sites. While this reduces sample size (135 operational vs. 200+ if including all statuses), it ensures findings reflect actual protection rather than aspirational policy. Proposed MPAs lack real management characteristics, their "protection intensity" is hypothetical, and their boundaries may change during implementation. Including them would confound comparisons between genuine conservation and paper commitments.</p>
+                <p>Second, the protection intensity variable (no-take area as percentage of total MPA area) exhibits a strongly bimodal distribution: 66% of MPAs have zero no-take area, while most others approach 100% no-take. This is not a data quality issue but a genuine policy pattern revealing binary thinking in conservation design. K-means clustering naturally identifies this as the dominant organizing principle. Alternative approaches, clustering on governance or age without protection intensity, reveal less distinct patterns, confirming that the 0%/100% split represents the core strategic divide in Coral Triangle marine conservation.</p>
                 <p>Third, regression projections assume linear continuation of historical trends, which may underestimate potential for policy acceleration. However, achieving 30×30 targets would require 16× to 1,537× acceleration in MPA establishment rates—far beyond any historical precedent in the region. Even accounting for nonlinear growth scenarios, these gaps expose fundamental implementation challenges. The analysis prioritizes conservative, defensible projections over optimistic scenarios lacking empirical support. Future work could incorporate biodiversity effectiveness measures, though current data (OBIS) suffers from severe sampling bias where MPAs attract disproportionate research effort, confounding protected vs. unprotected comparisons.</p>
             </div>
         </section>
@@ -156,10 +158,15 @@
             <h2>Conclusions</h2>
             <div class="write-up-content">
                 <p>The Coral Triangle faces a persistent and widening marine protection gap. Despite four decades of MPA establishment, no country has exceeded 2% ocean coverage, far below the 7.6% global average and dramatically short of 30% targets for 2030. Regression analysis reveals that current trajectories—even optimistically projected—will not close this gap without unprecedented policy intervention. Countries must accelerate MPA designation rates by 16× to 1,537× depending on starting position, a scaling requirement with no historical precedent in the region.</p>
-                
-                <p>Cluster analysis exposes a fundamental binary in protection philosophy: countries designate either large multi-use zones allowing fishing (66% of MPAs) or small strict reserves prohibiting extraction (34%), with virtually no middle ground. This all-or-nothing pattern has profound implications for 30×30 metrics—should targets count all designated "MPAs" regardless of use restrictions, or only strictly protected areas? Indonesia pursues the former strategy (large zones, minimal no-take area), while Philippines emphasizes the latter (small reserves, full protection). Malaysia uniquely demonstrates a third path: medium-scale MPAs with high protection intensity, suggesting that alternative models exist beyond the large-lax / small-strict dichotomy.</p>
-                
-                <p>These findings suggest that meeting 2030 targets requires more than accelerating MPA designation—it demands confronting the tension between area coverage and protection quality. Governance analysis reveals heavy reliance on federal/national management (65% of MPAs) despite strong community resource dependence, suggesting potential for expanding collaborative models. Future policy should: (i) improve protection intensity in existing large MPAs rather than simply designating more multi-use zones, (ii) replicate successful MPA archetypes identified through clustering (e.g., Malaysia's medium-scale high-protection model), and (iii) acknowledge that current trajectories will not achieve targets without fundamental strategic shifts. The Coral Triangle's protection lag reflects not just insufficient area coverage but deeper questions about what "protection" means and who decides.</p>
+                <p>Cluster analysis exposes a fundamental binary in protection philosophy: countries designate either large multi-use zones allowing fishing (66% of MPAs) or small strict reserves prohibiting extraction (34%), with virtually no middle ground. This all-or-nothing pattern has profound implications for 30×30 metrics. Should targets count all designated "MPAs" regardless of use restrictions, or only strictly protected areas? Indonesia pursues the former strategy (large zones, minimal no-take area), while Philippines emphasizes the latter (small reserves, full protection). Malaysia uniquely demonstrates a third path: medium-scale MPAs with high protection intensity, suggesting that alternative models exist beyond the large-lax / small-strict dichotomy.</p>
+                <p>These findings suggest that meeting 2030 targets requires more than accelerating MPA designation. It demands confronting the tension between area coverage and protection quality. Governance analysis reveals heavy reliance on federal/national management (65% of MPAs) despite strong community resource dependence, suggesting potential for expanding collaborative models.</p>
+                <p>Future policy should:</p>
+                <ul>
+                    <li>Improve protection intensity in existing large MPAs rather than simply designating more multi-use zones</li>
+                    <li>Replicate successful MPA archetypes identified through clustering (e.g., Malaysia's medium-scale high-protection model)</li>
+                    <li>Acknowledge that current trajectories will not achieve targets without fundamental strategic shifts</li> 
+                </ul>
+                <p>The Coral Triangle's protection lag reflects not just insufficient area coverage but deeper questions about what "protection" means and who decides.</p>
             </div>
         </section>
 
@@ -169,13 +176,10 @@
             <div class="source-list">
                 <p><strong>World Database on Protected Areas (WDPA)</strong><br>
                 UNEP-WCMC and IUCN (2024). Protected Planet: The World Database on Protected Areas. Available at: <a href="https://www.protectedplanet.net" target="_blank">protectedplanet.net</a></p>
-                
                 <p><strong>Marine Regions Database</strong><br>
                 Flanders Marine Institute (2024). Maritime Boundaries Geodatabase. Available at: <a href="https://www.marineregions.org" target="_blank">marineregions.org</a></p>
-                
                 <p><strong>Protected Planet Reports</strong><br>
                 UNEP-WCMC (2023). Protected Planet Report 2023. Cambridge, UK: UNEP-WCMC. Available at: <a href="https://livereport.protectedplanet.net" target="_blank">livereport.protectedplanet.net</a></p>
-                
                 <p><strong>Analysis Code</strong><br>
                 Complete data processing and visualization code available at: <a href="https://github.com/tiffanylam18/coral-triangle-mpas" target="_blank">github.com/tiffanylam18/coral-triangle-mpas</a></p>
             </div>
