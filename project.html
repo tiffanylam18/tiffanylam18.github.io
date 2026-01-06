@@ -46,7 +46,7 @@
                     <li>What distinct MPA strategies exist?</li>
                     <li>How do governance structures vary, and what opportunities exist for collaborative management?</li>
                 </ul>
-                <p>By analyzing 138 operational MPAs established between 1977-2025, the project quantifies protection gaps and identifies actionable policy patterns.</p>
+                <p>By analyzing 135 operational MPAs established between 1977-2025, the project quantifies protection gaps and identifies actionable policy patterns.</p>
             </div>
         </section>
     
@@ -83,7 +83,7 @@
             <div class="write-up-content">
                 <p><strong>Technical Stack:</strong> Python 3.x with GeoPandas (spatial data processing), Pandas (tabular analysis), Scikit-learn (clustering), SciPy (regression), and Vega-Lite (interactive visualization).</p>
                 <h3>Data Processing</h3>
-                <p>The pipeline loads three WDPA shapefile parts, applying consistent filters to extract relevant records. Filters target Coral Triangle countries, marine areas, non-zero areas, and valid establishment years (1977-2025). When the same MPA appears across multiple files, deduplication retains the largest-area record. This yields 138 operational MPAs (inscribed, designated, or established status) from the original dataset.</p>
+                <p>The pipeline loads three WDPA shapefile parts, applying consistent filters to extract relevant records. Filters target Coral Triangle countries, marine areas, non-zero areas, and valid establishment years (1977-2025). When the same MPA appears across multiple files, deduplication retains the largest-area record. This yields 135 operational MPAs (inscribed, designated, or established status) from the original dataset.</p>
                 <h3>Spatial Processing</h3>
                 <p>The project originally aimed to map individual MPA boundaries using detailed polygon geometries. However, the complete geometry dataset exceeded GitHub's 100MB limit. The analysis, therefore, pivoted to country-level aggregation, merging MPA statistics with simplified EEZ boundaries (0.05° tolerance reduces file size to 85%). This preserved statistical rigor while enabling web deployment.</p>
                 <h3>Statistical Analysis</h3>
