@@ -4,7 +4,11 @@
   "height": 250,
   "title": {
     "text": "Indonesia: On Track for Only 0.4% Protection by 2030",
-    "subtitle": ["121-fold acceleration required to meet 30% target", "", "Marine Protected Area (% of EEZ)"],
+    "subtitle": [
+      "121-fold acceleration required to meet 30% target",
+      "",
+      "Marine Protected Area (% of EEZ)"
+    ],
     "anchor": "start"
   },
   "data": {
@@ -108,7 +112,7 @@
     },
     {
       "data": {
-        "values": [{"x": 1977, "y": 10.5, "label": "10% Target (2020)"}]
+        "values": [{"x": 1977, "y": 11, "label": "10% Target (2020)"}]
       },
       "mark": {
         "type": "text",
@@ -124,7 +128,7 @@
     },
     {
       "data": {
-        "values": [{"x": 1977, "y": 30.5, "label": "30% Target (2030)"}]
+        "values": [{"x": 1977, "y": 31, "label": "30% Target (2030)"}]
       },
       "mark": {
         "type": "text",
@@ -143,7 +147,7 @@
         "values": [
           {
             "x": 2022.5,
-            "y": 1.4,
+            "y": 1.5,
             "label": "Current annual growth: 0.007% per year"
           }
         ]
@@ -166,7 +170,7 @@
         "values": [
           {
             "x": 2022.5,
-            "y": 10.5,
+            "y": 11,
             "label": "Growth needed: 0.88% per year (121x faster)"
           }
         ]
@@ -189,7 +193,7 @@
         "values": [
           {
             "x": 2022.5,
-            "y": 30.5,
+            "y": 31,
             "label": "Growth needed: 2.70% per year (372x faster)"
           }
         ]

@@ -108,7 +108,7 @@
     },
     {
       "data": {
-        "values": [{"x": 1977, "y": 10.5, "label": "10% Target (2020)"}]
+        "values": [{"x": 1977, "y": 11, "label": "10% Target (2020)"}]
       },
       "mark": {
         "type": "text",
@@ -124,7 +124,7 @@
     },
     {
       "data": {
-        "values": [{"x": 1977, "y": 30.5, "label": "30% Target (2030)"}]
+        "values": [{"x": 1977, "y": 31, "label": "30% Target (2030)"}]
       },
       "mark": {
         "type": "text",
@@ -143,7 +143,7 @@
         "values": [
           {
             "x": 2022.5,
-            "y": 3,
+            "y": 3.5,
             "label": "Current annual growth: 0.03% per year"
           }
         ]
@@ -166,7 +166,7 @@
         "values": [
           {
             "x": 2022.5,
-            "y": 10.5,
+            "y": 11,
             "label": "Growth needed: 0.79% per year (25x faster)"
           }
         ]
@@ -189,7 +189,7 @@
         "values": [
           {
             "x": 2022.5,
-            "y": 30.5,
+            "y": 31,
             "label": "Growth needed: 2.61% per year (81x faster)"
           }
         ]

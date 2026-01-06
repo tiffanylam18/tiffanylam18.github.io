@@ -159,7 +159,7 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "dx": 5,
+        "dx": 20,
         "dy": 0,
         "color": "#2ca02c",
         "fontSize": 11
