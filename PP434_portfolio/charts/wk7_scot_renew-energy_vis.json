@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "title": {
     "text": "Wind Power Dominates Scotland's Renewable Landscape",
     "subtitle": "57% of operational facilities are wind-powered, with 90% of all sites exceeding 1MW capacity",
