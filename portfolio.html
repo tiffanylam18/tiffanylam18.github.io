@@ -43,9 +43,8 @@
             <div id="chartGridx2">
                 <figure id="Location1"></figure>
                 <figure id="Location2"></figure>
-                <figcaption>Source: Richard Davies library https://rdeconomist.github.io/library</figcaption>
-                <figcaption>Source: Economics Observatory https://github.com/EconomicsObservatory/datavis</figcaption>
             </div>
+            <figcaption>Source: Richard Davies library https://rdeconomist.github.io/library</figcaption>
         </section>
 
         <section>
@@ -190,12 +189,15 @@
                 <strong>Task:</strong> Producing two charts that include more advanced interactivity (sliders, dropdowns, clickable legends, etc.).</p>
             </div>
             <div class="content-text">
-                <p>I added a year slider enabling users to track marine protection progress from 1977-2019, and hover interaction to highlight individual country trajectories against the global average.</p>
+                <p>I implemented a year slider to visualize how marine protection evolved geographically across the Coral Triangle from 1977-2019, showing spatial patterns in conservation progress.</p>
             </div>
             <figure id="Location21"></figure>
-            <figcaption>Source: World Database on Protected Areas</figcaption>           
+            <figcaption>Source: World Database on Protected Areas</figcaption>
+            <div class="content-text">
+                <p>I added a year slider and hover interaction to highlight individual country trajectories against the global average, enabling temporal comparison of protection performance.</p>
+            </div>           
             <figure id="Location22"></figure>
-            <figcaption>Source:</figcaption>
+            <figcaption>Source: World Database on Protected Areas</figcaption>
         </section>
 
         <section>
@@ -236,12 +238,10 @@
         const portfolio_chart_path = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_portfolio/charts/"
         const project_chart_path = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_project/charts/"
 
-        const embedConfig = {actions: false};
-
         // Week 1
-        let figure_1_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartBar2.json"; 
+        let figure_1_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartBar4.json"; 
         vegaEmbed('#Location1', figure_1_spec)
-        let figure_2_spec = "https://raw.githubusercontent.com/EconomicsObservatory/datavis/refs/heads/main/newsletters/2025-07-04-tennis-time/visualisation/fig4_prize-total.json"
+        let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/football/chartFootball4.json"
         vegaEmbed('#Location2', figure_2_spec)
 
         // Week 2
@@ -288,8 +288,10 @@
         vegaEmbed('#Location20', figure_20_spec)
 
         // Week 9
-        let figure_21_spec = `${project_chart_path}chart2_cumu-area_vis.json`
+        let figure_21_spec = `${project_chart_path}chart1_mpa-choro_vis.json`
         vegaEmbed('#Location21', figure_21_spec)
+        let figure_22_spec = `${project_chart_path}chart2_cumu-area_vis.json`
+        vegaEmbed('#Location22', figure_22_spec)
 
         // Week 10
         const project_cities = ['ind', 'phl', 'mys', 'slb'];

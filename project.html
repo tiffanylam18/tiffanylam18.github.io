@@ -99,53 +99,53 @@
             <!-- Chart 1 -->
             <div class="viz-block">
                 <h3>Geographic Distribution of Marine Protection</h3>
-                <p class="chart-intro">Marine protection in the Coral Triangle remains far below global benchmarks. While the global average reaches 8.5% ocean coverage, all six countries remain below 2%.</p>
+                <p class="chart-intro">The year slider enables exploration of protection evolution across the region from 1977 to 2019. Coverage accumulated gradually and unevenly, with most countries establishing their fist MPAs in the 1980s.</p>
                 <div id="chart1" class="chart-wrapper"></div>
-                <p class="fig-caption"><strong>Chart 1:</strong> Geographic distribution of marine protected areas across the Coral Triangle. Interactive year slider enables temporal exploration of MPA establishment patterns from 1977-2019.</p>
+                <p class="fig-caption"><strong>Chart 1:</strong> Cumulative MPA coverage by country (1977-2019). Interactive year slider displays protection levels for any selected year. Hover functionality reveals detailed statistics.</p>
             </div>
             <!-- Chart 2 -->
             <div class="viz-block">
                 <h3>Temporal Growth Patterns</h3>
-                <p class="chart-intro">Marine protection in the Coral Triangle remains far below global benchmarks. While the global average reaches 8.5% ocean coverage, all six countries remain below 2%.</p>
+                <p class="chart-intro">The dashed green line represents global average protection rates for comparison. The gap between Coral Triangle countries and worldwide protection widened after 2010, when global coverage accelerated while regional growth remained stagnant.</p>
                 <div id="chart2" class="chart-wrapper"></div>
-                <p class="fig-caption"><strong>Chart 2:</strong> Growth of cumulative marine protected area by country compared to global average protection rates. Interactive year slider enables temporal exploration of MPA establishment patterns from 1977-2019.</p>
+                <p class="fig-caption"><strong>Chart 2:</strong> Cumulative protection trajectories with global benchmark (green dashed line). Interactive year slider displays protection levels for any selected year. Hover functionality highlights individual countries with exact protection rates.</p>
             </div>
             <!-- Chart 3 -->
             <div class="viz-block">
                 <h3>Progress Toward 30% Protection Targets</h3>
-                <p class="chart-intro">Linear regression projections reveal no country will reach 30% protection without dramatic intervention. Current trajectories show required acceleration rates of 121× (Indonesia) to 510× (Solomon Islands).</p>
+                <p class="chart-intro">Linear regression extends historical trends to 2030, with shaded confidence intervals indicating projection uncertainty. The red and dark red dashed line marks the 2020 and 2030 targets, respectively. Even upper confidence bounds fall dramatically short of 2030 commitments.</p>
                 <div id="chartGridx2">
                     <div class="grid-item">
                         <div id="chart3a"></div>
-                        <p class="fig-caption"><strong>Indonesia:</strong> Requires 121× acceleration</p>
+                        <p class="fig-caption"><strong>Indonesia:</strong> Historical data (1977-2013) with linear projection</p>
                     </div>
                     <div class="grid-item">
                         <div id="chart3b"></div>
-                        <p class="fig-caption"><strong>Philippines:</strong> Requires 88× acceleration</p>
+                        <p class="fig-caption"><strong>Philippines:</strong> Historical data (1981-2018) with linear projection</p>
                     </div>
                     <div class="grid-item">
                         <div id="chart3c"></div>
-                        <p class="fig-caption"><strong>Malaysia:</strong> Requires 170× acceleration</p>
+                        <p class="fig-caption"><strong>Malaysia:</strong> Historical data (1994-2019) with linear projection</p>
                     </div>
                     <div class="grid-item">
                         <div id="chart3d"></div>
-                        <p class="fig-caption"><strong>Solomon Islands:</strong> Requires 510× acceleration</p>
+                        <p class="fig-caption"><strong>Solomon Islands:</strong> Historical data (1995-2011) with linear projection</p>
                     </div>
                 </div>
             </div>
             <!-- Chart 4 -->
             <div class="viz-block">
                 <h3>Protection Strategy Clusters</h2>
-                <p class="chart-intro">K-means clustering reveals MPAs follow an all-or-nothing pattern: 66% allow fishing (0% no-take), while 34% prohibit extraction (100% no-take).</p>
+                <p class="chart-intro">K-means clustering grouped 81 operational MPAs by size and protection intensity, revealing four distinct models. The country dropdown enables isolation of national strategies; clickable legend and data points highlight specific clusters. The vertical axis represents the percentage of each MPA prohibiting all extractive activities.</p>
                 <div id="chart4" class="chart-wrapper"></div>
-                <p class="fig-caption"><strong>Chart 4:</strong> K-means cluster analysis of 81 MPAs. Indonesia favors large multi-use zones (Clusters 0-1), Philippines emphasizes small strict reserves (Cluster 2), Malaysia shows consistent medium-size, high-protection approach (Cluster 3). Interactive dropdown allow for country filtering and clickable legend and data points allow for cluster highlighting.</p>
+                <p class="fig-caption"><strong>Chart 4:</strong> Scatter plot with k-means clusters (k=4). Interactive filtering and selection enable exploration of national protection strategies. Hover functionality reveals detailed MPA statistics.</p>
             </div>
             <!-- Chart 5 -->
             <div class="viz-block">
                 <h3>Governance Structures</h3>
-                <p class="chart-intro">National government management dominates regional protection (65% of MPAs), with limited collaborative governance (8%). Solomon Islands' indigenous-managed MPAs (73%) demonstrate alternative models that may be worth exploration.</p>
+                <p class="chart-intro">Bars represent the share of each country's total MPA area under different management authorities. Federal/national control includes sites managed by central government agencies, while indigenous/community management includes locally-controlled MPAs. Collaborative governance indicates co-management arrangements between multiple stakeholders.</p>
                 <div id="chart5" class="chart-wrapper"></div>
-                <p class="fig-caption"><strong>Chart 5:</strong> Distribution of governance types across operational MPAs, revealing centralization of management authority.</p>
+                <p class="fig-caption"><strong>Chart 5:</strong> Governance distribution by country, weighted by MPA area. Hover functionality reveals detailed statistics.</p>
             </div>
         </section>
 
@@ -190,25 +190,24 @@
 
     <script>
         const project_chart_path = "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_project/charts/";
-        const embedConfig = {actions: false};
 
         // Chart 1: Choropleth map
-        vegaEmbed('#chart1', `${project_chart_path}chart1_mpa-choro_vis.json`, embedConfig);
+        vegaEmbed('#chart1', `${project_chart_path}chart1_mpa-choro_vis.json`);
 
         // Chart 2: MPA line chart
-        vegaEmbed('#chart2', `${project_chart_path}chart2_cumu-area_vis.json`, embedConfig);
+        vegaEmbed('#chart2', `${project_chart_path}chart2_cumu-area_vis.json`);
 
         // Chart 3: MPA projections (4 countries)
-        vegaEmbed('#chart3a', `${project_chart_path}chart3_ind-project_vis.json`, embedConfig);
-        vegaEmbed('#chart3b', `${project_chart_path}chart3_phl-project_vis.json`, embedConfig);
-        vegaEmbed('#chart3c', `${project_chart_path}chart3_mys-project_vis.json`, embedConfig);
-        vegaEmbed('#chart3d', `${project_chart_path}chart3_slb-project_vis.json`, embedConfig);
+        vegaEmbed('#chart3a', `${project_chart_path}chart3_ind-project_vis.json`);
+        vegaEmbed('#chart3b', `${project_chart_path}chart3_phl-project_vis.json`);
+        vegaEmbed('#chart3c', `${project_chart_path}chart3_mys-project_vis.json`);
+        vegaEmbed('#chart3d', `${project_chart_path}chart3_slb-project_vis.json`);
 
         // Chart 4: Cluster analysis
-        vegaEmbed('#chart4', `${project_chart_path}chart4_clust-analysis_vis.json`, embedConfig);
+        vegaEmbed('#chart4', `${project_chart_path}chart4_clust-analysis_vis.json`);
 
         // Chart 5: Governance analysis
-        vegaEmbed('#chart5', `${project_chart_path}chart5_gov-type_vis.json`, embedConfig);
+        vegaEmbed('#chart5', `${project_chart_path}chart5_gov-type_vis.json`);
 
         // Handle external links
         document.querySelectorAll("a").forEach(link => {
