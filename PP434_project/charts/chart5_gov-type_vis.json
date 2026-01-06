@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "title": {
-    "text": "National Governments Dominate Marine Protection Across the Coral Triangle",
-    "subtitle": "Most countries centralize MPA management, except Solomon Islands' indigenous-led model",
+    "text": "National Governments Dominate Marine Protection",
+    "subtitle": ["Limited collaborative governance despite community resource dependence", "", "Share of Country's MPA Area"],
     "anchor": "start"
   },
   "width": 600,
@@ -23,7 +23,7 @@
       "aggregate": "sum",
       "field": "pct_area",
       "type": "quantitative",
-      "title": "Share of Country's MPA Area",
+      "title": "",
       "stack": "normalize",
       "axis": {"format": ".0%"}
     },

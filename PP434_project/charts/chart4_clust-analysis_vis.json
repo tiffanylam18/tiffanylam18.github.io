@@ -2,11 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "title": {
     "text": "Protection Follows an All-or-Nothing Pattern",
-    "subtitle": [
-      "66% of MPAs allow fishing (0% no-take), while 34% are fully protected strict reserves",
-      "",
-      "Protection Intensity (No-Take Area %)"
-    ],
+    "subtitle": ["66% of MPAs allow fishing, while 34% prohibit all extraction","","Protection Intensity (No-Take Area %)"],
     "anchor": "start"
   },
   "width": 700,
