@@ -4,7 +4,7 @@
   "height": 250,
   "title": {
     "text": "Solomon Islands: On Track for Only 0.07% Protection by 2030",
-    "subtitle": ["510-fold acceleration required to meet 30% target", "", "Marine Protected Area (% of EEZ)"],
+    "subtitle": ["1,537-fold acceleration required to meet 30% target", "", "Marine Protected Area (% of EEZ)"],
     "anchor": "start"
   },
   "data": {
@@ -190,7 +190,7 @@
           {
             "x": 2022.5,
             "y": 31,
-            "label": "Growth needed: 2.72% per year (1537x faster)"
+            "label": "Growth needed: 2.72% per year (1,537x faster)"
           }
         ]
       },
