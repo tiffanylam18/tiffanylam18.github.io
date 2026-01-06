@@ -8,7 +8,7 @@
     "anchor": "start"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_project/data/chart2_regression.json"
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_project/data/chart3_regression.json"
   },
   "transform": [{"filter": "datum.country_name == 'Indonesia'"}],
   "layer": [

@@ -8,7 +8,7 @@
   "width": 600,
   "height": 350,
   "data": {
-    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_project/data/chart7_area_governance.json"
+    "url": "https://raw.githubusercontent.com/tiffanylam18/tiffanylam18.github.io/refs/heads/main/PP434_project/data/chart5_area_governance.json"
   },
   "mark": "bar",
   "encoding": {

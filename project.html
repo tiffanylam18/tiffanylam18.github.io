@@ -148,15 +148,15 @@
                     <p>K-means clustering analysis reveals that Coral Triangle MPAs follow an all-or-nothing protection pattern rather than a graduated spectrum. 66% of MPAs allow fishing (0% no-take area), while 34% prohibit all extraction (100% no-take). This binary approach creates four distinct MPA archetypes when combined with size variation, exposing fundamental differences in national conservation philosophies.</p>
                 </div>
                 <div class="figure-container-large">
-                    <div id="chart6" class="chart-wrapper"></div>
+                    <div id="chart4" class="chart-wrapper"></div>
                     <p class="fig-caption">
-                        <strong>Chart 6:</strong> Cluster analysis of 81 operational MPAs using k-means algorithm. Interactive country filter and legend selection enable exploration of national protection strategies. Indonesia favors large multi-use zones (Clusters 0-1), Philippines emphasizes small strict reserves (Cluster 2), while Malaysia shows consistent medium-size, high-protection approach (Cluster 3).
+                        <strong>Chart 4:</strong> Cluster analysis of 81 operational MPAs using k-means algorithm. Interactive country filter and legend selection enable exploration of national protection strategies. Indonesia favors large multi-use zones (Clusters 0-1), Philippines emphasizes small strict reserves (Cluster 2), while Malaysia shows consistent medium-size, high-protection approach (Cluster 3).
                     </p>
                 </div>
                 <div class="figure-container">
-                    <div id="chart7" class="chart-wrapper"></div>
+                    <div id="chart5" class="chart-wrapper"></div>
                     <p class="fig-caption">
-                        <strong>Chart 7:</strong> Governance structures of operational MPAs. Federal/national management dominates (65% of MPAs), with limited collaborative governance (8%) despite community resource dependence.
+                        <strong>Chart 5:</strong> Governance structures of operational MPAs. Federal/national management dominates (65% of MPAs), with limited collaborative governance (8%) despite community resource dependence.
                     </p>
                 </div>
             </div>
@@ -218,11 +218,11 @@
         vegaEmbed('#chart3c', `${project_chart_path}chart3_mys-project_vis.json`, embedConfig);
         vegaEmbed('#chart3d', `${project_chart_path}chart3_slb-project_vis.json`, embedConfig);
 
-        // Chart 6: Cluster analysis
-        vegaEmbed('#chart6', `${project_chart_path}chart6_clust-analysis_vis.json`, embedConfig);
+        // Chart 4: Cluster analysis
+        vegaEmbed('#chart4', `${project_chart_path}chart4_clust-analysis_vis.json`, embedConfig);
 
-        // Chart 7: Governance analysis
-        vegaEmbed('#chart7', `${project_chart_path}chart7_gov-type_vis.json`, embedConfig);
+        // Chart 5: Governance analysis
+        vegaEmbed('#chart5', `${project_chart_path}chart5_gov-type_vis.json`, embedConfig);
 
         // Handle external links
         document.querySelectorAll("a").forEach(link => {
