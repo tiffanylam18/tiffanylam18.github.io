@@ -205,6 +205,36 @@ img {
     text-align: left;
 }
 
+/* Data Sources & Code Section */
+section h3 {
+    font-size: 1.5rem;
+    color: #059669;
+    margin: 2.5rem 0 1.5rem;
+    text-align: left;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+section ul li {
+    margin-bottom: 0.8rem;
+    line-height: 1.8;
+    color: #475569;
+}
+
+section ul a {
+    color: #059669;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section ul a:hover {
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     background: #0f172a;
