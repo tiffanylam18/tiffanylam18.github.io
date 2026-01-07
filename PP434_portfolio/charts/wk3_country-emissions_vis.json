@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-  "width": 600,
+  "width": 500,
   "title": {
     "text": "Per-Capita Analysis Reveals Different Climate Responsibility Pattern",
     "subtitle": ["Qatar, US, and Australia top per-person emissions despite media focus on China and India","","Annual Emissions (Per Capita)"],
@@ -84,7 +84,7 @@
     "font": "DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
     "view": {"stroke": "transparent"},"title": {
       "font": "DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
-      "fontSize": 24,
+      "fontSize": 20,
       "fontWeight": 600,
       "color": "#1e293b",
       "anchor": "start",

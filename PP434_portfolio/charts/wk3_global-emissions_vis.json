@@ -77,11 +77,11 @@
     "font": "DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
     "view": {"stroke": "transparent"},"title": {
       "font": "DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
-      "fontSize": 18,
+      "fontSize": 16,
       "fontWeight": 600,
       "color": "#1e293b",
       "anchor": "start",
-      "subtitleFontSize": 14,
+      "subtitleFontSize": 12,
       "subtitleColor": "#475569","subtitleFontWeight": 400
       },
     "axis": {
