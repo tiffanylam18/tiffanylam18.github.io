@@ -89,5 +89,38 @@
       }
     ]
   },
-  "config": {}
+  "config": {
+    "background": "#ffffff",
+    "font": "DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+    "view": {"stroke": "transparent"},"title": {
+      "font": "DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+      "fontSize": 24,
+      "fontWeight": 600,
+      "color": "#1e293b",
+      "anchor": "start",
+      "subtitleFontSize": 14,
+      "subtitleColor": "#475569","subtitleFontWeight": 400
+      },
+    "axis": {
+      "labelFont": "DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+      "labelFontSize": 11,
+      "labelColor": "#64748b",
+      "titleFont": "DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+      "titleFontSize": 12,
+      "titleColor": "#334155",
+      "grid": false,
+      "gridColor": "#e2e8f0",
+      "gridOpacity": 0.5,
+      "domain": true,
+      "ticks": true
+      },
+    "legend": {
+      "labelFont": "DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+      "labelFontSize": 11,
+      "labelColor": "#475569",
+      "titleFont": "DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+      "titleFontSize": 12,
+      "titleColor": "#334155"
+    }
+  }
 }
