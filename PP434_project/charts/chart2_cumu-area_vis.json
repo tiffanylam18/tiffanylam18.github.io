@@ -99,12 +99,12 @@
                 "Solomon Islands"
               ],
               "range": [
-                "#1f77b4",
-                "#ff7f0e",
-                "#17becf",
-                "#d62728",
-                "#9467bd",
-                "#8c564b"
+                "#1e40af",
+                "#0ea5e9",
+                "#8b5cf6",
+                "#10b981",
+                "#f59e0b",
+                "#ec4899"
               ]
             },
             "legend": {
@@ -126,9 +126,9 @@
       ],
       "mark": {
         "type": "line",
-        "strokeWidth": 3,
+        "strokeWidth": 4,
         "strokeDash": [8, 4],
-        "color": "#2ca02c"
+        "color": "#f97316"
       },
       "encoding": {
         "x": {"field": "STATUS_YR", "type": "ordinal"},
@@ -161,7 +161,7 @@
         "align": "left",
         "dx": 20,
         "dy": 0,
-        "color": "#2ca02c",
+        "color": "#f97316",
         "fontSize": 11
       },
       "encoding": {
@@ -172,7 +172,7 @@
     },
     {
       "data": {"values": [{}]},
-      "mark": {"type": "rule", "strokeDash": [5, 5], "color": "red", "size": 2},
+      "mark": {"type": "rule", "strokeDash": [5, 5], "color": "#dc2626", "size": 2},
       "encoding": {"y": {"datum": 10, "type": "quantitative"}}
     },
     {
@@ -182,7 +182,7 @@
         "align": "right",
         "dx": 340,
         "dy": -5,
-        "color": "red",
+        "color": "#dc2626",
         "fontSize": 10
       },
       "encoding": {

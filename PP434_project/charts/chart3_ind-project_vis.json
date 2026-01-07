@@ -111,9 +111,7 @@
       "encoding": {"y": {"datum": 30}}
     },
     {
-      "data": {
-        "values": [{"x": 1977, "y": 11, "label": "10% Target (2020)"}]
-      },
+      "data": {"values": [{"x": 1977, "y": 11, "label": "10% Target (2020)"}]},
       "mark": {
         "type": "text",
         "align": "left",
@@ -127,9 +125,7 @@
       }
     },
     {
-      "data": {
-        "values": [{"x": 1977, "y": 31, "label": "30% Target (2030)"}]
-      },
+      "data": {"values": [{"x": 1977, "y": 31, "label": "30% Target (2030)"}]},
       "mark": {
         "type": "text",
         "align": "left",
