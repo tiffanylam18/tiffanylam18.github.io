@@ -56,7 +56,17 @@
         "title": "Governance Type",
         "orient": "right",
         "labelLimit": 250
-      }
+      },
+      "sort": [
+        "National",
+        "Sub-National",
+        "Joint",
+        "Collaborative",
+        "Indigenous Communities",
+        "Local Communities",
+        "Delegated Management",
+        "Not Reported"
+      ]
     },
     "tooltip": [
       {"field": "GOV_TYPE", "type": "nominal", "title": "Governance Type"},
