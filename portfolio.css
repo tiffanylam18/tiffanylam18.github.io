@@ -127,6 +127,25 @@ section h2 {
     color: #059669;
 }
 
+.code-link-box {
+    background: #f8fafc;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border-left: 4px solid #64748b;
+    text-align: left;
+}
+
+.code-link-box a {
+    color: #059669;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.code-link-box a:hover {
+    text-decoration: underline;
+}
+
 .content-text {
     margin: 1.5rem 0;
     color: #475569;
