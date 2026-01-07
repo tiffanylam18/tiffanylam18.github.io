@@ -22,20 +22,20 @@ This analysis evaluates marine conservation progress in the Coral Triangle by:
 ```
 PP434_project/
 ├── analysis/
-│   └── PP434 Project.html           # Complete analysis codebook
-├── data/                            # Processed datasets (ready for visualization)
-│   ├── chart1_ct_choro.geojson      # Choropleth map data
-│   ├── chart2_cumulative_areas.json # Temporal growth data
-│   ├── chart3_regression.json       # 2030 projection data
-│   ├── chart4_cluster_analysis.json # MPA archetype data
-│   └── chart5_area_governance.json  # Governance structure data
-└── charts/                          # Vega-Lite visualization specifications
+│   └── Coral_Triangle_MPAs-Data_Analysis_Codebook.ipynb    # Complete analysis codebook
+├── data/                                                   # Processed datasets (ready for visualization)
+│   ├── chart1_ct_choro.geojson                             # Choropleth map data
+│   ├── chart2_cumulative_areas.json                        # Temporal growth data
+│   ├── chart3_regression.json                              # 2030 projection data
+│   ├── chart4_cluster_analysis.json                        # MPA archetype data
+│   └── chart5_area_governance.json                         # Governance structure data
+└── charts/                                                 # Vega-Lite visualization specifications
     ├── chart1_mpa-choro_vis.json
     ├── chart2_cumu-area_vis.json
-    ├── chart3_ind-project_vis.json  # Indonesia projection
-    ├── chart3_phl-project_vis.json  # Philippines projection
-    ├── chart3_mys-project_vis.json  # Malaysia projection
-    ├── chart3_slb-project_vis.json  # Solomon Islands projection
+    ├── chart3_ind-project_vis.json                         # Indonesia projection
+    ├── chart3_phl-project_vis.json                         # Philippines projection
+    ├── chart3_mys-project_vis.json                         # Malaysia projection
+    ├── chart3_slb-project_vis.json                         # Solomon Islands projection
     ├── chart4_clust-analysis_vis.json
     └── chart5_gov-type_vis.json
 ```
@@ -75,7 +75,7 @@ pip install pandas geopandas os requests json numpy scipy scikit-learn matplotli
 
 1. **Download raw datasets** from sources listed above
 
-2. **Update file paths** in analysis codebook (`analysis/PP434 Project.html`):
+2. **Update file paths** in analysis codebook (`analysis/Coral_Triangle_MPAs-Data_Analysis_Codebook.ipynb`):
 ```python
    # Configuration section (near top of codebook)
    DATA_DOWNLOAD_PATH = '[your_download_folder]/'
@@ -156,7 +156,7 @@ Data Visualization Project, LSE. https://tiffanylam18.github.io/project.html
 ## Contact
 
 Tiffany Lam  
-[LinkedIn](https://www.linkedin.com/in/lam-tiffany/) | [Portfolio](https://tiffanylam18.github.io/)
+[Email](tiffanykrystall8@gmail.com) | [LinkedIn](https://www.linkedin.com/in/lam-tiffany/) | [Portfolio](https://tiffanylam18.github.io/)
 
 ---
 
