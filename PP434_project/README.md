@@ -156,7 +156,7 @@ Data Visualization Project, LSE. https://tiffanylam18.github.io/project.html
 ## Contact
 
 Tiffany Lam  
-[Email](tiffanykrystall8@gmail.com) | [LinkedIn](https://www.linkedin.com/in/lam-tiffany/) | [Portfolio](https://tiffanylam18.github.io/)
+[Email](mailto:tiffanykrystall8@gmail.com) | [LinkedIn](https://www.linkedin.com/in/lam-tiffany/) | [Portfolio](https://tiffanylam18.github.io/)
 
 ---
 

@@ -44,4 +44,4 @@ tiffanylam18.github.io/
 
 ## Contact
 
-[Email](tiffanykrystall8@gmail.com) | [LinkedIn](https://www.linkedin.com/in/lam-tiffany/) | [GitHub](https://github.com/tiffanylam18)
+[Email](mailto:tiffanykrystall8@gmail.com) | [LinkedIn](https://www.linkedin.com/in/lam-tiffany/) | [GitHub](https://github.com/tiffanylam18)
