@@ -55,25 +55,22 @@
             <p><strong>World Database on Protected Areas (WDPA)</strong> - Protected Planet</p>
             <ul>
                 <li>Source: <a href="https://www.protectedplanet.net/en/thematic-areas/marine-protected-areas" target="_blank">protectedplanet.net</a></li>
-                <li>Files: WDPA_Nov2025_Public_shp.zip (3 parts)</li>
-                <li>Description: Global database of marine and terrestrial protected areas, including establishment dates, governance types, protection categories, and boundaries</li>
+                <li>Description: Global database of protected areas, including establishment dates, governance types, protection categories, and boundaries</li>
             </ul>
             <h3>Supplementary Datasets</h3>
             <p><strong>Marine Exclusive Economic Zones (EEZ)</strong> - Marine Regions</p>
             <ul>
                 <li>Source: <a href="https://www.marineregions.org/downloads.php" target="_blank">marineregions.org</a></li>
-                <li>File: EEZ_land_union_v4_202410.shp</li>
                 <li>Description: Maritime boundaries used to calculate protection rates (% of available marine area protected)</li>
             </ul>
             <p><strong>Global Protection Coverage</strong> - Protected Planet</p>
             <ul>
                 <li>Source: <a href="https://digitalreport.protectedplanet.net/?chapter=3" target="_blank">Protected Planet Report 2024</a></li>
-                <li>File: global_wdpa_wdoecm_coverage_2000_2024.csv</li>
                 <li>Description: Annual global marine protection statistics (2000-2024) for benchmarking</li>
             </ul>
             <h3>Automation & Replication</h3>
-            <p>This project uses manual downloads rather than APIs because WDPA releases occur annually. Complete file downloads ensure version consistency across users. APIs impose pagination limits and return nested geometries requiring complex parsing, whereas direct shapefiles provide complete, properly formatted spatial data.</p>
-            <p>Future users download updated releases, modify two file paths in the configuration section of the analysis codebook, then run the automated Python pipeline. All processing (filtering for Coral Triangle countries, marine areas, and operational status; deduplication by site ID; spatial joins; temporal aggregations; regression; clustering) executes without manual intervention. Every transformation is documented for complete transparency and replicability.</p>
+            <p>This project uses manual downloads (not APIs) because WDPA releases occur annually. File downloads ensure version consistency across users. Direct shapefiles provide complete spatial data without API pagination limits.</p>
+            <p>Future users download updated releases, modify two file paths in the configuration section of the analysis codebook, then run the automated Python pipeline. All processing (filtering for Coral Triangle countries, marine areas, and operational status; deduplication by site ID; spatial joins; temporal aggregations; regression; clustering) executes without manual intervention. Transformations are fully documented.</p>
         </section>
 
         <!-- TOOLS -->
@@ -84,14 +81,14 @@
             </div>
             <p><strong>Technical Stack:</strong> Python 3.x with GeoPandas (spatial data processing), Pandas (tabular analysis), Scikit-learn (clustering), SciPy (regression), and Vega-Lite (interactive visualization).</p>
             <h3>Data Processing</h3>
-            <p>The pipeline loads three WDPA shapefile parts, applying consistent filters to extract relevant records. Filters target Coral Triangle countries, marine areas, non-zero areas, and valid establishment years (1977-2025). When the same MPA appears across multiple files, deduplication retains the largest-area record. This yields 135 operational MPAs (inscribed, designated, or established status) from the original dataset.</p>
+            <p>The pipeline loads three WDPA shapefile parts, applying consistent filters to extract relevant records. Filters target Coral Triangle countries, marine areas, non-zero areas, and valid establishment years (1977-2025). When the same MPA appears across multiple files, deduplication retains the largest-area record. This yields 135 operational MPAs from the original dataset.</p>
             <h3>Spatial Processing</h3>
-            <p>The project originally aimed to map individual MPA boundaries using detailed polygon geometries. However, the complete geometry dataset exceeded GitHub's 100MB limit. The analysis, therefore, pivoted to country-level aggregation, merging MPA statistics with simplified EEZ boundaries (0.05° tolerance reduces file size to 85%). This preserved statistical rigor while enabling web deployment.</p>
+            <p>The project originally aimed to map individual MPA boundaries using detailed polygon geometries. However, the complete geometry dataset exceeded GitHub's 100MB limit. The analysis, therefore, pivoted to country-level aggregation, merging MPA statistics with simplified EEZ boundaries (0.05° tolerance reduces file size to 85%).</p>
             <h3>Statistical Analysis</h3>
-            <p><strong>Temporal projections:</strong> Linear regression projects current protection growth rates to 2030 using ordinary least squares with 95% confidence intervals. Countries with fewer than 5 observations were excluded due to insufficient data for reliable projection. This analysis assumes linear growth trajectories, which may not capture sudden policy shifts like large-scale MPA designations. Limited historical data for Timor-Leste (2 points) and Papua New Guinea (3 points) further constrain projection reliability.</p>
+            <p><strong>Temporal projections:</strong> Linear regression projects growth to 2030 with 95% confidence intervals. Countries with fewer than 5 observations were excluded due to insufficient data for reliable projection. This analysis assumes linear growth trajectories, which may not capture sudden policy shifts like large-scale MPA designations. Limited historical data for Timor-Leste (2 points) and Papua New Guinea (3 points) further constrain projection reliability.</p>
             <p><strong>MPA grouping:</strong> K-means clustering (k=4) groups MPAs based on five standardized features: size (log-transformed for normality), age since establishment, protection intensity (no-take area ratio), IUCN category strictness, and management plan presence. The elbow method determined the optimal cluster count. This reveals descriptive patterns (how MPAs are typically structured) but cannot evaluate effectiveness without biodiversity outcome data.</p>
             <h3>Analytical Scope</h3>
-            <p>The project initially considered linking governance types with biodiversity outcomes to assess effectiveness. This proved infeasible because available biodiversity data shows strong selection bias: well-studied areas tend to be already protected, preventing separation of pre-existing conditions from MPA impact. The analysis, therefore, focuses on describing protection patterns rather than evaluating conservation outcomes.</p>
+            <p>The project initially considered linking governance types with biodiversity outcomes to assess effectiveness. This proved infeasible because available biodiversity data shows strong selection bias: well-studied areas tend to be already protected, preventing separation of pre-existing conditions from MPA impact. The analysis, therefore, describes protection patterns rather than evaluating conservation outcomes.</p>
         </section>
 
         <!-- VISUALIZATIONS -->
@@ -100,53 +97,50 @@
             <!-- Chart 1 -->
             <div class="viz-block">
                 <h3>Geographic Distribution of Marine Protection</h3>
-                <p class="chart-intro">The year slider enables exploration of protection evolution across the region from 1977 to 2019. Coverage accumulated gradually and unevenly, with most countries establishing their fist MPAs in the 1980s.</p>
+                <p style="text-align: center"; class="chart-intro">Most countries established first MPAs in the 1980s.</p>
                 <div id="chart1" class="chart-wrapper"></div>
-                <p class="fig-caption"><strong>Chart 1:</strong> Cumulative MPA coverage by country (1977-2019). Interactive year slider displays protection levels for any selected year. Hover functionality reveals detailed statistics.</p>
+                <p class="fig-caption"><strong>Chart 1:</strong> Interactive year slider shows protection evolution.</p>
             </div>
             <!-- Chart 2 -->
             <div class="viz-block">
                 <h3>Temporal Growth Patterns</h3>
-                <p class="chart-intro">The dashed green line represents global average protection rates for comparison. The gap between Coral Triangle countries and worldwide protection widened after 2010, when global coverage accelerated while regional growth remained stagnant.</p>
+                <p style="text-align: center"; class="chart-intro">The gap widened after 2010 as global protection accelerated while regional growth stagnated.</p>
                 <div id="chart2" class="chart-wrapper"></div>
-                <p class="fig-caption"><strong>Chart 2:</strong> Cumulative protection trajectories with global benchmark (green dashed line). Interactive year slider displays protection levels for any selected year. Hover functionality highlights individual countries with exact protection rates.</p>
+                <p class="fig-caption"><strong>Chart 2:</strong> Interactive year slider displays protection evolution. Hover functionality highlights individual rates.</p>
             </div>
             <!-- Chart 3 -->
             <div class="viz-block">
                 <h3>Progress Toward 30% Protection Targets</h3>
-                <p class="chart-intro">Linear regression extends historical trends to 2030, with shaded confidence intervals indicating projection uncertainty. The red and dark red dashed line marks the 2020 and 2030 targets, respectively. Even upper confidence bounds fall dramatically short of 2030 commitments.</p>
+                <p style="text-align: center"; class="chart-intro">No country will reach 30% protection without dramatic intervention.</p>
                 <div id="chartGridx2">
                     <div class="grid-item">
                         <div id="chart3a"></div>
-                        <p class="fig-caption"><strong>Indonesia:</strong> Historical data (1977-2013) with linear projection</p>
                     </div>
                     <div class="grid-item">
                         <div id="chart3b"></div>
-                        <p class="fig-caption"><strong>Philippines:</strong> Historical data (1981-2018) with linear projection</p>
                     </div>
                     <div class="grid-item">
                         <div id="chart3c"></div>
-                        <p class="fig-caption"><strong>Malaysia:</strong> Historical data (1994-2019) with linear projection</p>
                     </div>
                     <div class="grid-item">
                         <div id="chart3d"></div>
-                        <p class="fig-caption"><strong>Solomon Islands:</strong> Historical data (1995-2011) with linear projection</p>
                     </div>
                 </div>
+                <p class="fig-caption"><strong>Charts 3a-d:</strong> Shaded areas show 95% confidence intervals. Red lines mark 2020 and 2030 targets.</p>
             </div>
             <!-- Chart 4 -->
             <div class="viz-block">
-                <h3>Protection Strategy Clusters</h2>
-                <p class="chart-intro">K-means clustering groups 81 operational MPAs by size and protection intensity, revealing four distinct protection models. Interactive controls support exploratory analysis: the country dropdown isolates national strategies, clickable legend and datapoints highlight individual clusters, and click-and-drag zooming allows closer inspection of dense regions of the distribution. The vertical axis represents the share of each MPA designated as no-take.</p>
+                <h3>Protection Strategy Clusters</h3>
+                <p style="text-align: center"; class="chart-intro">Indonesia favors large multi-use zones while Philippines emphasizes small strict reserves.</p>
                 <div id="chart4" class="chart-wrapper"></div>
-                <p class="fig-caption"><strong>Chart 4:</strong> Scatter plot of marine protected areas clustered using k-means (k=4). Users can filter by country, highlight clusters via the legend and datapoints, zoom and pan across the plot, and hover over points to view detailed MPA characteristics.</p>
+                <p class="fig-caption"><strong>Chart 4:</strong> Filter by country, click legend/data points, or zoom in/out to explore clusters.</p>
             </div>
             <!-- Chart 5 -->
             <div class="viz-block">
                 <h3>Governance Structures</h3>
-                <p class="chart-intro">Bars represent the share of each country's total MPA area under different management authorities. Federal/national control includes sites managed by central government agencies, while indigenous/community management includes locally-controlled MPAs. Collaborative governance indicates co-management arrangements between multiple stakeholders.</p>
+                <p style="text-align: center"; class="chart-intro">Governance centralization may limit local community engagement in conservation decisions.</p>
                 <div id="chart5" class="chart-wrapper"></div>
-                <p class="fig-caption"><strong>Chart 5:</strong> Governance distribution by country, weighted by MPA area. Hover functionality reveals detailed statistics.</p>
+                <p class="fig-caption"><strong>Chart 5:</strong> Stacked bars weighted by MPA area.</p>
             </div>
         </section>
 
@@ -154,8 +148,8 @@
         <section>
             <h2>Conclusions</h2>
             <h3>Critical Findings</h3>
-            <p>All Coral Triangle countries perform catastrophically below global averages, representing profound policy failure. The Philippines leads regionally (1.67%) but remains far below the global average (8.5%). At current rates, no country approaches 2030 targets: Indonesia needs 121-fold acceleration, Solomon Islands 510-fold. These figures reveal that incremental progress is fundamentally insufficient. Meeting 2030 commitments requires transformational change.</p>
-            <p>Cluster analysis reveals a binary approach: strict no-take reserves versus fishing-allowed zones. This suggests potential for intermediate strategies preserving marine life while allowing sustainable fishing for local communities.</p>
+            <p>All Coral Triangle countries perform catastrophically below global averages, representing profound policy failure. The Philippines leads regionally (1.67%) but remains far below the global average (8.5%). At current rates, no country approaches 2030 targets: Malaysia needs 53-fold acceleration, Solomon Islands 1,537-fold. Meeting 2030 commitments requires transformational change.</p>
+            <p>Clustering reveals binary protection: strict no-take reserves versus fishing-allowed zones. This suggests potential for intermediate strategies preserving marine life while allowing sustainable fishing for local communities.</p>
             <p>National government management dominates (Philippines: 100%, Indonesia: 87%), though Solomon Islands demonstrates alternative models with 73% indigenous management. Collaborative governance represents an underexplored expansion pathway.</p>
             <h3>Research Limitations</h3>
             <p>This analysis quantifies protection gaps but cannot evaluate quality. Three questions remain for future research:</p>
