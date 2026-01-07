@@ -3,7 +3,7 @@
 Analysis of marine protected area expansion across Indonesia, Philippines, Malaysia, Papua New Guinea, Timor-Leste, and Solomon Islands, examining whether current protection strategies will achieve 2030 global conservation targets.
 
 **→ [View Live Project](https://tiffanylam18.github.io/project.html)**  
-**→ [View Analysis Codebook](https://tiffanylam18.github.io/PP434%20Project.html)**
+**→ [View Analysis Codebook](https://github.com/tiffanylam18/tiffanylam18.github.io/blob/4618e0adffbdbae281636b479517e7723cc7d7cb/PP434_project/analysis/Coral%20Triangle%20MPAs%20-%20Data%20Analysis%20Codebook.ipynb)**
 
 ---
 
@@ -68,7 +68,7 @@ PP434_project/
 ### Prerequisites
 ```bash
 # Required Python packages
-pip install pandas geopandas numpy scipy scikit-learn matplotlib seaborn
+pip install pandas geopandas os requests json numpy scipy scikit-learn matplotlib seaborn
 ```
 
 ### Steps
@@ -99,7 +99,7 @@ The automated pipeline executes:
 - **Spatial joins:** Merges MPA statistics with EEZ boundaries
 - **Temporal aggregation:** Calculates cumulative protection by country-year
 - **Regression analysis:** Projects current trajectories to 2030 with 95% confidence intervals
-- **K-means clustering:** Identifies 4 MPA archetypes based on size, age, protection intensity, IUCN category, and management plans
+- **K-means clustering:** Identifies 4 MPA groups based on size, age, protection intensity, IUCN category, and management plans
 
 Every transformation is documented with inline comments in the codebook.
 
