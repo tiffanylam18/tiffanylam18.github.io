@@ -48,7 +48,7 @@ PP434_project/
 **World Database on Protected Areas (WDPA)** - Protected Planet
 - **Source:** https://www.protectedplanet.net/en/thematic-areas/marine-protected-areas
 - **Files needed:** WDPA_Nov2025_Public_shp.zip (extract all 3 parts)
-- **Description:** Global database of marine and terrestrial protected areas, including establishment dates, governance types, protection categories, and boundaries
+- **Description:** Global database of protected areas, including establishment dates, governance types, protection categories, and boundaries
 
 ### Supplementary Datasets
 **Marine Exclusive Economic Zones (EEZ)** - Marine Regions
