@@ -28,13 +28,13 @@
         "x": {
           "field": "date",
           "type": "temporal",
-          "axis": {"title": null, "domain": false, "grid": false}
+          "axis": {"title": null, "grid": false}
         },
         "y": {
           "field": "temperature_2m_mean",
           "type": "quantitative",
           "scale": {"domain": [16, 34]},
-          "axis": {"title": "", "domain": false,"labelExpr": "datum.value + '°C'"}
+          "axis": {"title": "", "labelExpr": "datum.value + '°C'"}
         }
       }
     },
@@ -54,11 +54,11 @@
     "font": "DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
     "view": {"stroke": "transparent"},"title": {
       "font": "DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
-      "fontSize": 24,
+      "fontSize": 16,
       "fontWeight": 600,
       "color": "#1e293b",
       "anchor": "start",
-      "subtitleFontSize": 14,
+      "subtitleFontSize": 12,
       "subtitleColor": "#475569","subtitleFontWeight": 400
       },
     "axis": {
@@ -80,7 +80,8 @@
       "labelColor": "#475569",
       "titleFont": "DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
       "titleFontSize": 12,
-      "titleColor": "#334155"
+      "titleColor": "#334155",
+      "gradientLength": 300
     }
   }
 }
