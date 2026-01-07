@@ -119,7 +119,7 @@ Five interactive Vega-Lite visualizations:
 - Dropdown filters (country selection)
 - Year slider (temporal exploration)
 - Hover tooltips (detailed values)
-- Clickable legends (category highlighting)
+- Clickable legends and datapoints (category highlighting)
 
 ---
 
@@ -128,7 +128,7 @@ Five interactive Vega-Lite visualizations:
 ### Data Processing
 - **Deduplication strategy:** When same MPA appears across WDPA files, largest-area record retained
 - **Geometry simplification:** EEZ boundaries simplified (0.05° tolerance) to reduce file size 85%
-- **Filtering criteria:** Marine/coastal realms only, non-zero areas, operational status, valid establishment years
+- **Filtering criteria:** Marine/coastal areas only, non-zero areas, operational status, valid establishment years
 
 ### Statistical Analysis
 - **Regression:** Ordinary least squares with 95% CIs; countries with <5 observations excluded
