@@ -38,6 +38,14 @@
         "clear": "dblclick"
       },
       "bind": "legend"
+    },
+    {
+      "name": "zoom",
+      "select": {
+        "type": "interval",
+        "encodings": ["x","y"]
+      },
+      "bind": "scales"
     }
   ],
   "transform": [
