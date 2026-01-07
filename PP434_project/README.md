@@ -3,8 +3,7 @@
 Analysis of marine protected area expansion across Indonesia, Philippines, Malaysia, Papua New Guinea, Timor-Leste, and Solomon Islands, examining whether current protection strategies will achieve 2030 global conservation targets.
 
 **→ [View Live Project](https://tiffanylam18.github.io/project.html)**  
-**→ [View Analysis Codebook](https://tiffanylam18.github.io/PP434_project/analysis
-/Coral Triangle MPAs - Data Analysis Codebook.ipynb)**
+**→ [View Analysis Codebook](https://github.com/tiffanylam18/tiffanylam18.github.io/blob/13b7b3248af99376f18bb8271b80e8a387e2001b/PP434_project/analysis/Coral_Triangle_MPAs-Data_Analysis_Codebook.ipynb)**
 
 ---
 

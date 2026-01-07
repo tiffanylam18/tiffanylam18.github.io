@@ -16,7 +16,7 @@ Collection of visualization exercises exploring various datasets and techniques.
 ### Final Project: Marine Conservation in the Coral Triangle (PP434_project)
 Analysis of marine protected area expansion across six Southeast Asian countries, examining progress toward 2030 global conservation targets.
 
-**[View Project Page](https://tiffanylam18.github.io/project.html)** | **[View Analysis Codebook](https://github.com/tiffanylam18/tiffanylam18.github.io/blob/4618e0adffbdbae281636b479517e7723cc7d7cb/PP434_project/analysis/Coral%20Triangle%20MPAs%20-%20Data%20Analysis%20Codebook.ipynb)**
+**[View Project Page](https://tiffanylam18.github.io/project.html)** | **[View Analysis Codebook](https://github.com/tiffanylam18/tiffanylam18.github.io/blob/13b7b3248af99376f18bb8271b80e8a387e2001b/PP434_project/analysis/Coral_Triangle_MPAs-Data_Analysis_Codebook.ipynb)**
 
 **[→ Detailed project documentation](PP434_project/README.md)**
 
